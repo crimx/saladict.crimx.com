@@ -18,6 +18,13 @@
           <img class="download-icon" :src="d.icon" :alt="d.title" />
         </a>
       </div>
+      <svg class="down-arrow" viewBox="0 0 32 32" width="32" height="32">
+        <title>scroll down</title>
+        <path
+          fill="#fff"
+          d="M.045 8.443c0-.215.082-.43.246-.594.33-.33.86-.33 1.19 0L16 22.37 30.52 7.85c.33-.33.86-.33 1.19 0s.327.86 0 1.186L16.593 24.152c-.328.326-.86.326-1.188 0L.29 9.036c-.163-.163-.245-.378-.245-.593z"
+        ></path>
+      </svg>
     </div>
   </div>
 </template>
@@ -61,6 +68,7 @@ export default {
 
 <style lang="scss">
 .site-hero {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,5 +98,12 @@ export default {
 .download-icon {
   width: 3em;
   height: 3em;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.4;
+  transform: scaleY(0.6);
 }
 </style>
