@@ -19,6 +19,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.changeLogoAnimKey()
+      setInterval(this.changeLogoAnimKey.bind(this), 5000)
     }, 2000)
   },
   methods: {
@@ -33,6 +34,7 @@ export default {
 .salad-bowl {
   width: 40vmin;
   height: 40vmin;
+  will-change: transform;
 }
 
 .salad-bowl-0 {
