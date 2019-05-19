@@ -1,11 +1,11 @@
 <template>
   <img
     class="salad-bowl"
-    :class="`salad-bowl-${logoAnimKey}`"
+    :class="{ 'salad-bowl-replay': isReplay }"
     src="~/assets/saladict.svg"
-    @mouseover="changeLogoAnimKey"
-    @mouseout="changeLogoAnimKey"
-    @click="changeLogoAnimKey"
+    @mouseover="playLogo"
+    @mouseout="playLogo"
+    @click="playLogo"
   />
 </template>
 
@@ -13,18 +13,18 @@
 export default {
   data() {
     return {
-      logoAnimKey: 0
+      isReplay: false
     }
   },
   mounted() {
-    setTimeout(() => {
-      this.changeLogoAnimKey()
-      setInterval(this.changeLogoAnimKey.bind(this), 5000)
-    }, 2000)
+    this._bindedPlayLogo = this.playLogo.bind(this)
+    setTimeout(this._bindedPlayLogo, 2000)
   },
   methods: {
-    changeLogoAnimKey() {
-      this.logoAnimKey = (this.logoAnimKey + 1) % 2
+    playLogo() {
+      this.isReplay = !this.isReplay
+      clearTimeout(this._playLogoTimeout)
+      this._playLogoTimeout = setTimeout(this._bindedPlayLogo, 5000)
     }
   }
 }
@@ -35,13 +35,10 @@ export default {
   width: 40vmin;
   height: 40vmin;
   will-change: transform;
-}
-
-.salad-bowl-0 {
   animation: 1s linear jelly-pop;
 }
 
-.salad-bowl-1 {
+.salad-bowl-replay {
   animation: 1s linear jelly-pop-clone;
 }
 
