@@ -5,5 +5,6 @@ export default {
   cws: 'Chrome 网上应用店',
   amo: 'Firefox 扩展',
   dd: '直接下载',
+  manual: '使用手册',
   source_code: '源代码'
 }

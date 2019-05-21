@@ -5,5 +5,6 @@ export default {
   cws: 'Chrome Web Store',
   amo: 'Add-ons for Firefox',
   dd: 'Direct Download',
+  manual: 'Manual',
   source_code: 'Source Code'
 }

@@ -1,22 +1,27 @@
 <template>
   <div>
-    <div class="site-hero">
-      <logo />
+    <section class="site-hero">
+      <jelly
+        init
+        loop
+        :src="require('~/assets/saladict.svg')"
+        width="40vmin"
+        height="40vmin"
+      />
       <h1 class="site-hero-title">{{ $t('title') }}</h1>
       <p class="site-hero-desc">{{ $t('description') }}</p>
       <div>
-        <a
+        <jelly
           v-for="d in downloads"
           :key="d.url"
-          v-b-tooltip
+          v-b-tooltip.topright.d400
           class="download-link"
           :href="d.url"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
+          width="3em"
+          height="3em"
+          :src="d.icon"
           :title="d.title"
-        >
-          <img class="download-icon" :src="d.icon" :alt="d.title" />
-        </a>
+        />
       </div>
       <svg class="down-arrow" viewBox="0 0 32 32" width="32" height="32">
         <title>scroll down</title>
@@ -25,16 +30,16 @@
           d="M.045 8.443c0-.215.082-.43.246-.594.33-.33.86-.33 1.19 0L16 22.37 30.52 7.85c.33-.33.86-.33 1.19 0s.327.86 0 1.186L16.593 24.152c-.328.326-.86.326-1.188 0L.29 9.036c-.163-.163-.245-.378-.245-.593z"
         ></path>
       </svg>
-    </div>
+    </section>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Jelly from '~/components/Jelly.vue'
 
 export default {
   components: {
-    Logo
+    Jelly
   },
   data() {
     return {
@@ -54,6 +59,11 @@ export default {
           title: this.$t('dd'),
           icon: require('~/assets/download.svg'),
           url: 'https://github.com/crimx/ext-saladict/releases'
+        },
+        {
+          title: this.$t('manual'),
+          icon: require('~/assets/manual.svg'),
+          url: 'https://github.com/crimx/ext-saladict/wiki'
         },
         {
           title: this.$t('source_code'),
@@ -91,13 +101,7 @@ export default {
 }
 
 .download-link {
-  display: inline-block;
   margin: 0 0.5em;
-}
-
-.download-icon {
-  width: 3em;
-  height: 3em;
 }
 
 .down-arrow {

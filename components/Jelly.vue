@@ -1,44 +1,91 @@
 <template>
-  <img
-    class="salad-bowl"
-    :class="{ 'salad-bowl-replay': isReplay }"
-    src="~/assets/saladict.svg"
-    @mouseover="playLogo"
-    @mouseout="playLogo"
-    @click="playLogo"
-  />
+  <a
+    class="jelly-pop-link"
+    :style="{ width, height }"
+    :href="href"
+    :title="title"
+    target="_blank"
+    rel="nofollow noopener noreferrer"
+    @mouseover="playJelly"
+    @mouseout="playJelly"
+    @click="playJelly"
+  >
+    <img
+      class="jelly-pop-icon"
+      :style="{ width, height }"
+      :class="{ 'jelly-pop-replay': isReplay }"
+      :src="src"
+      :alt="title"
+    />
+  </a>
 </template>
 
 <script>
 export default {
+  props: {
+    loop: {
+      type: Boolean,
+      default: false
+    },
+    src: {
+      type: String,
+      required: true
+    },
+    href: {
+      type: String,
+      default: undefined
+    },
+    title: {
+      type: String,
+      default: undefined
+    },
+    width: {
+      type: [Number, String],
+      default: '1em'
+    },
+    height: {
+      type: [Number, String],
+      default: '1em'
+    }
+  },
   data() {
     return {
       isReplay: false
     }
   },
   mounted() {
-    this._bindedPlayLogo = this.playLogo.bind(this)
-    setTimeout(this._bindedPlayLogo, 2000)
+    this._bindedPlayJelly = this.playJelly.bind(this)
+    if (this.loop) {
+      setTimeout(this._bindedPlayJelly, 2000)
+    }
   },
   methods: {
-    playLogo() {
+    playJelly() {
       this.isReplay = !this.isReplay
-      clearTimeout(this._playLogoTimeout)
-      this._playLogoTimeout = setTimeout(this._bindedPlayLogo, 5000)
+      clearTimeout(this._playJellyTimeout)
+      if (this.loop) {
+        this._playJellyTimeout = setTimeout(this._bindedPlayJelly, 5000)
+      }
     }
   }
 }
 </script>
 
 <style lang="scss">
-.salad-bowl {
-  width: 40vmin;
-  height: 40vmin;
+.jelly-pop-link {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.jelly-pop-icon {
+  width: 1em;
+  height: 1em;
   will-change: transform;
   animation: 1s linear jelly-pop;
 }
 
-.salad-bowl-replay {
+.jelly-pop-replay {
   animation: 1s linear jelly-pop-clone;
 }
 

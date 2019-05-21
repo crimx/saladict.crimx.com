@@ -5,5 +5,6 @@ export default {
   cws: 'Chrome 線上應用程式商店',
   amo: 'Firefox 擴充套件',
   dd: '直接下載',
+  manual: '使用手冊',
   source_code: '原始碼'
 }
