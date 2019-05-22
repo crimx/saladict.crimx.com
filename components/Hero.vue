@@ -76,6 +76,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
   position: relative;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
