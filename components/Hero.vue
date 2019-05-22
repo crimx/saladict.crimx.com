@@ -2,8 +2,7 @@
   <div>
     <section class="site-hero">
       <jelly
-        init
-        loop
+        :loop="8000"
         :src="require('~/assets/saladict.svg')"
         width="40vmin"
         height="40vmin"
@@ -101,7 +100,7 @@ export default {
 }
 
 .download-link {
-  margin: 0 0.5em;
+  margin: 0 5px;
 }
 
 .down-arrow {
