@@ -9,6 +9,7 @@
     @mouseover="playJelly"
     @mouseout="playJelly"
     @click="playJelly"
+    @focus="playJelly"
   >
     <img
       class="jelly-pop-icon"
@@ -24,8 +25,8 @@
 export default {
   props: {
     loop: {
-      type: Boolean,
-      default: false
+      type: Number,
+      default: 0
     },
     src: {
       type: String,
@@ -55,7 +56,7 @@ export default {
   },
   mounted() {
     this._bindedPlayJelly = this.playJelly.bind(this)
-    if (this.loop) {
+    if (this.loop > 0) {
       setTimeout(this._bindedPlayJelly, 2000)
     }
   },
@@ -63,8 +64,8 @@ export default {
     playJelly() {
       this.isReplay = !this.isReplay
       clearTimeout(this._playJellyTimeout)
-      if (this.loop) {
-        this._playJellyTimeout = setTimeout(this._bindedPlayJelly, 5000)
+      if (this.loop > 0) {
+        this._playJellyTimeout = setTimeout(this._bindedPlayJelly, this.loop)
       }
     }
   }
