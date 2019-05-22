@@ -9,7 +9,7 @@ const sections = ['Hero', 'Testimonial']
 
 export default {
   components: sections.reduce((o, sec) => {
-    o[sec] = require('~/components/' + sec + '.vue').default
+    o[sec] = require('~/components/sections/' + sec + '.vue').default
     return o
   }, {}),
   data() {
