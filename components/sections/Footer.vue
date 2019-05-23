@@ -3,28 +3,28 @@
     <div class="site-description">
       I
       <a
-        class="text-info"
+        class="site-footer-link"
         href="https://github.com/crimx"
         target="_blank"
         rel="nofollow noreferrer noopener"
         >code</a
       >,
       <a
-        class="text-info"
+        class="site-footer-link"
         href="https://codepen.io/straybugs"
         target="_blank"
         rel="nofollow noreferrer noopener"
         >doodle</a
       >,
       <a
-        class="text-info"
+        class="site-footer-link"
         href="https://twitter.com/straybugs"
         target="_blank"
         rel="nofollow noreferrer noopener"
         >tweet</a
       >
       &amp;
-      <a class="text-info" href="https://blog.crimx.com">blog</a>.
+      <a class="site-footer-link" href="https://blog.crimx.com">blog</a>.
     </div>
     <div class="copyright">
       © COPYRIGHT 2019 · Made With
@@ -51,6 +51,10 @@
   padding: 13px 13px;
   color: #666;
   padding-top: 40px;
+}
+
+.site-footer-link {
+  color: #209cee;
 }
 
 .site-description {
