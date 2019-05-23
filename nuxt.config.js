@@ -62,6 +62,19 @@ export default {
     ]
   ],
 
+  bootstrapVue: {
+    componentPlugins: [
+      'ButtonPlugin',
+      'CarouselPlugin',
+      'CollapsePlugin',
+      'ImagePlugin',
+      'JumbotronPlugin',
+      'LayoutPlugin',
+      'ListGroupPlugin'
+    ],
+    directivePlugins: ['VBTooltipPlugin']
+  },
+
   /*
    ** Build configuration
    */
