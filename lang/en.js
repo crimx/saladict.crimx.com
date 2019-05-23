@@ -44,9 +44,9 @@ export default {
     }
   },
   support: {
-    title: 'Support this extension',
+    title: 'Support this ext',
     content:
-      'If you like it please help more people find out this extension. Press the {star} button on top of {github} and leave a comment on {chrome} or {firefox}. Designing and developing this extension are mostly done by the author alone which costed great amount of time and energy(tribute to these {contribute}). To keep it open-sourced, free of charge and ad-free, consider buying the author a cup of coffee to support developing and maintaining dictionaries.',
+      'If you like it please help more people find out this extension. Press the {star} button on top of {github} and leave a comment on {chrome} or {firefox}. Designing and developing this extension are mostly done by the author alone which costed great amount of time and energy(tribute to these {contribute}). To keep it open-sourced, free of charge and ad-free, consider buying the author a cup of coffee to support developing and maintaining this extension.',
     contribute: 'contributors'
   }
 }
