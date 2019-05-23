@@ -33,15 +33,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  mounted() {
-    // eslint-disable-next-line no-console
-    console.log(this.$i18n.locales)
-  }
-}
-</script>
-
 <style lang="scss">
 .lang-switch {
   position: absolute;
