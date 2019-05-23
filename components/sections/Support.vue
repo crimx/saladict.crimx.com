@@ -1,7 +1,7 @@
 <template>
   <section>
     <b-container>
-      <h1 class="text-md-center text-capitalize mb-4">支持本项目</h1>
+      <h1 v-t="'support.title'" class="text-md-center text-capitalize mb-4" />
       <b-row class="justify-content-md-center">
         <b-col md="10">
           <i18n path="support.content" tag="p">
