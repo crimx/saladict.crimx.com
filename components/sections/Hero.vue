@@ -1,5 +1,6 @@
 <template>
   <section class="hero">
+    <lang-switch />
     <jelly
       :loop="8000"
       :src="require('~/assets/saladict.svg')"
@@ -33,10 +34,12 @@
 
 <script>
 import Jelly from '~/components/Jelly.vue'
+import LangSwitch from '~/components/LangSwitch.vue'
 
 export default {
   components: {
-    Jelly
+    Jelly,
+    LangSwitch
   },
   data() {
     return {

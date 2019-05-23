@@ -41,9 +41,19 @@ export default {
       'nuxt-i18n',
       {
         locales: [
-          { code: 'en', iso: 'en-US', file: 'en.js' },
-          { code: 'zh-CN', iso: 'zh-CN', file: 'zh-CN.js' },
-          { code: 'zh-TW', iso: 'zh-TW', file: 'zh-TW.js' }
+          { code: 'en', iso: 'en-US', name: 'English', file: 'en.js' },
+          {
+            code: 'zh-CN',
+            iso: 'zh-CN',
+            name: '中文 (简体)',
+            file: 'zh-CN.js'
+          },
+          {
+            code: 'zh-TW',
+            iso: 'zh-TW',
+            name: '正體中文 (繁體)',
+            file: 'zh-TW.js'
+          }
         ],
         defaultLocale: 'zh-CN',
         lazy: true,
