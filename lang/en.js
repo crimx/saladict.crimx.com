@@ -38,5 +38,11 @@ export default {
         'There is also a build-in PDF viewer which can be used in conjunction with sidebar-mode standalone search panel.'
       ]
     }
+  },
+  support: {
+    title: 'Support this extension',
+    content:
+      'If you like it please help more people find out this extension. Press the {star} button on top of {github} and leave a comment on {chrome} or {firefox}. Designing and developing this extension are mostly done by the author alone which costed great amount of time and energy(tribute to these {contribute}). To keep it open-sourced, free of charge and ad-free, consider buying the author a cup of coffee to support developing and maintaining dictionaries.',
+    contribute: 'contributors'
   }
 }
