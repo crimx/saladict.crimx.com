@@ -5,7 +5,7 @@
 </template>
 
 <script>
-const sections = ['Hero', 'Testimonial', 'Features', 'Support']
+const sections = ['Hero', 'Testimonial', 'Features', 'Support', 'Footer']
 
 export default {
   components: sections.reduce((o, sec) => {
