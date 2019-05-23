@@ -1,5 +1,6 @@
 export default {
   title: 'Saladict',
+  full_title: 'Saladict - Inline Translator Browser Extension',
   description:
     'Saladict is a professional inline translator browser extension, built for comparative reading, with comprehensive dictionaries covering all major languages.',
   cws: 'Chrome Web Store',
