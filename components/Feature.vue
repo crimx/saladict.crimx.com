@@ -30,8 +30,9 @@ export default {
 <style lang="scss">
 .en-feature-title {
   @media screen and (max-width: 768px) {
+    display: inline-block;
     font-size: 4rem;
-    line-height: 1;
+    line-height: 1.1;
   }
 }
 </style>
