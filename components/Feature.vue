@@ -1,6 +1,11 @@
 <template>
   <b-jumbotron lead-tag="div" class="text-md-center">
-    <span slot="header" v-t="`desc.${desc}.title`" />
+    <span
+      slot="header"
+      v-t="`desc.${desc}.title`"
+      class="text-capitalize"
+      :class="{ 'en-feature-title': $i18n.locale.startsWith('en') }"
+    />
     <div slot="lead" class="mt-sm-4 mt-md-5">
       <p
         v-for="(p, i) in $i18n.messages[$i18n.locale].desc[desc].content"
@@ -21,3 +26,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.en-feature-title {
+  @media screen and (max-width: 768px) {
+    font-size: 4rem;
+    line-height: 1;
+  }
+}
+</style>
