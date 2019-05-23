@@ -1,7 +1,7 @@
 <template>
   <section class="testimonial">
     <b-carousel background="#1C2A39" controls no-hover-pause>
-      <b-carousel-slide v-for="c in featured" :key="c.user" :caption="c.user">
+      <b-carousel-slide v-for="c in comments" :key="c.user" :caption="c.user">
         <p>{{ c.content }}</p>
       </b-carousel-slide>
     </b-carousel>
@@ -14,14 +14,11 @@ import { shuffle } from '~/helpers/shuffle'
 export default {
   data() {
     return {
-      comments: require('~/assets/testimonial/' +
-        (this.$i18n.locale.startsWith('en') ? 'eng' : 'chs') +
-        '.json')
-    }
-  },
-  computed: {
-    featured() {
-      return shuffle(this.comments.filter(c => c.featured))
+      comments: shuffle(
+        require('~/assets/testimonial/featured/' +
+          (this.$i18n.locale.startsWith('en') ? 'eng' : 'chs') +
+          '.json')
+      )
     }
   }
 }
