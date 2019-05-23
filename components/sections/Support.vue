@@ -47,7 +47,6 @@
             />
             <img
               class="mx-md-4"
-              style="background: #000"
               src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/alipay.png"
               alt="Alipay QR code"
               width="200"
