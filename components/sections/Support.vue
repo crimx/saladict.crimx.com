@@ -37,22 +37,27 @@
           </i18n>
         </b-col>
         <b-col md="10">
-          <p class="d-flex justify-content-center">
-            <img
-              class="mx-md-4"
-              src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/wechat.png"
-              alt="Wecaht QR code"
-              width="200"
-              height="200"
-            />
-            <img
-              class="mx-md-4"
-              src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/alipay.png"
-              alt="Alipay QR code"
-              width="200"
-              height="200"
-            />
-          </p>
+          <div class="d-flex justify-content-center mb-4">
+            <div class="mx-md-4">
+              <b-img
+                fluid
+                src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/wechat.png"
+                alt="Wecaht QR code"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="mx-md-4">
+              <b-img
+                class="mx-md-4"
+                fluid
+                src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/alipay.png"
+                alt="Alipay QR code"
+                width="200"
+                height="200"
+              />
+            </div>
+          </div>
         </b-col>
       </b-row>
     </b-container>
