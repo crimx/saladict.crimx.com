@@ -1,10 +1,14 @@
 <template>
-  <div>
-    <nuxt />
-  </div>
+  <nuxt />
 </template>
 
 <style lang="scss">
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100%;
+}
 /* ======================================= *\
  * 快捷键 <kbd>
 \* ======================================= */

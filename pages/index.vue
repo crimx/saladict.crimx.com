@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-100">
     <component :is="name" v-for="name in sections" :key="name" />
   </div>
 </template>
