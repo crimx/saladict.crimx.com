@@ -37,6 +37,57 @@
           </i18n>
         </b-col>
         <b-col md="10">
+          <i18n path="support.periodically" tag="p" class="text-center">
+            <a
+              place="patreon"
+              href="https://www.patreon.com/saladict"
+              target="_blank"
+              >Patreon</a
+            >
+            <a place="afdian" href="https://afdian.net/@crimx" target="_blank"
+              >爱发电</a
+            >
+          </i18n>
+        </b-col>
+        <b-col md="10 mb-1">
+          <div class="d-flex justify-content-center mb-4">
+            <div class="mx-md-4">
+              <a
+                href="https://www.patreon.com/saladict"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                <b-img
+                  fluid
+                  src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/patreon.png"
+                  alt="Patreon Saladict"
+                  width="217"
+                  height="51"
+                />
+              </a>
+            </div>
+            <div class="mx-md-4">
+              <a
+                href="https://afdian.net/@crimx"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                <b-img
+                  class="mx-md-4"
+                  fluid
+                  src="https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/afdian.png"
+                  alt="爱发电 Saladict"
+                  width="217"
+                  height="51"
+                />
+              </a>
+            </div>
+          </div>
+        </b-col>
+        <b-col md="10">
+          <p v-t="'support.scanqr'" class="text-center" />
+        </b-col>
+        <b-col md="10">
           <div class="d-flex justify-content-center mb-4">
             <div class="mx-md-4">
               <b-img

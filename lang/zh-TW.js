@@ -44,6 +44,8 @@ export default {
     title: '支持本擴充套件',
     content:
       '覺得好用的話歡迎幫助更多朋友發現本擴充套件。請按 {github} 上方的 {star} 以及在 {chrome} 或 {firefox} 留好評。設計與開發本擴充套件均由作者一人花費大量私人時間與精力完成（同時感謝{contribute}的熱心開發者），並承諾一直開源免費無廣告。歡迎隨喜打賞咖啡以支持繼續開發（以及保持維護和更新各個字典）。',
-    contribute: '貢獻程式碼'
+    contribute: '貢獻程式碼',
+    periodically: '通過 {patreon} 或 {afdian} 定期請我喝咖啡',
+    scanqr: '通過微信或支付寶掃碼打賞'
   }
 }

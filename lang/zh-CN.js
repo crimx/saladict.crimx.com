@@ -44,6 +44,8 @@ export default {
     title: '支持本项目',
     content:
       '觉得好用的话欢迎帮助更多朋友发现本扩展。请按 {github} 上方的 {star} 以及在 {chrome} 或 {firefox} 留好评。设计与开发本扩展均由作者一人花费大量私人时间与精力完成（同时感谢{contribute}的热心开发者），并承诺一直开源免费无广告。欢迎随喜打赏咖啡以支持继续开发（以及保持维护和更新各个词典）。也欢迎支付宝搜索 514220641 薅红包，拿到的红包亦可用于打赏！',
-    contribute: '贡献代码'
+    contribute: '贡献代码',
+    periodically: '通过 {patreon} 或 {afdian} 定期请我喝咖啡',
+    scanqr: '通过微信或支付宝扫码打赏'
   }
 }
