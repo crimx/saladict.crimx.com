@@ -9,18 +9,26 @@
 </template>
 
 <script>
-import { shuffle } from '~/helpers/shuffle'
-
 export default {
-  data() {
-    return {
-      comments: shuffle(
-        require('~/assets/testimonial/featured/' +
-          (this.$i18n.locale.startsWith('en') ? 'eng' : 'chs') +
+  computed: {
+    comments() {
+      return shuffle(
+        require('./testimonial/featured/' +
+          ((this.$lang || '').startsWith('en') ? 'eng' : 'chs') +
           '.json')
       )
     }
   }
+}
+
+function shuffle(arr) {
+  for (let end = arr.length - 1; end > 0; end--) {
+    const pick = Math.floor(Math.random() * (end + 1))
+    const t = arr[end]
+    arr[end] = arr[pick]
+    arr[pick] = t
+  }
+  return arr
 }
 </script>
 
