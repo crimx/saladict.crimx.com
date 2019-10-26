@@ -1,5 +1,12 @@
+const markdownItAttrs = require('markdown-it-attrs')
+
 module.exports = {
   theme: require.resolve('./theme'),
+  markdown: {
+    extendMarkdown: md => {
+      md.use(markdownItAttrs)
+    }
+  },
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -15,6 +22,9 @@ module.exports = {
     }
   },
   themeConfig: {
+    editLinks: true,
+    docsRepo: 'crimx/saladict.crimx.com',
+    activeHeaderLinks: true,
     locales: {
       '/': {
         selectText: '选择语言',
@@ -29,15 +39,30 @@ module.exports = {
         algolia: {},
         nav: [
           { text: '⚠️注意事项', link: '/notice/' },
-          { text: '📒使用说明', link: '/manual/' },
+          {
+            text: '📒教程',
+            items: [
+              { text: '完整使用说明', link: '/manual/' },
+              { text: '配合 Anki 使用', link: '/anki/' }
+            ]
+          },
           { text: '❤️支持项目', link: '/support/' },
           {
             text: '📦下载安装',
             link: 'https://github.com/crimx/ext-saladict/releases'
           },
           {
-            text: '反馈问题',
-            link: 'https://github.com/crimx/ext-saladict/issues'
+            text: '反馈与建议',
+            items: [
+              {
+                text: '常见问题与答复',
+                link: '/q&a'
+              },
+              {
+                text: '反馈与建议',
+                link: 'https://github.com/crimx/ext-saladict/issues'
+              }
+            ]
           }
         ],
         sidebar: 'auto',

@@ -4,7 +4,6 @@
       <b-jumbotron lead-tag="div" class="text-md-center" :key="index">
         <span
           slot="header"
-          class="text-capitalize"
           :class="{ 'en-feature-title': $lang.startsWith('en') }"
           v-text="intro.title"
         />

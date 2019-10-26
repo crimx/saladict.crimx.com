@@ -5,7 +5,7 @@ sidebar: false
 
 <h2 id="reward">支持本项目</h2>
 
-觉得好用的话欢迎帮助更多朋友发现本扩展。请按上方的 <kbd>★Star</kbd> 以及在[谷歌商店](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en)或[火狐商店](https://addons.mozilla.org/firefox/addon/ext-saladict/)留好评。
+觉得好用的话欢迎帮助更多朋友发现本扩展。请按 [Github](https://github.com/crimx/ext-saladict) 上方的 <kbd>★Star</kbd> 按钮以及在[谷歌商店](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en)或[火狐商店](https://addons.mozilla.org/firefox/addon/ext-saladict/)留好评。
 
 沙拉查词的功能和词典在同类应用中可以说是最丰富的，而且还在不断努力添加和改进中。设计与开发本扩展目前主要由作者一人花费大量私人时间与精力完成（同时感谢[贡献代码](https://github.com/crimx/ext-saladict/graphs/contributors)的热心开发者），并承诺一直开源免费无广告。
 

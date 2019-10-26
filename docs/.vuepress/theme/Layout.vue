@@ -40,6 +40,10 @@ body {
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.page {
+  padding-bottom: 0 !important;
+}
+
 kbd {
   position: relative;
   top: -0.3em;

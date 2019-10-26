@@ -34,7 +34,7 @@
         viewBox="0 0 32 32"
         width="1em"
         height="1em"
-        style="position: relative; top: -2px;"
+        style="position: relative; top: 2px;"
       >
         <title>love</title>
         <path
