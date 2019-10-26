@@ -43,7 +43,33 @@ module.exports = {
             text: '📒教程',
             items: [
               { text: '完整使用说明', link: '/manual/' },
-              { text: '配合 Anki 使用', link: '/anki/' }
+              { text: '配合 Anki 使用', link: '/anki/' },
+              {
+                text: 'OCR（图片文字识别）',
+                link: 'https://github.com/crimx/ext-saladict/issues/493'
+              },
+              {
+                text: '浏览器外划词',
+                items: [
+                  {
+                    text: 'Windows: Quicker',
+                    link: 'https://github.com/crimx/ext-saladict/issues/493'
+                  },
+                  {
+                    text: 'Windows: WGestures',
+                    link:
+                      'https://github.com/crimx/ext-saladict/issues/366#issuecomment-495828772'
+                  },
+                  {
+                    text: 'MacOS: Alfred Workflows',
+                    link: 'https://github.com/crimx/ext-saladict/issues/509'
+                  },
+                  {
+                    text: 'MacOS: Popclip',
+                    link: 'https://github.com/crimx/ext-saladict/issues/463'
+                  }
+                ]
+              }
             ]
           },
           { text: '❤️支持项目', link: '/support/' },
@@ -86,16 +112,57 @@ module.exports = {
         },
         algolia: {},
         nav: [
-          { text: '⚠️Notice', link: '/notice/' },
-          { text: '📒Manual', link: '/manual/' },
-          { text: '❤️Support', link: '/support/' },
+          { text: '⚠️Notice', link: '/en/notice/' },
+          {
+            text: '📒Tutorials',
+            items: [
+              { text: 'User Manual', link: '/en/manual/' },
+              { text: 'Use with Anki', link: '/en/anki/' },
+              {
+                text: 'OCR',
+                link: 'https://github.com/crimx/ext-saladict/issues/493'
+              },
+              {
+                text: 'Global Search',
+                items: [
+                  {
+                    text: 'Windows: Quicker',
+                    link: 'https://github.com/crimx/ext-saladict/issues/493'
+                  },
+                  {
+                    text: 'Windows: WGestures',
+                    link:
+                      'https://github.com/crimx/ext-saladict/issues/366#issuecomment-495828772'
+                  },
+                  {
+                    text: 'MacOS: Alfred Workflows',
+                    link: 'https://github.com/crimx/ext-saladict/issues/509'
+                  },
+                  {
+                    text: 'MacOS: Popclip',
+                    link: 'https://github.com/crimx/ext-saladict/issues/463'
+                  }
+                ]
+              }
+            ]
+          },
+          { text: '❤️Support', link: '/en/support/' },
           {
             text: '📦Download',
             link: 'https://github.com/crimx/ext-saladict/releases'
           },
           {
             text: 'Issues',
-            link: 'https://github.com/crimx/ext-saladict/issues'
+            items: [
+              {
+                text: 'Q&A',
+                link: '/en/q&a'
+              },
+              {
+                text: 'Report Issues',
+                link: 'https://github.com/crimx/ext-saladict/issues'
+              }
+            ]
           }
         ],
         sidebar: 'auto',

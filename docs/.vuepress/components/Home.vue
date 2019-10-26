@@ -13,7 +13,7 @@
 
 @import 'node_modules/bootstrap/scss/carousel';
 @import 'node_modules/bootstrap/scss/jumbotron';
-@import 'node_modules/bootstrap/scss/type';
+// @import 'node_modules/bootstrap/scss/type';
 
 @import 'node_modules/bootstrap/scss/utilities/screenreaders';
 @import 'node_modules/bootstrap/scss/utilities/text';
@@ -31,6 +31,17 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 </style>
 
