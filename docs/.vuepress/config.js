@@ -29,7 +29,8 @@ module.exports = {
         algolia: {},
         nav: [
           { text: '⚠️注意事项', link: '/notice/' },
-          { text: '使用说明', link: '/manual/' },
+          { text: '📒使用说明', link: '/manual/' },
+          { text: '❤️支持项目', link: '/support/' },
           {
             text: '📦下载安装',
             link: 'https://github.com/crimx/ext-saladict/releases'
@@ -61,7 +62,8 @@ module.exports = {
         algolia: {},
         nav: [
           { text: '⚠️Notice', link: '/notice/' },
-          { text: 'Manual', link: '/manual/' },
+          { text: '📒Manual', link: '/manual/' },
+          { text: '❤️Support', link: '/support/' },
           {
             text: '📦Download',
             link: 'https://github.com/crimx/ext-saladict/releases'
