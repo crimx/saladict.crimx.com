@@ -1,10 +1,8 @@
 <template>
   <div class="support-project">
-    <Content
-      v-if="supportPage && !$page.frontmatter.supportPage"
-      :page-key="supportPage.key"
-      class="theme-default-content"
-    />
+    <div class="theme-default-content">
+      <Content v-if="supportPage && !$page.frontmatter.supportPage" :page-key="supportPage.key" />
+    </div>
   </div>
 </template>
 
