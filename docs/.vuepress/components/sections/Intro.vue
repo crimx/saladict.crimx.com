@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section class="intro">
     <template v-for="(intro, index) in $frontmatter.intro">
       <b-jumbotron lead-tag="div" class="text-md-center" :key="index">
         <span
@@ -21,7 +21,7 @@
         />
       </div>
     </template>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -57,11 +57,22 @@ export default {
 </script>
 
 <style lang="scss">
+.intro {
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .en-feature-title {
   @media screen and (max-width: 768px) {
     display: inline-block;
     font-size: 4rem;
     line-height: 1.1;
   }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 </style>

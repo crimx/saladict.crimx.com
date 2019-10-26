@@ -19,7 +19,6 @@ export default {
 
 <style lang="scss">
 .support-project {
-  margin-top: 2rem;
   color: #ddd;
   background: #1e1d1d;
 

@@ -21,18 +21,23 @@
 
 <style src="bootstrap-vue/dist/bootstrap-vue.css"></style>
 
-<style>
+<style lang="scss">
 .home {
   max-width: unset;
   padding: 3.6rem 0 0;
-}
 
-.home .features {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
+  .features {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
 
+  .hero img:first-child {
+    @media (max-width: 700px) {
+      margin-top: 0;
+    }
+  }
+}
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
