@@ -51,7 +51,8 @@
 **注意**
 
 - [有道网页翻译](http://fanyi.youdao.com/web2/)已经多年没有更新，我做了些维护，将其内置到 Saladict 并支持 https 网页。
-- Google、百度、搜狗网页翻译是通过将网页内嵌到它们自身网页上实现翻译的。请勿在翻译后的页面输入个人资料。出于安全原因有的网页可能不允许被嵌入。
+- Google 网页翻译是直接用的官方脚本，部分网站可能不支持。如果你有兴趣对其进行改进欢迎提交 PR。
+- 百度、搜狗网页翻译是通过将网页内嵌到它们自身网页上实现翻译的。请勿在翻译后的页面输入个人资料。出于安全原因有的网页可能不允许被嵌入。
 - 其它网页翻译扩展可以用 [Google 翻译](https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb/)和[彩云小译](https://chrome.google.com/webstore/detail/jmpepeebcbihafjjadogphmbgiffiajh)。
 
 ![youdao page translation](https://github.com/crimx/ext-saladict/wiki/images/youdao-page.gif)
@@ -66,6 +67,7 @@
 
 在设置页面可配置右键菜单，选择文字之后右击既可调整各个词典。
 
+可添加自定义链接。`%s` 会被替换为划词。
 
 
 ## 四种划词方式，鼠标悬浮取词 {#mode}
