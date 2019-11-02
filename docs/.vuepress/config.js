@@ -7,6 +7,16 @@ module.exports = {
       md.use(markdownItAttrs)
     }
   },
+  head: [
+    [
+      'script',
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        'data-ad-client': 'ca-pub-6993077405597797',
+        async: true
+      }
+    ]
+  ],
   locales: {
     '/': {
       lang: 'zh-CN',

@@ -28,11 +28,6 @@
         <slot name="page-bottom" />
         <Support />
         <Footer />
-        <script
-          data-ad-client="ca-pub-6993077405597797"
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
       </template>
     </Page>
   </div>
