@@ -5,7 +5,7 @@ sidebar: false
 
 <h2 id="reward">Support This Project</h2>
 
-If you like enjoy using Saladict please help more people find out this extension. Press the <kbd>★Star</kbd> button on top of [Github](https://github.com/crimx/ext-saladict) and leave a comment on [Chrome Web Store]((https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en)) or [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/ext-saladict/).
+If you enjoy using Saladict please help more people find out this extension. Press the <kbd>★Star</kbd> button on top of [Github](https://github.com/crimx/ext-saladict) and leave a comment on [Chrome Web Store](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en) or [Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/ext-saladict/).
 
 Designing and developing this extension are mostly done by the author alone which costed great amount of time and energy(also tribute to these [contributors](https://github.com/crimx/ext-saladict/graphs/contributors)).
 
