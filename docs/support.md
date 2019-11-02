@@ -9,7 +9,7 @@ sidebar: false
 
 沙拉查词的功能和词典在同类应用中可以说是最丰富的，而且还在不断努力添加和改进中。设计与开发本扩展目前主要由作者一人花费大量私人时间与精力完成（同时感谢[贡献代码](https://github.com/crimx/ext-saladict/graphs/contributors)的热心开发者），并承诺一直开源免费无广告。
 
-如果你希望支持这个项目长久持续开发下去并保持维护以及更新各个词典和功能，请随喜打赏 :coffee: 给作者回血。也欢迎支付宝搜索 `514220641` 薅红包。
+如果你希望支持这个项目长久持续开发下去并保持维护以及更新各个词典和功能，请随喜打赏 :coffee: 给作者回血。也欢迎支付宝搜索 `514220641` 薅红包，每天都可以领。
 
 <h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期请我喝咖啡</h4>
 
