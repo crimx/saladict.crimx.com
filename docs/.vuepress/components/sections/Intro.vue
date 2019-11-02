@@ -32,22 +32,19 @@ export default {
         {
           width: '789',
           height: '646',
-          src:
-            'https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/pin.gif',
+          src: '/images/pin.gif',
           alt: 'Saladict Pin'
         },
         {
           width: '1344',
           height: '445',
-          src:
-            'https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/screen-notebook.png',
+          src: '/images/screen-notebook.png',
           alt: 'Saladict Notebook'
         },
         {
           width: '1034',
           height: '646',
-          src:
-            'https://raw.githubusercontent.com/wiki/crimx/ext-saladict/images/youdao-page.gif',
+          src: '/images/youdao-page.gif',
           alt: 'Saladict Youdao Page Translate'
         }
       ]

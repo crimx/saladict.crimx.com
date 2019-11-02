@@ -14,8 +14,8 @@ sidebar: false
 <h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期请我喝咖啡</h4>
 
 <div align="center">
-  <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" src="https://github.com/crimx/crx-saladict/wiki/images/patreon.png" alt="patreon saladict"></a>
-  <a href="https://afdian.net/@crimx" target="_blank"><img height="50" src="https://github.com/crimx/crx-saladict/wiki/images/afdian.png" alt="爱发电 saladict"></a>
+  <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" src="/images/patreon.png" alt="patreon saladict"></a>
+  <a href="https://afdian.net/@crimx" target="_blank"><img height="50" src="/images/afdian.png" alt="爱发电 saladict"></a>
 </div>
 
 <br>
@@ -23,6 +23,6 @@ sidebar: false
 <h4 align="center">通过微信或支付宝扫码打赏<br>(请勿在留言反馈问题，无法回复)</h4>
 
 <div align="center">
-  <img height="200" src="https://github.com/crimx/crx-saladict/wiki/images/wechat.png" alt="wechat qrcode">
-  <img height="200" src="https://github.com/crimx/crx-saladict/wiki/images/alipay.png" alt="alipay qrcode">
+  <img height="200" src="/images/wechat.png" alt="wechat qrcode">
+  <img height="200" src="/images/alipay.png" alt="alipay qrcode">
 </div>

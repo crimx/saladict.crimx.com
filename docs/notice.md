@@ -15,8 +15,8 @@
 1. 私隐原因查词记录默认关闭，如有需要请在[设置](./manual#open-setting)手动开启。
 1. 点击 PDF 链接默认会用本扩展打开，可在[设置](./manual#open-setting)中关闭。关闭了依然可以使用右键或[快捷键](./manual#shortcuts)的方式[打开 PDF](./manual#pdf)。**亦可对部分网站[设置 PDF 黑名单](./manual#black-white-list)**。
 1. 部分功能支持设置[快捷键](./manual#shortcuts)，对于浏览器以外的选词，
-   - 在 Windows 平台可以结合 [Quicker](https://getquicker.net/Sharedaction?code=42abae81-ed41-4f16-269a-08d668af12c8) 调用 Saladict。
-     ![Quicker](https://github.com/crimx/ext-saladict/wiki/images/quicker.gif)
+   - 在 Windows 平台可以结合 [Quicker](https://github.com/crimx/ext-saladict/issues/493) 调用 Saladict。
+     ![Quicker](https://user-images.githubusercontent.com/38676455/67744041-6bdb1a80-fa5b-11e9-93e0-6c39d76cc45d.gif)
    - 在 MacOS 平台可以结合 [Alfred Workflows](https://github.com/crimx/ext-saladict/issues/509) 或 [Popclip](https://github.com/crimx/ext-saladict/issues/463) 调用 Saladict。
      ![Popclip](https://user-images.githubusercontent.com/51223743/64909399-0c8ca980-d73e-11e9-965d-a413e586c911.png)
    - 另外还可以通过 [WGestures](https://github.com/crimx/ext-saladict/issues/366#issuecomment-495828772) 配置鼠标手势调用 Saladict。

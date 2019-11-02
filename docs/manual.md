@@ -11,7 +11,7 @@
 1. 右击右上方地址栏旁的图标，可看到选项。
 2. 扩展管理页面，找到“沙拉查词”，可看到“选项”。
 3. 查词面板绿色任务栏上的菜单图标
-   ![taskbar](https://github.com/crimx/ext-saladict/wiki/images/taskbar.png)
+   ![taskbar](/images/taskbar.png)
 
 
 
@@ -55,7 +55,7 @@
 - 百度、搜狗网页翻译是通过将网页内嵌到它们自身网页上实现翻译的。请勿在翻译后的页面输入个人资料。出于安全原因有的网页可能不允许被嵌入。
 - 其它网页翻译扩展可以用 [Google 翻译](https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb/)和[彩云小译](https://chrome.google.com/webstore/detail/jmpepeebcbihafjjadogphmbgiffiajh)。
 
-![youdao page translation](https://github.com/crimx/ext-saladict/wiki/images/youdao-page.gif)
+![youdao page translation](/images/youdao-page.gif)
 
 入口：
 
@@ -92,13 +92,13 @@
 
 浏览器音频变速同时也会导致变调，开启 Pitch Stretch 可保持正常声调，目前使用的库可能会在一些浏览器上出现噪音，关闭即可。
 
-![waveform](https://github.com/crimx/ext-saladict/wiki/images/waveform.gif)
+![waveform](/images/waveform.gif)
 
 
 
 ## 查词面板钉住与拖动 {#pin}
 
-![pin panel](https://github.com/crimx/ext-saladict/wiki/images/pin.gif)
+![pin panel](/images/pin.gif)
 
 点击查词面板绿色任务栏上的“图钉”图标即可“钉住”面板，面板不会消失，除非点击面板的“**×**”按钮。
 
@@ -114,7 +114,7 @@
 
 鼠标悬浮在查词面板的菜单图标上可快速切换，或者焦点选中菜单图标然后按<kbd>↓</kbd>。
 
-![taskbar](https://github.com/crimx/ext-saladict/wiki/images/taskbar.png)
+![taskbar](/images/taskbar.png)
 
 在[选项](#open-setting)页面可配置各个模式。
 
@@ -130,7 +130,7 @@ Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮�
 
 在 Windows 平台可以结合 [Quicker](https://getquicker.net/Sharedaction?code=42abae81-ed41-4f16-269a-08d668af12c8) 调用 Saladict。
 
-![Quicker](https://github.com/crimx/ext-saladict/wiki/images/quicker.gif)
+![Quicker](/images/quicker.gif)
 
 OCR 图像识别查词参考 [#493](https://github.com/crimx/ext-saladict/issues/493) 。
 
@@ -183,7 +183,7 @@ OCR 图像识别查词参考 [#493](https://github.com/crimx/ext-saladict/issues
 
 本扩展支持添加生词与记录查词历史，并提供管理页面。
 
-![screen-notebook](https://github.com/crimx/ext-saladict/wiki/images/screen-notebook.png)
+![screen-notebook](/images/screen-notebook.png)
 
 注意卸载扩展或使用系统清理工具可能会将记录一并清除，请定期导出文件或设置同步。
 
@@ -192,12 +192,12 @@ OCR 图像识别查词参考 [#493](https://github.com/crimx/ext-saladict/issues
 入口：
 
 1. 查词面板绿色任务栏上的心型图标和时间图标，左击笔记本添加生词，右击进入生词本页面；  
-   ![taskbar](https://github.com/crimx/ext-saladict/wiki/images/taskbar.png)
+   ![taskbar](/images/taskbar.png)
 2. 右击右上方地址栏旁的图标，可看到相应选项。
 
 Saladict 6 中，点击心型图标后默认会并列显示查词面板和编辑面板。可在[选项](#open-setting)中关闭。
 
-![notebook](https://github.com/crimx/ext-saladict/wiki/images/notebook.gif)
+![notebook](/images/notebook.gif)
 
 导出记录时可修改导出模板，使用替换符代表生成的内容。[导出 ANKI](./ANKI) 时推荐使用反引号 `` ` `` 作为分隔符。
 
@@ -213,7 +213,7 @@ Saladict 6 中，点击心型图标后默认会并列显示查词面板和编辑
 
 因安全原因，扩展访问不了浏览器的 PDF 插件，但得益于 [pdf.js](https://github.com/mozilla/pdf.js)，扩展现自带了一个 PDF 阅读器。
 
-默认会让本扩展打开所有 PDF 链接（包括本地路径，如果勾选了“[允许访问文件网址](https://github.com/crimx/crx-saladict/wiki/images/ext-setting.png)”），可在[设置](#open-setting)中关闭。
+默认会让本扩展打开所有 PDF 链接（包括本地路径，如果勾选了“[允许访问文件网址](/images/ext-setting.png)”），可在[设置](#open-setting)中关闭。
 
 Firefox 目前不支持本地路径拦截，可以在 Saladict 的 PDF 页面中按右上方的按钮打开本地文件。
 
