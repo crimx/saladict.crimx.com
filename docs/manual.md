@@ -130,7 +130,7 @@ Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮�
 
 在 Windows 平台可以结合 [Quicker](https://getquicker.net/Sharedaction?code=42abae81-ed41-4f16-269a-08d668af12c8) 调用 Saladict。
 
-![Quicker](/images/quicker.gif)
+![Quicker](https://user-images.githubusercontent.com/38676455/67744041-6bdb1a80-fa5b-11e9-93e0-6c39d76cc45d.gif)
 
 OCR 图像识别查词参考 [#493](https://github.com/crimx/ext-saladict/issues/493) 。
 
