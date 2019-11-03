@@ -67,12 +67,12 @@ module.exports = {
         },
         algolia: {},
         nav: [
-          { text: '⚠️注意事项', link: '/notice/' },
+          { text: '⚠️注意事项', link: '/notice.html' },
           {
             text: '📒教程',
             items: [
-              { text: '完整使用说明', link: '/manual/' },
-              { text: '配合 Anki 使用', link: '/anki/' },
+              { text: '完整使用说明', link: '/manual.html' },
+              { text: '配合 Anki 使用', link: '/anki.html' },
               {
                 text: 'OCR（图片文字识别）',
                 link: 'https://github.com/crimx/ext-saladict/issues/493'
@@ -101,7 +101,7 @@ module.exports = {
               }
             ]
           },
-          { text: '❤️支持项目', link: '/support/' },
+          { text: '❤️支持项目', link: '/support.html' },
           {
             text: '📦下载安装',
             link: 'https://github.com/crimx/ext-saladict/releases'
@@ -141,12 +141,12 @@ module.exports = {
         },
         algolia: {},
         nav: [
-          { text: '⚠️Notice', link: '/en/notice/' },
+          { text: '⚠️Notice', link: '/en/notice.html' },
           {
             text: '📒Tutorials',
             items: [
-              { text: 'User Manual', link: '/en/manual/' },
-              { text: 'Use with Anki', link: '/en/anki/' },
+              { text: 'User Manual', link: '/en/manual.html' },
+              { text: 'Use with Anki', link: '/en/anki.html' },
               {
                 text: 'OCR',
                 link: 'https://github.com/crimx/ext-saladict/issues/493'
@@ -175,7 +175,7 @@ module.exports = {
               }
             ]
           },
-          { text: '❤️Support', link: '/en/support/' },
+          { text: '❤️Support', link: '/en/support.html' },
           {
             text: '📦Download',
             link: 'https://github.com/crimx/ext-saladict/releases'
