@@ -7,7 +7,15 @@ module.exports = {
       md.use(markdownItAttrs)
     }
   },
-  plugins: ['@vuepress/pwa'],
+  plugins: [
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ]
+  ],
   // prettier-ignore
   head: [
     [
