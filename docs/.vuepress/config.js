@@ -26,6 +26,16 @@ module.exports = {
         async: true
       }
     ],
+    [
+      'script',
+      {},
+      `
+      (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "pub-6993077405597797",
+      enable_page_level_ads: true
+      });
+      `
+    ],
     ['link', {rel: "apple-touch-icon", sizes: "57x57", href: "/icons/apple-icon-57x57.png"}],
     ['link', {rel: "apple-touch-icon", sizes: "60x60", href: "/icons/apple-icon-60x60.png"}],
     ['link', {rel: "apple-touch-icon", sizes: "72x72", href: "/icons/apple-icon-72x72.png"}],
