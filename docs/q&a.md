@@ -48,7 +48,9 @@ sidebar: false
 
 ### 问：可不可以增加 PDF 阅读器功能，如做笔记、划线标记、夜间模式等。
 
-答：PDF 阅读器用的是 [PDF.js](https://mozilla.github.io/pdf.js/) 自带的阅读器，如果需要其它功能可前往该项目反馈。也可以使用本地的其它 PDF 浏览器再通过独立窗口查词（[浏览器以外划词设置](./manual#shortcuts)）。
+答：PDF 阅读器用的是 [PDF.js](https://mozilla.github.io/pdf.js/) 自带的阅读器，如果需要其它功能可前往该项目反馈。也可以使用本地的其它 PDF 浏览器再通过独立窗口查词（[浏览器以外划词设置](./manual#shortcuts)）。@hqyyqh 分享了一个非常棒的[教程](https://github.com/crimx/ext-saladict/issues/493)如何一边标注 pdf 一边使用沙拉查词翻译。
+
+![pdf with saladict](https://user-images.githubusercontent.com/38676455/68393366-db14e500-01a6-11ea-96fb-edeb2bc4a39c.gif)
 
 ### 问: PDF 划词字符显示不对（如 f 与 ƒ）/ PDF 划词换行的单词粘连在一起。
 
