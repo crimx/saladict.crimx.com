@@ -22,7 +22,6 @@ module.exports = {
       'script',
       {
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-        'data-ad-client': 'ca-pub-6993077405597797',
         async: true
       }
     ],
@@ -30,10 +29,7 @@ module.exports = {
       'script',
       {},
       `
-      (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "pub-6993077405597797",
-      enable_page_level_ads: true
-      });
+      (adsbygoogle = window.adsbygoogle || []).push({});
       `
     ],
     ['link', {rel: "apple-touch-icon", sizes: "57x57", href: "/icons/apple-icon-57x57.png"}],

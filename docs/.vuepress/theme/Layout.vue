@@ -11,10 +11,24 @@
 
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <template #top>
-        <slot name="sidebar-top" />
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6993077405597797"
+          data-ad-slot="5077350487"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
       </template>
       <template #bottom>
-        <slot name="sidebar-bottom" />
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6993077405597797"
+          data-ad-slot="9148457434"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
       </template>
     </Sidebar>
 
@@ -25,7 +39,14 @@
         <slot name="page-top" />
       </template>
       <template #bottom>
-        <slot name="page-bottom" />
+        <ins
+          class="adsbygoogle"
+          style="display:block; text-align:center; padding: 2rem;"
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-6993077405597797"
+          data-ad-slot="6866727264"
+        ></ins>
         <Support />
         <Footer />
       </template>
