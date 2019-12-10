@@ -18,7 +18,7 @@ Help translate this page to English.
 
 1. 希望自动打开本地 PDF 链接或者对本地的网页划词翻译请在扩展管理页面勾选“允许访问文件网址”。 
 1. 私隐原因查词记录默认关闭，如有需要请在[设置](./manual#open-setting)手动开启。
-1. 点击 PDF 链接默认会用本扩展打开，可在[设置](./manual#open-setting)中关闭。关闭了依然可以使用右键或[快捷键](./manual#shortcuts)的方式[打开 PDF](./manual#pdf)。**亦可对部分网站[设置 PDF 黑名单](./manual#black-white-list)**。
+1. 点击 PDF 链接默认会用本扩展打开（**从 v7.5.3 开始默认关闭**，推荐使用本地阅读器搭配沙拉查词独立窗口划词），关闭了依然可以使用右键或[快捷键](./manual#shortcuts)的方式[打开 PDF](./manual#pdf)。**亦可对部分网站[设置 PDF 黑名单](./manual#black-white-list)**。
 1. 部分功能支持设置[快捷键](./manual#shortcuts)，对于浏览器以外的选词，
    - 在 Windows 平台可以结合 [Quicker](https://github.com/crimx/ext-saladict/issues/493) 调用 Saladict。
      ![Quicker](https://user-images.githubusercontent.com/38676455/67744041-6bdb1a80-fa5b-11e9-93e0-6c39d76cc45d.gif)
