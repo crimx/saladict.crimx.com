@@ -56,7 +56,7 @@ module.exports = {
     activeHeaderLinks: true,
     locales: {
       '/': {
-        selectText: '选择语言',
+        selectText: 'Languages',
         label: '简体中文',
         editLinkText: '在 GitHub 上编辑此页',
         serviceWorker: {
@@ -73,32 +73,8 @@ module.exports = {
             items: [
               { text: '完整使用说明', link: '/manual.html' },
               { text: '配合 Anki 使用', link: '/anki.html' },
-              {
-                text: 'OCR（图片文字识别）',
-                link: 'https://github.com/crimx/ext-saladict/issues/493'
-              },
-              {
-                text: '浏览器外划词',
-                items: [
-                  {
-                    text: 'Windows: Quicker',
-                    link: 'https://github.com/crimx/ext-saladict/issues/493'
-                  },
-                  {
-                    text: 'Windows: WGestures',
-                    link:
-                      'https://github.com/crimx/ext-saladict/issues/366#issuecomment-495828772'
-                  },
-                  {
-                    text: 'MacOS: Alfred Workflows',
-                    link: 'https://github.com/crimx/ext-saladict/issues/509'
-                  },
-                  {
-                    text: 'MacOS: Popclip',
-                    link: 'https://github.com/crimx/ext-saladict/issues/463'
-                  }
-                ]
-              }
+              { text: 'OCR（图片文字识别）', link: '/ocr.html' },
+              { text: '浏览器外划词', link: '/native.html' }
             ]
           },
           { text: '❤️支持项目', link: '/support.html' },
@@ -125,7 +101,7 @@ module.exports = {
       },
       '/en/': {
         // text for the language dropdown
-        selectText: 'Languages',
+        selectText: '选择语言',
         // label for this locale in the language dropdown
         label: 'English',
         // Aria Label for locale in the dropdown
@@ -147,32 +123,8 @@ module.exports = {
             items: [
               { text: 'User Manual', link: '/en/manual.html' },
               { text: 'Use with Anki', link: '/en/anki.html' },
-              {
-                text: 'OCR',
-                link: 'https://github.com/crimx/ext-saladict/issues/493'
-              },
-              {
-                text: 'Global Search',
-                items: [
-                  {
-                    text: 'Windows: Quicker',
-                    link: 'https://github.com/crimx/ext-saladict/issues/493'
-                  },
-                  {
-                    text: 'Windows: WGestures',
-                    link:
-                      'https://github.com/crimx/ext-saladict/issues/366#issuecomment-495828772'
-                  },
-                  {
-                    text: 'MacOS: Alfred Workflows',
-                    link: 'https://github.com/crimx/ext-saladict/issues/509'
-                  },
-                  {
-                    text: 'MacOS: Popclip',
-                    link: 'https://github.com/crimx/ext-saladict/issues/463'
-                  }
-                ]
-              }
+              { text: 'OCR', link: '/en/ocr.html' },
+              { text: 'Use Outside of Browser', link: '/en/native.html' }
             ]
           },
           { text: '❤️Support', link: '/en/support.html' },
