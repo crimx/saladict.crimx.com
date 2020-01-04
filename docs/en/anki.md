@@ -54,6 +54,11 @@ Help translate this page to English.
 %text% ` %context% ` %trans% ` %note%
 ```
 
+同时因为 Anki 文本导入是以行为单位识别的，导出的内容中有多行（如自动翻译会产生多行内容）注意将改选编辑器上方的「保留换行」。
+
+- 可以选为`换行替换为空格`，导出的文本将没有换行。
+- 可以改选为`换行替换为<br>` 或 `换行替换为<p>`。这是 Anki 可以识别的 HTML 标签（见下方配置）。在默认的样式下每行间 `<br>` 会比 `<p>` 更紧凑些。
+
 导出保存文件。
 
 ## 导入单词
@@ -66,6 +71,6 @@ Help translate this page to English.
 - `Deck` 是让卡片如何归类，通过 `::` 分割层级结构。点开后可以选择已有的也可以 `Add` 新建。这里我们新建一个 `单词::Saladict` 。
 - `Fields separated by: Space` 。我们换成 ``` ` ``` 。
 - 然后就是忽略规则，按需选择。这里我们保持默认。
-- `Allow HTML in fields` 。一般不勾选。如果你的笔记里使用了 HTML 排版可以勾选。
+- `Allow HTML in fields` 。如果上面选择了 `<br>` 或 `<p>` 等 HTML 排版需要勾选。
 - 然后下面的 `Field Mapping` 字段映射就可以看到识别到了上面定义的四个字段。两者匹配成功。
 - 点击 `Import` 可以看到导入结果。
