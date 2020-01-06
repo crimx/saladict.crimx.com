@@ -128,25 +128,7 @@ Chrome 所有版本都支持，在扩展管理页面的左上方点开菜单按�
 
 Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮设置按钮点开最底 `Manage Extension Shortcuts`。
 
-对于浏览器以外的选词，
-
-在 Windows 平台可以结合 [Quicker](https://getquicker.net/Sharedaction?code=42abae81-ed41-4f16-269a-08d668af12c8) 调用 Saladict。
-
-![Quicker](https://user-images.githubusercontent.com/38676455/67744041-6bdb1a80-fa5b-11e9-93e0-6c39d76cc45d.gif)
-
-OCR 图像识别查词参考 [#493](https://github.com/crimx/ext-saladict/issues/493) 。
-
-在 MacOS 平台可以结合 [Alfred Workflows](https://github.com/crimx/ext-saladict/issues/509) 或者 [Popclip](https://github.com/crimx/ext-saladict/issues/463) 调用 Saladict。
-
-![Alfred Workflows](https://user-images.githubusercontent.com/8779091/66549946-004a0f80-eb77-11e9-9691-c99e72e2bc69.png)
-
-![Popclip](https://user-images.githubusercontent.com/51223743/64909399-0c8ca980-d73e-11e9-965d-a413e586c911.png)
-
-另外还可以通过 [WGestures](https://github.com/crimx/ext-saladict/issues/366#issuecomment-495828772) 配置鼠标手势调用 Saladict。
-
-![WGestures](https://user-images.githubusercontent.com/25548230/58363445-c8e40a80-7ed6-11e9-8c30-83824e64a8f2.gif)
-
-
+另外还支持[浏览器外选词](./native.md)以及 [OCR 图像识别查词](./ocr.md)。
 
 ## 支持独立窗口快捷查词 {#triple-ctrl}
 
