@@ -51,3 +51,11 @@ Similar to PopClip on MacOS.
 ![Popclip](https://user-images.githubusercontent.com/51223743/70034632-705f9980-15ec-11ea-9e32-d6e2291ffef7.png)
 
 Got more ideas? Welcome to share your own tutorials!
+
+## Trigger Saladict Searching Without Opening Browser
+
+1. Search `background` in Chrome Settings, enable:
+   ```
+   Continue running background apps when Google Chrome is closed
+   ```
+2. Add Chrome to system startup.

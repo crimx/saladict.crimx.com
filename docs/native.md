@@ -47,3 +47,12 @@
 ![Popclip](https://user-images.githubusercontent.com/51223743/70034632-705f9980-15ec-11ea-9e32-d6e2291ffef7.png)
 
 如果聪明的你也发现了其它便捷的使用方式欢迎分享！
+
+## 不打开浏览器直接召唤沙拉查词
+
+1. 在 Chrome 设置中搜索 `background` 或者 `后台`，可以看到选项
+   ```
+   Continue running background apps when Google Chrome is closed
+   ```
+   启动即可。
+2. 将 Chrome 加入开机启动。
