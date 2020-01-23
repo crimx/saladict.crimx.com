@@ -92,6 +92,10 @@ module.exports = {
               {
                 text: '反馈与建议',
                 link: 'https://github.com/crimx/ext-saladict/issues'
+              },
+              {
+                text: '私隐政策',
+                link: '/privacy-policy'
               }
             ]
           }
@@ -142,6 +146,10 @@ module.exports = {
               {
                 text: 'Report Issues',
                 link: 'https://github.com/crimx/ext-saladict/issues'
+              },
+              {
+                text: 'Privacy Policy',
+                link: '/en/privacy-policy'
               }
             ]
           }
