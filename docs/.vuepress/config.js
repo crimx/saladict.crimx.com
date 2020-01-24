@@ -56,7 +56,7 @@ module.exports = {
     activeHeaderLinks: true,
     locales: {
       '/': {
-        selectText: 'Languages',
+        selectText: '🌐Languages',
         label: '简体中文',
         editLinkText: '在 GitHub 上编辑此页',
         serviceWorker: {
@@ -105,7 +105,7 @@ module.exports = {
       },
       '/en/': {
         // text for the language dropdown
-        selectText: '选择语言',
+        selectText: '🌐选择语言',
         // label for this locale in the language dropdown
         label: 'English',
         // Aria Label for locale in the dropdown
