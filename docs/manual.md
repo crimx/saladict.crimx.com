@@ -50,7 +50,7 @@
 
 **注意**
 
-- [有道网页翻译](http://fanyi.youdao.com/web2/)已经多年没有更新，我做了些维护，将其内置到 Saladict 并支持 https 网页。
+- [有道网页翻译](http://fanyi.youdao.com/web2/)已经多年没有更新，我做了些维护，将其内置到 Saladict 并支持 https 网页。（因基于有道混淆过的代码修改，应火狐要求已在该浏览器上去除此功能。）
 - Google 网页翻译是直接用的官方脚本，部分网站可能不支持。如果你有兴趣对其进行改进欢迎提交 PR。
 - 百度、搜狗网页翻译是通过将网页内嵌到它们自身网页上实现翻译的。请勿在翻译后的页面输入个人资料。出于安全原因有的网页可能不允许被嵌入。
 - 其它网页翻译扩展可以用 [Google 翻译](https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb/)和[彩云小译](https://chrome.google.com/webstore/detail/jmpepeebcbihafjjadogphmbgiffiajh)。
