@@ -76,13 +76,17 @@ Help translate this page to English.
 
 答：自动消失一般用在轻度查词上，而 Saladict 是为深度查词而生。如果是少量查词，那么是否自动消失关系不大，如果是大量查词，那么建议开启固定面板或唤出侧边栏布局的快捷查词。添加自动消失的设置作者目前没有兴趣实现，但欢迎 PR。
 
+### 问：能否支持 Safari 浏览器。
+
+答：因接口不同目前没有计划兼容。
+
 ### 问：能否在 Windows/Mac/Linux/iOS/Android 平台上实现原生版本的 Saladict。
 
 答：因版权和时间精力等原因，暂不考虑实现。桌面上响应浏览器外划词可参考[「设置」](./manual#shortcuts)。开发与维护这个扩展本身就需要不少时间，欢迎[支持](./support/)项目持续发展。
 
 ### 问：能否实现 Chrome App 。
 
-答：见[官方声明](https://blog.chromium.org/2016/08/from-chrome-apps-to-web.html)，Chrome App 已在逐步淘汰的过程中，故不再做实现。
+答：见[官方声明](https://blog.chromium.org/2016/08/from-chrome-apps-to-web.html)，Chrome App 已在逐步淘汰的过程中，故不再做实现。Chrome App 的功能沙拉查词的独立窗口完全可以胜任。同时见[「不打开浏览器直接召唤沙拉查词」](./native.md#%E4%B8%8D%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B4%E6%8E%A5%E5%8F%AC%E5%94%A4%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D)。
 
 ### 问：能否添加 OCR 图像识别查词功能。
 
