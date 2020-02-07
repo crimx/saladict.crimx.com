@@ -77,7 +77,14 @@ module.exports = {
               { text: '浏览器外划词', link: '/native.html' }
             ]
           },
-          { text: '❤️支持项目', link: '/support.html' },
+          {
+            text: '❤️支持项目',
+            link: '/support.html',
+            items: [
+              { text: '支持方式', link: '/support.html' },
+              { text: '项目支持者', link: '/backers.html' }
+            ]
+          },
           {
             text: '📦下载安装',
             link: 'https://github.com/crimx/ext-saladict/releases'
@@ -131,7 +138,14 @@ module.exports = {
               { text: 'Use Outside of Browser', link: '/en/native.html' }
             ]
           },
-          { text: '❤️Support', link: '/en/support.html' },
+          {
+            text: '❤️Support',
+            link: '/en/support.html',
+            items: [
+              { text: 'Methods of Support', link: '/en/support.html' },
+              { text: 'Saladict Backers', link: '/en/backers.html' }
+            ]
+          },
           {
             text: '📦Download',
             link: 'https://github.com/crimx/ext-saladict/releases'
