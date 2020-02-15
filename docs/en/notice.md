@@ -24,6 +24,7 @@ Thanks for using Saladict! Here are a few notes before you start. Also see the [
 ## Firefox
 
 1. If the browser action panel overflows please drag the Saladict icon out of the drawers.
+1. Youdao page translate has been removed from Firefox as Add-on reviewer requested.
 
 ## Opera
 
