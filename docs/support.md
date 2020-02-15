@@ -9,7 +9,7 @@ sidebar: false
 
 - 帮助更多朋友发现沙拉查词。请按 [Github](https://github.com/crimx/ext-saladict) 上方的 <kbd>★Star</kbd> 按钮收藏本项目以及在[谷歌商店][chrome]，[火狐商店][firefox]或 [Edge 商店][edge]上留好评。
 - 为项目修改错别字用词或提交代码（谢谢[贡献者们](https://github.com/crimx/ext-saladict/graphs/contributors)）。
-- 有什么高效使用沙拉查词的技巧欢迎向小伙伴们[分享](./native.html#search-directly)。
+- 有什么高效使用沙拉查词的技巧欢迎向小伙伴们[分享](./native.html)。
 - 打赏作者请他喝咖啡☕️和吃沙拉🥗补充精力。可选择定期多次或一次性投币（都选作者也是没意见的🤪）。
 
 感谢[所有支持沙拉查词的小伙伴们](./backers.html)。
