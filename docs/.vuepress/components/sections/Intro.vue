@@ -16,7 +16,7 @@
           fluid
           :width="imgs[index].width"
           :height="imgs[index].height"
-          :src="imgs[index].src"
+          :src="'https://image.baidu.com/search/down?tn=download&url=' + imgs[index].src"
           :alt="imgs[index].alt"
         />
       </div>
@@ -32,19 +32,22 @@ export default {
         {
           width: '789',
           height: '646',
-          src: '/images/pin.gif',
+          src:
+            'https://wx1.sinaimg.cn/large/6e3591e5gy1gc295dv2feg20lx0hynpd.gif',
           alt: 'Saladict Pin'
         },
         {
           width: '1344',
           height: '445',
-          src: '/images/screen-notebook.png',
+          src:
+            'https://wx4.sinaimg.cn/large/6e3591e5gy1gc294iulgqj211c0cdt8v.jpg',
           alt: 'Saladict Notebook'
         },
         {
           width: '1034',
           height: '646',
-          src: '/images/youdao-page.gif',
+          src:
+            'https://wx4.sinaimg.cn/large/6e3591e5gy1gc294odd4zg20sq0hywl0.gif',
           alt: 'Saladict Youdao Page Translate'
         }
       ]

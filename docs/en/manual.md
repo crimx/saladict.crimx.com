@@ -13,7 +13,7 @@ Help translate this page to English.
 1. 右击右上方地址栏旁的图标，可看到选项。
 2. 扩展管理页面，找到“沙拉查词”，可看到“选项”。
 3. 查词面板绿色任务栏上的菜单图标
-   ![taskbar](/images/taskbar.png)
+   ![taskbar][taskbar]
 
 
 
@@ -57,7 +57,7 @@ Help translate this page to English.
 - 百度、搜狗网页翻译是通过将网页内嵌到它们自身网页上实现翻译的。请勿在翻译后的页面输入个人资料。出于安全原因有的网页可能不允许被嵌入。
 - 其它网页翻译扩展可以用 [Google 翻译](https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb/)和[彩云小译](https://chrome.google.com/webstore/detail/jmpepeebcbihafjjadogphmbgiffiajh)。
 
-![youdao page translation](/images/youdao-page.gif)
+![youdao page translation][youdao-page]
 
 入口：
 
@@ -94,13 +94,13 @@ Help translate this page to English.
 
 浏览器音频变速同时也会导致变调，开启 Pitch Stretch 可保持正常声调，目前使用的库可能会在一些浏览器上出现噪音，关闭即可。
 
-![waveform](/images/waveform.gif)
+![waveform][waveform]
 
 
 
 ## 查词面板钉住与拖动 {#pin}
 
-![pin panel](/images/pin.gif)
+![pin panel][pin]
 
 点击查词面板绿色任务栏上的“图钉”图标即可“钉住”面板，面板不会消失，除非点击面板的“**×**”按钮。
 
@@ -116,7 +116,7 @@ Help translate this page to English.
 
 鼠标悬浮在查词面板的菜单图标上可快速切换，或者焦点选中菜单图标然后按<kbd>↓</kbd>。
 
-![taskbar](/images/taskbar.png)
+![taskbar][taskbar]
 
 在[选项](#open-setting)页面可配置各个模式。
 
@@ -167,7 +167,7 @@ Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮�
 
 本扩展支持添加生词与记录查词历史，并提供管理页面。
 
-![screen-notebook](/images/screen-notebook.png)
+![screen-notebook][screen-notebook]
 
 注意卸载扩展或使用系统清理工具可能会将记录一并清除，请定期导出文件或设置同步。
 
@@ -176,12 +176,12 @@ Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮�
 入口：
 
 1. 查词面板绿色任务栏上的心型图标和时间图标，左击笔记本添加生词，右击进入生词本页面；  
-   ![taskbar](/images/taskbar.png)
+   ![taskbar][taskbar]
 2. 右击右上方地址栏旁的图标，可看到相应选项。
 
 Saladict 6 中，点击心型图标后默认会并列显示查词面板和编辑面板。可在[选项](#open-setting)中关闭。
 
-![notebook](/images/notebook.gif)
+![notebook][notebook]
 
 导出记录时可修改导出模板，使用替换符代表生成的内容。[导出 ANKI](./ANKI) 时推荐使用反引号 `` ` `` 作为分隔符。
 
@@ -222,3 +222,11 @@ Firefox 目前不支持本地路径拦截，可以在 Saladict 的 PDF 页面中
 查看当前页面链接的二维码。
 
 点击右上方地址栏旁的图标打开查词面板，在最下方可看到二维码图标，鼠标移上去即可显示。
+
+[taskbar]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc29418yaij20do039a9t.jpg
+[screen-notebook]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294iulgqj211c0cdt8v.jpg
+
+[pin]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc295dv2feg20lx0hynpd.gif
+[youdao-page]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294odd4zg20sq0hywl0.gif
+[waveform]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294s0jc6g20hb0if7fx.gif
+[notebook]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc295is219g21090i64qp.gif
