@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.jpg
+heroImage: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc29virfazj20jg07sgm8.jpg
 heroText: Saladict 沙拉查词
 tagline: 聚合词典专业划词翻译
 actionText: 📦下载安装 →
