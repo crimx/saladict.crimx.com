@@ -16,7 +16,7 @@ sidebar: false
 
 ### 问：在 Java 类的文档中无法显示图标，如 [Java](https://docs.oracle.com/javase/7/docs/api/), [Spring](https://docs.spring.io/spring/docs/5.0.6.RELEASE/javadoc-api/)。
 
-答：这类文档使用了一种严重过时的技术 `<frameset>`，在现代网页中已不多见。因其技术限制，在页面内显示面板将非常麻烦，故不做支持。但可以启用[独立窗口](./manual#triple-ctrl)的沙拉查词面板。
+答：这类文档使用了一种严重过时的技术 `<frameset>`，在现代网页中已不多见。因其技术限制，在页面内显示面板将非常麻烦，故不做支持。但可以启用[独立窗口](./manual.md#triple-ctrl)的沙拉查词面板。
 
 ### 问：为什么地址栏旁的沙拉查词图标有时会出现黄底白字的“off”提示。
 
@@ -44,11 +44,11 @@ sidebar: false
 
 ### 问：浏览器自动用 Saladict 打开 PDF ，不能使用原生下载或打印。
 
-答：可以在 Saladict 设置关闭 PDF 拦截或者将该网站加入 PDF 黑名单。见初次安装时弹出的[注意事项](./notice/)及[使用说明](./manual#pdf)。
+答：可以在 Saladict 设置关闭 PDF 拦截或者将该网站加入 PDF 黑名单。见初次安装时弹出的[注意事项](./notice.md)及[使用说明](./manual.md#pdf)。
 
 ### 问：可不可以增加 PDF 阅读器功能，如做笔记、划线标记、夜间模式等。
 
-答：PDF 阅读器用的是 [PDF.js](https://mozilla.github.io/pdf.js/) 自带的阅读器，如果需要其它功能可前往该项目反馈。也可以使用本地的其它 PDF 浏览器再通过独立窗口查词（[浏览器以外划词设置](./manual#shortcuts)）。@hqyyqh 分享了一个非常棒的[教程](https://github.com/crimx/ext-saladict/issues/493)如何一边标注 pdf 一边使用沙拉查词翻译。
+答：PDF 阅读器用的是 [PDF.js](https://mozilla.github.io/pdf.js/) 自带的阅读器，如果需要其它功能可前往该项目反馈。也可以使用本地的其它 PDF 浏览器再通过独立窗口查词（[浏览器以外划词设置](./native.md)）。@hqyyqh 分享了一个非常棒的[教程](https://github.com/crimx/ext-saladict/issues/493)如何一边标注 pdf 一边使用沙拉查词翻译。
 
 ![pdf with saladict](https://user-images.githubusercontent.com/38676455/68393366-db14e500-01a6-11ea-96fb-edeb2bc4a39c.gif)
 
@@ -66,7 +66,7 @@ sidebar: false
 
 ### 问：能否添加背单词功能。
 
-答：市面上已有不少优秀的记忆软件（如 [Anki](./anki/)），本着“简洁而美”的宗旨，Saladict 中不做重复劳动实现，请自行导出到专门的软件中背。
+答：市面上已有不少优秀的记忆软件（如 [Anki](./anki.md)），本着“简洁而美”的宗旨，Saladict 中不做重复劳动实现，请自行导出到专门的软件中背。
 
 ### 问：查词面板能否自动消失。
 
@@ -78,7 +78,7 @@ sidebar: false
 
 ### 问：能否在 Windows/Mac/Linux/iOS/Android 平台上实现原生版本的 Saladict。
 
-答：因版权和时间精力等原因，暂不考虑实现。桌面上响应浏览器外划词可参考[「设置」](./manual#shortcuts)。开发与维护这个扩展本身就需要不少时间，欢迎[支持](./support/)项目持续发展。
+答：因版权和时间精力等原因，暂不考虑实现。桌面上响应浏览器外划词可参考[「设置」](./manual.md#shortcuts)。开发与维护这个扩展本身就需要不少时间，欢迎[支持](./support.md)项目持续发展。
 
 ### 问：能否实现 Chrome App 。
 
