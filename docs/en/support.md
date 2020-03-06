@@ -11,18 +11,18 @@ Designing and developing this extension are mostly done by the author alone whic
 
 To keep it open-sourced, free of charge and ad-free, consider buying the author a cup of coffee :coffee: to support developing and maintaining this extension.
 
-<h4 align="center">Buy me coffee regularly via <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> or <a href="https://afdian.net/@crimx" target="_blank">爱发电</a></h4>
-
-<div align="center">
-  <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" src="/images/patreon.png" alt="patreon saladict"></a>
-  <a href="https://afdian.net/@crimx" target="_blank"><img height="50" src="/images/afdian.png" alt="爱发电 saladict"></a>
-</div>
-
-<br>
-
 <h4 align="center">Scan QRCode through Wechat or Alipay</h4>
 
 <div align="center">
   <img height="200" src="/images/wechat.png" alt="wechat qrcode">
   <img height="200" src="/images/alipay.png" alt="alipay qrcode">
+</div>
+
+<br/>
+
+<h4 align="center">Buy me coffee regularly via <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> or <a href="https://afdian.net/@crimx" target="_blank">爱发电</a></h4>
+
+<div align="center">
+  <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" src="/images/patreon.png" alt="patreon saladict"></a>
+  <a href="https://afdian.net/@crimx" target="_blank"><img height="50" src="/images/afdian.png" alt="爱发电 saladict"></a>
 </div>
