@@ -10,6 +10,7 @@ Thanks for using Saladict! Here are a few notes before you start. Also see the [
 1. Though it is recommmended to use any native PDF viewers you like with Saladict global shortkeys, PDF links can also be [automatically opened](./manual.md#open-setting) with Saladict built-in PDF viewer. You can also add sites to PDF Black/White list.
 1. Keyboard shortcuts can be set on browser Extensions Management page.
 1. With [other tools](https://saladict.crimx.com/native.html) you can use Saladict to search text outside of browser.
+1. Page translators are disabled by default. Youdao and Google page translate are deprecated in favor of the official extensions.
 
 ### Limitations
 

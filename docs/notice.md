@@ -11,6 +11,7 @@
 1. 点击 PDF 链接默认会用本扩展打开（**从 v7.5.3 开始默认关闭**，推荐使用本地阅读器搭配沙拉查词独立窗口划词），可在[设置](./manual#open-setting)中开启关闭。关闭了依然可以使用右键或[快捷键](./manual#shortcuts)的方式[打开 PDF](./manual#pdf)。**亦可对部分网站[设置 PDF 黑名单](./manual#black-white-list)**。
 1. 部分功能支持设置[快捷键](./manual#shortcuts)。
 1. 可[搭配工具](https://saladict.crimx.com/native.html)实现浏览器外划词。
+1. 网页翻译默认关闭。因网页翻译其实不需要沙拉查词，故该功能已进入维护状态，不再新增功能，请使用官方的扩展如彩云小译和谷歌翻译。
 
 ### 局限性
 
