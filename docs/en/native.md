@@ -7,14 +7,10 @@ Theoretically there are two ways to make Saladict work outside of browser:
 
 ## Search directly
 
-浏览器支持为扩展设置全局快捷键，通过独立窗口沙拉查词可以在浏览器外查词。
-
 Browser offers global shortcuts settings for extensions through which we can search text on any place.
 
 1. Open `chrome://extensions/shortcuts`, set a `Global` shortcut for ***Search clipboard content in Standalone Panel***.
 2. Copy any text, then press the shortkeys.
-
-许多聪明的用户发现通过工具可以将此流程自动化，感谢ta们无私分享这些优秀的教程！
 
 Many brilliant users on Saladict have found out ways to automate this process with other tools. Thank them for taking the time to share all these magnificent tutorials!
 
