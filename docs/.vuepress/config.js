@@ -14,6 +14,12 @@ module.exports = {
         serviceWorker: true,
         updatePopup: true
       }
+    ],
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-49163616-5'
+      }
     ]
   ],
   // prettier-ignore
