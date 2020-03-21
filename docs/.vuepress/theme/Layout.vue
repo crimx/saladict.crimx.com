@@ -12,18 +12,12 @@
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <template #top>
         <div>
-          <Adsense
-            data-ad-client="ca-pub-6993077405597797"
-            data-ad-slot="5077350487"
-          />
+          <Adsense data-ad-client="ca-pub-6993077405597797" data-ad-slot="5077350487" />
         </div>
       </template>
       <template #bottom>
         <div>
-          <AdsenseIns
-            data-ad-client="ca-pub-6993077405597797"
-            data-ad-slot="9148457434"
-          />
+          <Adsense data-ad-client="ca-pub-6993077405597797" data-ad-slot="9148457434" />
         </div>
       </template>
     </Sidebar>
@@ -36,10 +30,7 @@
       </template>
       <template #bottom>
         <div style="padding: 2rem;">
-          <InArticleAdsense
-            data-ad-client="ca-pub-6993077405597797"
-            data-ad-slot="6866727264"
-          />
+          <InArticleAdsense data-ad-client="ca-pub-6993077405597797" data-ad-slot="6866727264" />
         </div>
         <Support />
         <Footer />
