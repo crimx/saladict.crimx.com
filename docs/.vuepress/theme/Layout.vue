@@ -5,12 +5,6 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <script
-      data-ad-client="ca-pub-6993077405597797"
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      async="true"
-    ></script>
-
     <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
     <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
@@ -19,25 +13,17 @@
       <template #top>
         <div>
           <Adsense
-            :key="$page.key"
-            style="display:block"
             data-ad-client="ca-pub-6993077405597797"
             data-ad-slot="5077350487"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></Adsense>
+          />
         </div>
       </template>
       <template #bottom>
         <div>
-          <Adsense
-            :key="$page.key"
-            style="display:block"
+          <AdsenseIns
             data-ad-client="ca-pub-6993077405597797"
             data-ad-slot="9148457434"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></Adsense>
+          />
         </div>
       </template>
     </Sidebar>
@@ -50,14 +36,10 @@
       </template>
       <template #bottom>
         <div style="padding: 2rem;">
-          <Adsense
-            :key="$page.key"
-            style="display:block; text-align:center;"
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
+          <InArticleAdsense
             data-ad-client="ca-pub-6993077405597797"
             data-ad-slot="6866727264"
-          ></Adsense>
+          />
         </div>
         <Support />
         <Footer />
