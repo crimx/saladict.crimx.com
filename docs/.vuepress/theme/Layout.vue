@@ -5,6 +5,8 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
+    <Adsense data-ad-client="ca-pub-6993077405597797" />
+
     <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
     <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
@@ -12,12 +14,22 @@
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <template #top>
         <div>
-          <Adsense data-ad-client="ca-pub-6993077405597797" data-ad-slot="5077350487" />
+          <AdsenseIns
+            data-ad-client="ca-pub-6993077405597797"
+            data-ad-slot="5077350487"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
         </div>
       </template>
       <template #bottom>
         <div>
-          <Adsense data-ad-client="ca-pub-6993077405597797" data-ad-slot="9148457434" />
+          <AdsenseIns
+            data-ad-client="ca-pub-6993077405597797"
+            data-ad-slot="9148457434"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
         </div>
       </template>
     </Sidebar>
@@ -30,7 +42,13 @@
       </template>
       <template #bottom>
         <div style="padding: 2rem;">
-          <InArticleAdsense data-ad-client="ca-pub-6993077405597797" data-ad-slot="6866727264" />
+          <AdsenseIns
+            style="display:block; text-align:center;"
+            data-ad-client="ca-pub-6993077405597797"
+            data-ad-slot="6866727264"
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
+          />
         </div>
         <Support />
         <Footer />
