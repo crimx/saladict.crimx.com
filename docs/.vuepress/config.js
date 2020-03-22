@@ -59,7 +59,7 @@ module.exports = {
   themeConfig: {
     editLinks: true,
     docsRepo: 'crimx/saladict.crimx.com',
-    activeHeaderLinks: true,
+    activeHeaderLinks: false,
     locales: {
       '/': {
         selectText: '🌐Languages',
