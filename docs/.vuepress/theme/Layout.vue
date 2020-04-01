@@ -22,16 +22,6 @@
           />
         </div>
       </template>
-      <template #bottom>
-        <div>
-          <AdsenseIns
-            data-ad-client="ca-pub-6993077405597797"
-            data-ad-slot="9148457434"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
-        </div>
-      </template>
     </Sidebar>
 
     <Home v-if="$page.frontmatter.home" />
@@ -41,15 +31,6 @@
         <slot name="page-top" />
       </template>
       <template #bottom>
-        <div style="padding: 2rem;">
-          <AdsenseIns
-            style="display:block; text-align:center;"
-            data-ad-client="ca-pub-6993077405597797"
-            data-ad-slot="6866727264"
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
-          />
-        </div>
         <Support />
         <Footer />
       </template>
