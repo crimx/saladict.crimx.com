@@ -2,7 +2,6 @@
   <ins
     class="adsbygoogle"
     style="display:block"
-    :key="$page.key"
     :data-ad-client="dataAdClient"
     :data-ad-slot="dataAdSlot"
     :data-ad-format="dataAdFormat"
@@ -32,15 +31,8 @@ export default {
       default: 'true'
     }
   },
-  watch: {
-    '$page.key': {
-      immediate: typeof window !== 'undefined',
-      handler() {
-        setTimeout(() => {
-          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-        }, 100)
-      }
-    }
+  mounted() {
+    ;(window.adsbygoogle = window.adsbygoogle || []).push({})
   }
 }
 </script>
