@@ -87,8 +87,7 @@ module.exports = {
             text: '❤️支持项目',
             link: '/support.html',
             items: [
-              { text: '支持方式', link: '/support.html' },
-              { text: '项目支持者', link: '/backers.html' }
+              { text: '支持方式', link: '/support.html' }
             ]
           },
           {
@@ -148,8 +147,7 @@ module.exports = {
             text: '❤️Support',
             link: '/en/support.html',
             items: [
-              { text: 'Methods of Support', link: '/en/support.html' },
-              { text: 'Saladict Backers', link: '/en/backers.html' }
+              { text: 'Methods of Support', link: '/en/support.html' }
             ]
           },
           {
