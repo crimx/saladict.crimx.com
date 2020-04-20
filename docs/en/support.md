@@ -13,7 +13,7 @@ If you enjoy using Saladict please help more people find out this extension. You
 - Help fix typos and wording (tribute to these [contributors](https://github.com/crimx/ext-saladict/graphs/contributors)).
 - [Share](./native.html) your Saladict hacks and tricks to others.
 - Gift the author a cup of coffee ☕️ now and then to keep him energetic.
-  Thank you [all](https://www.crimx.com/supporters.html) for giving the author cheers when he needed the most.
+  Thank you [all](https://www.crimx.com/backers) for giving the author cheers when he needed the most.
 
 Disclaimer: Saladict is a free and open-sourced project for study purpose only. Anyone can obtain a copy of Saladict free of charge. Before your donation please confirm that this is not an act of purchasing but a voluntary gift support for the author, who do not offer any corresponding service in return. Thank you for your understanding🙏.
 
