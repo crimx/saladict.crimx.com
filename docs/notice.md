@@ -24,6 +24,10 @@
 1. Chrome 76 存在 bug 导致部分扩展会出现随机崩溃， 如果不幸中奖请更新到 Chrome 77 或之后的版本。
 1. Chrome APP 已在除 Chrome OS 的平台被抛弃，故不会再作实现。
 
+---
+sidebar: 'auto'
+---
+
 ## Edge
 
 1. 浏览器内划词不支持沉浸阅读模式，请配合[浏览器外划词](./native.md)使用。

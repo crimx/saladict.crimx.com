@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # 沙拉查词使用方式
 
 下载[最新发布版本](https://github.com/crimx/ext-saladict/releases)。

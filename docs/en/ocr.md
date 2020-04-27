@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # ORC 图片文字识别
 
 ## Windows

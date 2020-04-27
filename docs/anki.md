@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # 如何配合 Anki 使用
 
 首先，如果不清楚 Anki 的基本概念和设计理念，可以参考这个[笔记](https://blog.crimx.com/2016/03/20/understanding-anki/)。

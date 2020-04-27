@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # How to use Saladict with Anki
 
 ::: warning

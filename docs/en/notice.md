@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # :warning: Read It Before Use
 
 Thanks for using Saladict! Here are a few notes before you start. Also see the [complete manual](./manual.md) and [Q&A](./q&a.md).

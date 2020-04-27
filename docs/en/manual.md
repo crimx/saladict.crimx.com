@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # Saladict User Manual
 
 Download [latest version](https://github.com/crimx/ext-saladict/releases).
