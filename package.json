@@ -6,11 +6,12 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs && node scripts/latest-release.js"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0",
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "jsdom": "^16.2.2",
     "markdown-it-attrs": "^3.0.1",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
