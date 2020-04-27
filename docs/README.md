@@ -4,7 +4,7 @@ heroImage: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinai
 heroText: Saladict 沙拉查词
 tagline: 聚合词典专业划词翻译
 actionText: 📦下载安装 →
-actionLink: https://github.com/crimx/ext-saladict/releases
+actionLink: /download.html
 features:
 - title: 丰富的词典
   details: 同时对比多个词典快速掌握词义。大量权威词典涵盖中英日韩法德西语；多个主流机器翻译；有道与谷歌网页翻译。

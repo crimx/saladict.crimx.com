@@ -1,5 +1,6 @@
 <template>
   <script
+    v-if="show"
     :data-ad-client="dataAdClient"
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     async="true"
@@ -12,6 +13,11 @@ export default {
     dataAdClient: {
       type: String,
       required: true
+    }
+  },
+  data() {
+    return {
+      show: process.env.NODE_ENV === 'production'
     }
   }
 }

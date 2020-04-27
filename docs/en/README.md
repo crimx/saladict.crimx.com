@@ -4,7 +4,7 @@ heroImage: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinai
 heroText: Saladict
 tagline: Professional Inline Translator
 actionText: 📦Install →
-actionLink: https://github.com/crimx/ext-saladict/releases
+actionLink: /download.html
 intro:
 - title: Looking Up Words Has Never Been Easier
   content:

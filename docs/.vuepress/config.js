@@ -1,19 +1,49 @@
 const markdownItAttrs = require('markdown-it-attrs')
+const fs = require('fs')
+const path = require('path')
+
+const releases = fs
+  .readdirSync(path.join(__dirname, '../releases'))
+  .map(filename => ({
+    name: filename,
+    value: Number(
+      filename
+        .slice(1, -3)
+        .split('.')
+        .map(digit => digit.padStart(3, '0'))
+        .join('')
+    )
+  }))
+  .sort((a, b) => b.value - a.value)
+  .map(({ name }) => name.slice(0, -3))
 
 module.exports = {
   theme: require.resolve('./theme'),
   markdown: {
     extendMarkdown: md => {
+      md.set({ breaks: true })
       md.use(markdownItAttrs)
     }
   },
   plugins: [
     [
-      '@vuepress/pwa',
+      'vuepress-plugin-redirect',
+      {
+        redirectors: [
+          {
+            base: '/releases/',
+            storage: false,
+            alternative: releases[0]
+          }
+        ]
+      }
+    ],
+    [
+      ('@vuepress/pwa',
       {
         serviceWorker: true,
         updatePopup: true
-      }
+      })
     ],
     [
       '@vuepress/google-analytics',
@@ -60,6 +90,16 @@ module.exports = {
     editLinks: true,
     docsRepo: 'crimx/saladict.crimx.com',
     activeHeaderLinks: false,
+    sidebar: {
+      '/releases/': [
+        {
+          title: 'Releases', // required
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1, // optional, defaults to 1
+          children: releases.map(name => [name, name])
+        }
+      ]
+    },
     locales: {
       '/': {
         selectText: '🌐Languages',
@@ -86,13 +126,15 @@ module.exports = {
           {
             text: '❤️支持项目',
             link: '/support.html',
-            items: [
-              { text: '支持方式', link: '/support.html' }
-            ]
+            items: [{ text: '支持方式', link: '/support.html' }]
           },
           {
             text: '📦下载安装',
-            link: 'https://github.com/crimx/ext-saladict/releases'
+            link: '/download.html',
+            items: [
+              { text: '下载地址', link: '/download.html' },
+              { text: '更新信息', link: '/releases/' },
+            ]
           },
           {
             text: '反馈与建议',
@@ -112,7 +154,6 @@ module.exports = {
             ]
           }
         ],
-        sidebar: 'auto',
         smoothScroll: true
       },
       '/en/': {
@@ -146,13 +187,15 @@ module.exports = {
           {
             text: '❤️Support',
             link: '/en/support.html',
-            items: [
-              { text: 'Methods of Support', link: '/en/support.html' }
-            ]
+            items: [{ text: 'Methods of Support', link: '/en/support.html' }]
           },
           {
             text: '📦Download',
-            link: 'https://github.com/crimx/ext-saladict/releases'
+            link: '/download.html',
+            items: [
+              { text: 'Download', link: '/download.html' },
+              { text: 'Releases', link: '/releases/' },
+            ]
           },
           {
             text: 'Issues',

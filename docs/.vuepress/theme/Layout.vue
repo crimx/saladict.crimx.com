@@ -31,6 +31,7 @@
         <slot name="page-top" />
       </template>
       <template #bottom>
+        <Download v-if="shouldShowDownload" />
         <Support />
         <Footer />
       </template>
@@ -196,6 +197,10 @@ export default {
         frontmatter.sidebar !== false &&
         this.sidebarItems.length
       )
+    },
+
+    shouldShowDownload() {
+      return this.$page.path.includes('/releases/')
     },
 
     sidebarItems() {
