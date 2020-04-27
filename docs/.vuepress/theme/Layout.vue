@@ -199,12 +199,12 @@ export default {
     },
 
     sidebarItems() {
-      return resolveSidebarItems(
+      return removeSidebarTag(resolveSidebarItems(
         this.$page,
         this.$page.regularPath,
         this.$site,
         this.$localePath
-      )
+      ))
     },
 
     pageClasses() {
@@ -252,5 +252,17 @@ export default {
       }
     }
   }
+}
+
+function removeSidebarTag(items) {
+  for (const item of items) {
+    if (item.title != null) {
+      item.title = item.title.replace(/ {#.*}$/, '')
+    }
+    if (item.children) {
+      removeSidebarTag(item.children)
+    }
+  }
+  return items
 }
 </script>
