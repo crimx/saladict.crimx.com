@@ -24,15 +24,22 @@ const text = fs.readFileSync(path.join(dir, latest), 'utf8')
 const dom = new JSDOM(MarkdownIt({ breaks: true }).render(text))
 const [chs, eng] = _.unzip(
   [...dom.window.document.querySelectorAll('li')]
-    .map(li => li.textContent.split('\n'))
+    .map(li => li.textContent.split('\n').map(line => line.trim()))
 )
+const version = dom.window.document.querySelector('h2').textContent.trim()
 
 fs.writeFileSync(
   path.join(__dirname, '../docs/.vuepress/dist/releases/chs.json'),
-  JSON.stringify(chs)
+  JSON.stringify({
+    version,
+    data: chs
+  })
 )
 
 fs.writeFileSync(
   path.join(__dirname, '../docs/.vuepress/dist/releases/eng.json'),
-  JSON.stringify(eng)
+  JSON.stringify({
+    version,
+    data: eng
+  })
 )
