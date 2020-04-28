@@ -17,6 +17,8 @@ sidebar: false
 
 声明：沙拉查词作为自由开源项目，仅供学习交流，任何人均可免费获取产品与源码。用户投币前请确认是出于心情愉悦自愿对作者个人的赠与支持，而非购买行为。作者不承诺、不提供任何针对该赠与的回报性质服务。分享不易，感谢理解🙏。
 
+如果认为你的合法权益收到侵犯请马上联系[作者](https://github.com/crimx)。
+
 <h4 align="center">通过微信或支付宝扫码打赏<br>(请勿在留言反馈问题，无法回复，<a href="https://github.com/crimx/ext-saladict/issues" target="_blank">反馈地址</a>)</h4>
 
 <div align="center">

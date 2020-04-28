@@ -17,6 +17,8 @@ If you enjoy using Saladict please help more people find out this extension. You
 
 Disclaimer: Saladict is a free and open-sourced project for study purpose only. Anyone can obtain a copy of Saladict free of charge. Before your donation please confirm that this is not an act of purchasing but a voluntary gift support for the author, who do not offer any corresponding service in return. Thank you for your understanding🙏.
 
+If you believe your legal rights have been violated please contact the [author](https://github.com/crimx) immediately.
+
 <h4 align="center">Scan QRCode through Wechat or Alipay</h4>
 
 <div align="center">
