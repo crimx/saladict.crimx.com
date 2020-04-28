@@ -4,7 +4,7 @@ sidebar: false
 
 ## 下载
 
-- [Chrome 商店][chrome]
+- [Chrome 商店][chrome] （上不了可以[扶梯](https://sy168.site/auth/register?code=HsVL)）
 - [Firefox 商店][firefox]
 - [Edge 商店][edge]（由 @rumosky 搬运）
 
