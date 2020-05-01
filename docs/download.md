@@ -6,7 +6,7 @@ sidebar: false
 
 - [Chrome 商店][chrome] （上不了可以[扶梯](https://sy168.site/auth/register?code=HsVL)）
 - [Firefox 商店][firefox]
-- [Edge 商店][edge]（由 @rumosky 搬运）
+- [Edge 商店][edge]（由 @rumosky 上传）
 
 墙内及其它国产浏览器可用 [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://72k.us/dir788/24782725-37758132-dc15d5)  
 （:warning: 请勿解压使用开发者模式安装 :warning:  直接拖入 crx 文件到扩展管理页面即可）
