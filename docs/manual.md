@@ -135,7 +135,7 @@ sidebar: 'auto'
 
 ## 快捷键操作 {#shortcuts}
 
-Chrome 所有版本都支持，在扩展管理页面的左上方点开菜单按钮可看到，或者直接打开 `chrome://extensions/shortcuts`。其中“激活该扩展程序”代表点击地址栏旁的图标。
+Chrome 所有版本都支持，在扩展管理页面的左上方点开菜单按钮可看到，或者直接打开 `chrome://extensions/shortcuts`。其中「激活该扩展程序/Activate the extension」为 Chrome 为每个扩展自动生成的，相当于点击地址栏旁的扩展图标，可能不支持全局快捷键。。
 
 Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮设置按钮点开最底 `Manage Extension Shortcuts`。
 
