@@ -120,7 +120,8 @@ module.exports = {
               { text: '完整使用说明', link: '/manual.html' },
               { text: '配合 Anki 使用', link: '/anki.html' },
               { text: 'OCR（图片文字识别）', link: '/ocr.html' },
-              { text: '浏览器外划词', link: '/native.html' }
+              { text: '浏览器外划词', link: '/native.html' },
+              { text: '更多技巧', link: '/tips.html' }
             ]
           },
           {
@@ -181,7 +182,8 @@ module.exports = {
               { text: 'User Manual', link: '/en/manual.html' },
               { text: 'Use with Anki', link: '/en/anki.html' },
               { text: 'OCR', link: '/en/ocr.html' },
-              { text: 'Use Outside of Browser', link: '/en/native.html' }
+              { text: 'Use Outside of Browser', link: '/en/native.html' },
+              { text: 'More Tips', link: '/en/tips.html' }
             ]
           },
           {
