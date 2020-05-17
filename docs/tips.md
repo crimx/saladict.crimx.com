@@ -1,3 +1,7 @@
+---
+sidebar: 'auto'
+---
+
 # 技巧
 
 ## YouTube 字幕划词
