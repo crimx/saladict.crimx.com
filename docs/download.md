@@ -4,7 +4,7 @@ sidebar: false
 
 ## 下载
 
-- [Chrome 商店][chrome] （上不了可以尝试[加速](https://sy168.site/auth/register?code=HsVL)）
+- [Chrome 商店][chrome] （上不了可以尝试[加速](https://suying666.net/auth/register?code=eDmX)）
 - [Firefox 商店][firefox]
 - [Edge 商店][edge]（由 @rumosky 上传）
 
