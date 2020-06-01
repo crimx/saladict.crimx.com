@@ -178,9 +178,9 @@ Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮�
 
 ## 生词本与查词历史 {#search-history}
 
-本扩展支持添加生词与记录查词历史，并提供管理页面。
+本扩展支持添加生词与记录查词历史，并提供管理页面，[自动 Anki 制卡](./anki.md)。
 
-![screen-notebook][screen-notebook]
+![screen-notebook][screen-notebook]]
 
 注意卸载扩展或使用系统清理工具可能会将记录一并清除，请定期导出文件或设置同步。
 
@@ -195,8 +195,6 @@ Firefox 66 开始支持，在扩展管理页面 `about:addons` 上方的齿轮�
 Saladict 6 中，点击心型图标后默认会并列显示查词面板和编辑面板。可在[选项](#open-setting)中关闭。
 
 ![notebook][notebook]
-
-导出记录时可修改导出模板，使用替换符代表生成的内容。[导出 ANKI](./ANKI) 时推荐使用反引号 `` ` `` 作为分隔符。
 
 
 
