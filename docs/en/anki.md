@@ -40,20 +40,20 @@ Windows 可以会出现防火墙提示，需要允许 Anki。Mac OS X Mavericks 
 翻译: >
   [:: google ::]
   她走在美丽的地方，就像夜晚
-
+  
   [:: youdaotrans ::]
   她走在美丽的夜色中
-
+  
   [:: caiyun ::]
   她举步娉婷，就像夜晚
   ---------------
 笔记: >
   In beauty 一词仿佛她自带光环，美丽洋溢在她四周。
-来源标题:
+来源标题: >
   She Walks in Beauty by Lord Byron (George Gordon) | Poetry Foundation
-来源链接:
+来源链接: >
   https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty
-来源图标:
+来源图标: >
   https://www.poetryfoundation.org/assets/media/images/favicon-32x32.png?v=1.2.9
 ```
 
@@ -70,18 +70,18 @@ Translation: >
   <div class="trans"><span class="trans_title">google</span><div class="trans_content">她走在美丽的地方，就像夜晚</div><span class="trans_title">youdaotrans</span><div class="trans_content">她走在美丽的夜色中</div><span class="trans_title">caiyun</span><div class="trans_content">她举步娉婷，就像夜晚</div></div>
 Note: >
   In beauty 一词仿佛她自带光环，美丽洋溢在她四周。
-Title:
+Title: >
   She Walks in Beauty by Lord Byron (George Gordon) | Poetry Foundation
-Url:
+Url: >
   https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty
-Favicon:
+Favicon: >
   https://www.poetryfoundation.org/assets/media/images/favicon-32x32.png?v=1.2.9
 Audio: ''
 ```
 
 其中这些 `Date`, `Text`, `Context`, `ContextCloze`, `Translation`, `Note`, `Title`, `Url`, `Favicon`, `Audio` 为 Anki 的笔记域“Note fields”，如果想自定义卡片请不要更改这些名字，而是直接添加新的卡片类型。Anki 的杀手锏之一便是笔记与卡片分离，见前文概念资料。
 
-同时我们可以注意到这些名字与前面沙拉单词基本一一对应，但是多了 `ContextCloze` 和 `Audio`。其中 `Audio` 为待实现的发音功能；而 `ContextCloze` 仔细看它的值，关键字“beauty”被沙拉查词替换成了“{{c1::beauty}}”，这是用于生成 Anki 填空卡片。原有的上下文依然保留到 `Context` 方便用户自行制作其它卡片。
+同时我们可以注意到这些名字与前面沙拉单词基本一一对应，但是多了 `ContextCloze` 和 `Audio`。其中 `Audio` 为待实现的发音功能；而 `ContextCloze` 仔细看它的值，关键字 `beauty` 被沙拉查词替换成了 <code v-pre>{{ c1::beauty }}</code>，这是用于生成 Anki 填空卡片。原有的上下文依然保留到 `Context` 方便用户自行制作其它卡片。
 
 结合沙拉查词默认生成的填空题卡片样式，可以得到以下效果：
 
