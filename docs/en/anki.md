@@ -26,6 +26,10 @@ Help translate this page to English.
 
 Windows 可以会出现防火墙提示，需要允许 Anki。Mac OS X Mavericks 可能需要调整 App Nap 以避免 Anki 被休眠，具体说明见[文档](https://github.com/FooSoft/anki-connect#notes-for-windows-users)。
 
+::: warning
+Anki 语言不是英语的话 Anki Connect 创建笔记类型会有问题，目前解决方式可以改成英语再在沙拉查词初始化；或者在沙拉查词生成笔记类型后进入 Anki 菜单栏 👉 工具 👉 管理笔记类型 👉 选择 Saladict Word 👉 点击右边 字段，把 `日期` 改成 `Date`，`文字` 改成 `Text`，`笔记` 改成 `Note`。
+:::
+
 安装之后如果没有特殊要求使用默认配置即可，在沙拉查词设置 👉 单词管理/Notebook 中开启 Anki Connect 同步。
 
 开启之后请保持 Anki 在后台运行。每次保存单词到生词本的时候沙拉查词会自动制卡并同步到 Anki。相同的单词（以“Date”为准）会被跳过，如需强制更新可以在单词编辑器中更新。
