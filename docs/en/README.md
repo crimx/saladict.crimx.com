@@ -15,7 +15,7 @@ intro:
   content:
   - Saladict comes with search history and a vocabulary notebook.
   - Context of each word is captured and saved.
-  - Notebook can be synced across devices via WebDAV or export to other apps for memorization.
+  - WebDAV synchronization, Anki card generation, Shanbay word list, or exporting plaintext in any format.
 - title: Multilingual Support, More Than You Expect
   content:
   - Although Saladict is built for looking up English words, it also supports many other languages.
