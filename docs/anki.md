@@ -36,10 +36,10 @@ Windows 可以会出现防火墙提示，需要允许 Anki。Mac OS X Mavericks 
 翻译: >
   [:: google ::]
   她走在美丽的地方，就像夜晚
-  
+   
   [:: youdaotrans ::]
   她走在美丽的夜色中
-  
+   
   [:: caiyun ::]
   她举步娉婷，就像夜晚
   ---------------
