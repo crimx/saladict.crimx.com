@@ -14,7 +14,7 @@ sidebar: false
 
 国内浏览器自带扩展市场内安装的，对比扩展 id 为 `cdonnmffkdaoajfknoeeecmchibpmkmg` 即可。
 
-不能享浏览器自动更新的朋友可以关注[「柠檬反应堆」](https://mp.weixin.qq.com/s?__biz=MzIwNjM1ODY4OA==&mid=100000119&idx=1&sn=e007d1010a4655d328abddd60890efd6&chksm=172390b8205419ae12474e7a7360966fc90a7cea0643b2c5c2b762bb5dd5a4ec2e92316cad2d&mpshare=1&scene=1&srcid=09290qK9YjhIaJkqfFLBTfJb&sharer_sharetime=1569755505546&sharer_shareid=0f4644a4322c4ebc9309ea751af5c20a&pass_ticket=9xmXQwbkIU9C%2B9G3LdLrvgNcBBIcKIyCJz7WV9B9z4z%2FNtLQrUEazPkkTx33SQbV#rd)公众号订阅更新动态，我也会在这里分享每次更新背后的想法以及功能设计的理念。
+不能享浏览器自动更新的朋友可以关注[「柠檬反应堆」](https://mp.weixin.qq.com/s?__biz=MzIwNjM1ODY4OA==&mid=100000119&idx=1&sn=e007d1010a4655d328abddd60890efd6&chksm=172390b8205419ae12474e7a7360966fc90a7cea0643b2c5c2b762bb5dd5a4ec2e92316cad2d&mpshare=1&scene=1&srcid=09290qK9YjhIaJkqfFLBTfJb&sharer_sharetime=1569755505546&sharer_shareid=0f4644a4322c4ebc9309ea751af5c20a&pass_ticket=9xmXQwbkIU9C%2B9G3LdLrvgNcBBIcKIyCJz7WV9B9z4z%2FNtLQrUEazPkkTx33SQbV#rd)公众号或者[「沙拉查词」](https://zhuanlan.zhihu.com/saladict)知乎专栏订阅更新动态，我也会在这里分享每次更新背后的想法以及功能设计的理念。
 
 <div align="center">
 <a href="https://mp.weixin.qq.com/s?__biz=MzIwNjM1ODY4OA==&mid=100000119&idx=1&sn=e007d1010a4655d328abddd60890efd6&chksm=172390b8205419ae12474e7a7360966fc90a7cea0643b2c5c2b762bb5dd5a4ec2e92316cad2d&mpshare=1&scene=1&srcid=09290qK9YjhIaJkqfFLBTfJb&sharer_sharetime=1569755505546&sharer_shareid=0f4644a4322c4ebc9309ea751af5c20a&pass_ticket=9xmXQwbkIU9C%2B9G3LdLrvgNcBBIcKIyCJz7WV9B9z4z%2FNtLQrUEazPkkTx33SQbV#rd" target="_blank"></a>
