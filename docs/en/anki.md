@@ -12,7 +12,7 @@ Help translate this page to English.
 
 可以看看这个视频[「我们10多年的外语教学的方法几乎全错了」](https://www.bilibili.com/video/BV1Gt411S72A)。
 
-<iframe src="//player.bilibili.com/player.html?aid=37529038&bvid=BV1Gt411S72A&cid=66062346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe style="width: 100%; height: 540px;" src="//player.bilibili.com/player.html?aid=37529038&bvid=BV1Gt411S72A&cid=66062346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 大部分的背单词 App 思路都是展示一个单词与它的多个常见意思，然后让用户记住这个关联。有的平台声称有大量情景对白、真实语料，但这些语料更多仅仅是作为参考资料存在。基本逻辑依然是以单词为中心，记忆它的多个意思。
 
