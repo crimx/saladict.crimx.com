@@ -8,17 +8,23 @@ sidebar: 'auto'
 Help translate this page to English.
 :::
 
-首先，如果不清楚 Anki 的基本概念和设计理念，可以参考这个[笔记](https://blog.crimx.com/2016/03/20/understanding-anki/)。
+## 为什么选择 Anki
 
-许多人疑惑添加生词为何不自动添加翻译（现已提供了上下文翻译）。与其它词典不一样，本扩展添加生词的方式是基于 Anki 和 SuperMemo 理念设计的，认为**添加生词的过程也是记忆的一个环节**。这刻意与当前流行的“尽可能省事”的设计相抵触，以避免迷失在信息流的漩涡中，产生“收藏既获得”的错觉。
+可以看看这个视频[「我们10多年的外语教学的方法几乎全错了」](https://www.bilibili.com/video/BV1Gt411S72A)。
 
-**如果这不符合你的理念，可以在设置中关闭红心打开编辑窗口。**
+<iframe src="//player.bilibili.com/player.html?aid=37529038&bvid=BV1Gt411S72A&cid=66062346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-从 v7.13.0 开始，沙拉查词支持 Anki Connect 自动制卡，原有的文本导出依然可以使用。
+大部分的背单词 App 思路都是展示一个单词与它的多个常见意思，然后让用户记住这个关联。有的平台声称有大量情景对白、真实语料，但这些语料更多仅仅是作为参考资料存在。基本逻辑依然是以单词为中心，记忆它的多个意思。
+
+这样的方式适合应试记忆而缺乏实用性。基于准确语境的学习方式每个单词都只会有确切的意思，符合 SuperMemo 记忆理念，更容易形成条件反射。
+
+当我们在网页上阅读文章，对不懂的单词进行划词翻译，最后收藏到沙拉查词生词本，此时单词的上下本也会一并保存并提供自动翻译。这些珍贵的真实语境都可以被完好的同步到 Anki 记忆库中，生成沙拉查词特制的精美卡片。
 
 ## Anki Connect 自动制卡
 
-首先需要安装 [Anki Connect](https://github.com/FooSoft/anki-connect) 插件。
+有了沙拉查词，Anki 制卡不需要再繁琐的手动配置，全部都可以一键生成。
+
+首先需要安装 [Anki](https://apps.ankiweb.net/) 以及 [Anki Connect](https://github.com/FooSoft/anki-connect) 插件。
 
 1. Anki 菜单栏中找到 工具/Tools 👉 插件/Add-ons 👉 浏览与安装/Browse & Install。
 2. 输入 [`2055492159`](https://ankiweb.net/shared/info/2055492159) 确认安装。
@@ -30,7 +36,7 @@ Windows 可以会出现防火墙提示，需要允许 Anki。Mac OS X Mavericks 
 
 开启之后请保持 Anki 在后台运行。另外可以安装插件 [`85158043`](https://ankiweb.net/shared/info/85158043) 让 Anki 最小化到系统托盘。每次保存单词到生词本的时候沙拉查词会自动制卡并同步到 Anki。相同的单词（以“Date”为准）会被跳过，如需强制更新可以在单词编辑器中更新。
 
-例如如单词：
+例如沙拉查词中的单词：
 
 ```yml
 时间截: 1234567890
