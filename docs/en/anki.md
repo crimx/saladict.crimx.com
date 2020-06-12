@@ -10,7 +10,7 @@ Help translate this page to English.
 
 ## 为什么选择 Anki
 
-可以看看这个视频[「我们10多年的外语教学的方法几乎全错了」](https://www.bilibili.com/video/BV1Gt411S72A)。
+可以看看这个由 YJango 制作的视频[「我们10多年的外语教学的方法几乎全错了」](https://www.bilibili.com/video/BV1Gt411S72A)，与沙拉查词的设计理念十分契合。
 
 <iframe style="width: 100%; height: 540px;" src="//player.bilibili.com/player.html?aid=37529038&bvid=BV1Gt411S72A&cid=66062346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
