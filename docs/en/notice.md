@@ -19,6 +19,7 @@ Thanks for using Saladict! Here are a few notes before you start. Also see the [
 ### Limitations
 
 1. Due to browser policies, extensions *cannot* visit Chrome Web Store/Firefox AMO and other extension's internal pages. But you can bypass that with [native search tools](./native.md).
+1. **Do not** put Saladict into Extension Management type of extensions. These extensions will break Saladict's functionalities. Use Saladict's own switches and shortcuts instead.
 1. If you set search mode to "Direct Search" with "Instant Capture", you should also set [keyborad shortcuts](./manual.md#shortcuts) to toggle Instant Capture.
 
 ## Chrome
