@@ -21,6 +21,7 @@ Thanks for using Saladict! Here are a few notes before you start. Also see the [
 1. Due to browser policies, extensions *cannot* visit Chrome Web Store/Firefox AMO and other extension's internal pages. But you can bypass that with [native search tools](./native.md).
 1. **Do not** put Saladict into Extension Management type of extensions. These extensions will break Saladict's functionalities. Use Saladict's own switches and shortcuts instead.
 1. If you set search mode to "Direct Search" with "Instant Capture", you should also set [keyborad shortcuts](./manual.md#shortcuts) to toggle Instant Capture.
+1. Note that PDF does not guarantee semantic correctness. Some PDF generators may produce PDF file with layout that does not match its semantics. For example spaces between words are not actual space characters but simply by layout styling; paragraphs are not split by linebreak characters; letters in English words may even not from the English alphabet (e.g. `f` and `ƒ`). These are all common in PDF which has nothing to do with Saladict. If you have trobule with the PDF viewer in Saladict, try picking your own favorite native PDF viewer and go with [Search Words Outside of Browser](./native.md).
 
 ## Chrome
 
