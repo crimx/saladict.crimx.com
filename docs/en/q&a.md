@@ -91,7 +91,7 @@ Help translate this page to English.
 
 ### 问：能否在 Windows/Mac/Linux/iOS/Android 平台上实现原生版本的 Saladict。
 
-答：因版权和时间精力等原因，暂不考虑实现。桌面上响应浏览器外划词可参考[「设置」](./manual.md#shortcuts)。开发与维护这个扩展本身就需要不少时间，欢迎[支持](./support.md)项目持续发展。
+答：因词典版权以及时间精力等原因，沙拉查词将继续以浏览器辅助插件的形式提供查询结果。桌面上响应浏览器外划词可参考[「设置」](./manual.md#shortcuts)。开发与维护这个扩展本身就需要不少时间，欢迎[支持](./support.md)项目持续发展。
 
 ### 问：能否实现 Chrome App 。
 
