@@ -1,5 +1,5 @@
 ---
-sidebar: false
+sidebar: 'auto'
 ---
 
 # 常见问题及答复
