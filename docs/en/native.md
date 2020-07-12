@@ -9,6 +9,16 @@ Theoretically there are two ways to make Saladict work outside of browser:
 - Search clipboard content with global shortcut(which is the theory behind all current toolchains).
 - Native messaging via browser API(Not implemented. PRs are welcomed!).
 
+## Trigger Saladict Searching Without Opening Browser
+
+1. Open Saladict settings, enable "Keep in Background".
+2. Search `background` in Chrome Settings, enable:
+   ```
+   Continue running background apps when Google Chrome is closed
+   ```
+3. Add Chrome to system startup.
+
+
 ## Search directly
 
 Browser offers global shortcuts settings for extensions through which we can search text on any place.
@@ -51,12 +61,3 @@ Similar to PopClip on MacOS.
 ![Popclip](https://user-images.githubusercontent.com/51223743/70034632-705f9980-15ec-11ea-9e32-d6e2291ffef7.png)
 
 Got more ideas? Welcome to share your own tutorials!
-
-## Trigger Saladict Searching Without Opening Browser
-
-1. Open Saladict settings, enable "Keep in Background".
-2. Search `background` in Chrome Settings, enable:
-   ```
-   Continue running background apps when Google Chrome is closed
-   ```
-3. Add Chrome to system startup.

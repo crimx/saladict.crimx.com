@@ -9,6 +9,16 @@ sidebar: 'auto'
 - 通过剪贴板做中转配合全局快捷键（目前的工具都是基于此原理）。
 - 通过扩展 API 与本地程序通讯（尚未实现，欢迎 PR）。
 
+## 不打开浏览器直接召唤沙拉查词
+
+1. 沙拉查词设置中开启「后台保持运行」。
+2. 在 Chrome 设置中搜索 `background` 或者 `后台`，可以看到选项
+   ```
+   Continue running background apps when Google Chrome is closed
+   ```
+   启动即可。
+3. 将 Chrome 加入开机启动。
+
 ## 无辅助查词
 
 浏览器支持为扩展设置全局快捷键（火狐尚未支持），通过独立窗口沙拉查词可以在浏览器外查词。
@@ -16,7 +26,7 @@ sidebar: 'auto'
 1. 前往扩展管理中心为沙拉查词「在独立窗口中搜索剪贴板内容」[设置全局快捷键](./manual.md#shortcuts)。
 2. 复制要查的文本，按下快捷键查词。
 
-许多聪明的用户发现通过工具可以将此流程自动化，并抽时间编写了优秀的教程分享给大家，请为TA们点赞👍！
+许多聪明的用户发现通过工具可以将以上流程自动化，并抽时间编写了优秀的教程分享给大家，请为TA们点赞👍！
 
 ## Windows
 
@@ -51,13 +61,3 @@ sidebar: 'auto'
 ![Popclip](https://user-images.githubusercontent.com/51223743/70034632-705f9980-15ec-11ea-9e32-d6e2291ffef7.png)
 
 如果聪明的你也发现了其它便捷的使用方式欢迎分享！
-
-## 不打开浏览器直接召唤沙拉查词
-
-1. 沙拉查词设置中开启「后台保持运行」。
-2. 在 Chrome 设置中搜索 `background` 或者 `后台`，可以看到选项
-   ```
-   Continue running background apps when Google Chrome is closed
-   ```
-   启动即可。
-3. 将 Chrome 加入开机启动。
