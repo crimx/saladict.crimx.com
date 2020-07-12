@@ -6,7 +6,9 @@ sidebar: 'auto'
 
 Thanks for using Saladict! Here are a few notes before you start. Also see the [complete manual](./manual.md) and [Q&A](./q&a.md).
 
-:rotating_light: If you download Saladict from sites that are not in the [offical recommended list](https://github.com/crimx/ext-saladict/releases), please verify the extension ID on browser Extensions Management page. Saladict extensions with ID other than `cdonnmffkdaoajfknoeeecmchibpmkmg` (Firefox: `saladict@crimx.com`, Edge: `idghocbbahafpfhjnfhpbfbmpegphmmp`) could have potential risk of malware injection.
+:rotating_light: Saladict has its own [offical download page](https://saladict.crimx.com/download.html) and [backup page](https://github.com/crimx/ext-saladict/releases). You may also install Saladict in browser web stores which updates automatically.
+
+If you download Saladict from sites that are not on the offical recommended list, please verify the extension ID on browser Extensions Management page. Saladict extensions with ID other than `cdonnmffkdaoajfknoeeecmchibpmkmg` (Firefox: `saladict@crimx.com`, Edge: `idghocbbahafpfhjnfhpbfbmpegphmmp`) could have potential risk of malware injection.
 
 ## Preset
 

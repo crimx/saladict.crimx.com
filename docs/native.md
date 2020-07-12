@@ -54,9 +54,10 @@ sidebar: 'auto'
 
 ## 不打开浏览器直接召唤沙拉查词
 
-1. 在 Chrome 设置中搜索 `background` 或者 `后台`，可以看到选项
+1. 沙拉查词设置中开启「后台保持运行」。
+2. 在 Chrome 设置中搜索 `background` 或者 `后台`，可以看到选项
    ```
    Continue running background apps when Google Chrome is closed
    ```
    启动即可。
-2. 将 Chrome 加入开机启动。
+3. 将 Chrome 加入开机启动。

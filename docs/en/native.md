@@ -54,8 +54,9 @@ Got more ideas? Welcome to share your own tutorials!
 
 ## Trigger Saladict Searching Without Opening Browser
 
-1. Search `background` in Chrome Settings, enable:
+1. Open Saladict settings, enable "Keep in Background".
+2. Search `background` in Chrome Settings, enable:
    ```
    Continue running background apps when Google Chrome is closed
    ```
-2. Add Chrome to system startup.
+3. Add Chrome to system startup.

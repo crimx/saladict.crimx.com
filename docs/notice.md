@@ -3,7 +3,9 @@
 
 感谢使用沙拉查词！这里列举了一些初次使用需要注意的事项，以免产生不必要的问题。另外还有[完整使用说明](./manual.md)和[常见问题及答复](./q&a.md)。
 
-:rotating_light: 如果在[官方平台](https://github.com/crimx/ext-saladict/releases)以外下载安装，请注意在浏览器扩展管理页面查看本扩展的 ID，Firefox 为 `saladict@crimx.com`，Edge 为 `idghocbbahafpfhjnfhpbfbmpegphmmp`，其它浏览器均为 `cdonnmffkdaoajfknoeeecmchibpmkmg`，安装了其它版本有可能被植入恶意代码，见「[克隆版名单](https://github.com/crimx/ext-saladict/wiki/Clones)」。
+:rotating_light: 沙拉查词有[官网下载页面](https://saladict.crimx.com/download.html)以及[备用页面](https://github.com/crimx/ext-saladict/releases)，各大扩展商店也都可以直接安装自动更新。
+
+如果在官方平台以外下载安装，请注意在浏览器扩展管理页面查看本扩展的 ID，Firefox 为 `saladict@crimx.com`，Edge 为 `idghocbbahafpfhjnfhpbfbmpegphmmp`，其它浏览器均为 `cdonnmffkdaoajfknoeeecmchibpmkmg`，安装了其它版本有可能被植入恶意代码，见「[克隆版名单](https://github.com/crimx/ext-saladict/wiki/Clones)」。
 
 ## 预设
 
