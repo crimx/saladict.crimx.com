@@ -37,6 +37,8 @@ If you download Saladict from sites that are not on the offical recommended list
 ## Firefox
 
 1. If the browser action panel overflows please drag the Saladict icon out of the drawers.
+1. Local PDF files cannot be opened via `file://` url in Firefox. Open the Saldict PDF viewer and load files from the viewer menus.
+1. Firefox doest not support global browser shortcuts.
 1. Youdao page translate has been removed from Firefox as Add-on reviewer requested.
 
 ## Opera
