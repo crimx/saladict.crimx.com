@@ -1,5 +1,5 @@
 ---
-sidebar: false
+sidebar: 'auto'
 ---
 
 ## 下载
