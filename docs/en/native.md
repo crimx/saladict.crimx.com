@@ -4,12 +4,12 @@ sidebar: 'auto'
 
 # Works Outside of Browser
 
-Theoretically there are two ways to make Saladict work outside of browser:
+Theoretically there are two ways for making Saladict work outside of browser:
 
 - Search clipboard content with global shortcut(which is the theory behind all current toolchains).
-- Native messaging via browser API(Not implemented. PRs are welcomed!).
+- Native messaging via [browser API](https://developer.chrome.com/extensions/nativeMessaging)(Not implemented. PRs are welcomed!).
 
-## Trigger Saladict Searching Without Opening Browser
+## Trigger Saladict Searching Without Opening Browser Window
 
 1. Open Saladict settings, enable "Keep in Background".
 2. Search `background` in Chrome Settings, enable:
@@ -19,14 +19,14 @@ Theoretically there are two ways to make Saladict work outside of browser:
 3. Add Chrome to system startup.
 
 
-## Search directly
+## Search Clipboard Content With Global Shortcut
 
-Browser offers global shortcuts settings for extensions through which we can search text on any place.
+On browsers that offer global shortcuts for extensions(Currently only Firefox does no support global shortcuts):
 
 1. Open `chrome://extensions/shortcuts`, set a `Global` shortcut for ***Search clipboard content in Standalone Panel***.
 2. Copy any text, then press the shortkeys.
 
-Many brilliant users on Saladict have found out ways to automate this process with other tools. Thank them for taking the time to share all these magnificent tutorials!
+With this pattern we can search any text outside of browser. Many skillful users of Saladict also have found out ways to automate this process with other tools. Thank them for taking the time to make and share all of these magnificent tutorials!
 
 ## Windows
 
