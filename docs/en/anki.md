@@ -30,7 +30,7 @@ Help translate this page to English.
 2. 输入 [`2055492159`](https://ankiweb.net/shared/info/2055492159) 确认安装。
 3. 重启 Anki。
 
-Windows 可以会出现防火墙提示，需要允许 Anki。Mac OS X Mavericks 可能需要调整 App Nap 以避免 Anki 被休眠，具体说明见[文档](https://github.com/FooSoft/anki-connect#notes-for-windows-users)。
+Windows 可能会出现防火墙提示，需要选择允许 Anki。Mac OS X Mavericks 可能需要调整 App Nap 以避免 Anki 被休眠，具体说明见其[文档](https://github.com/FooSoft/anki-connect#notes-for-windows-users)。
 
 安装之后如果没有特殊要求使用默认配置即可，在沙拉查词设置 👉 单词管理/Notebook 中开启 Anki Connect 同步。
 
