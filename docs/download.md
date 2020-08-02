@@ -4,7 +4,7 @@ sidebar: 'auto'
 
 ## 下载
 
-- [Chrome 商店][chrome] （上不了可以尝试[加速](https://suying666.net/auth/register?code=eDmX)）
+- [Chrome 商店][chrome] （上不了可以尝试[加速](https://suying999.net/auth/register?code=QmPt)）
 - [Firefox 商店][firefox]
 - [Edge 商店][edge]（由 @rumosky 上传）
 
