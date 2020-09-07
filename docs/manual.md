@@ -9,7 +9,7 @@ sidebar: 'auto'
 
 
 ## 打开扩展选项 {#open-setting}
-
+内置
 入口：
 
 1. 右击右上方地址栏旁的图标，可看到选项。
@@ -50,10 +50,11 @@ sidebar: 'auto'
 
 
 
-## 谷歌和有道网页翻译 {#page-trans}
+## 彩云小译、谷歌和有道网页翻译 {#page-trans}
 
-**注意：** 网页翻译其实不需要沙拉查词，故已有的有道和谷歌网页翻译目前处于维护状态，没有计划添加新功能，请用其它官方扩展如 [Google 翻译](https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb/)和[彩云小译](https://chrome.google.com/webstore/detail/jmpepeebcbihafjjadogphmbgiffiajh)。
+沙拉查词内置三个网页翻译。
 
+- 彩云小译为官方合作版，支持完整功能，包括会员登录。彩云小译独特的双语显示切换用起来非常方便。
 - [有道网页翻译](http://fanyi.youdao.com/web2/)已经多年没有更新，我做了些维护，将其内置到 Saladict 并支持 https 网页。（因基于有道混淆过的代码修改，应火狐要求已在该浏览器上去除此功能。）
 - Google 网页翻译是直接用的官方脚本，部分网站可能不支持。如果你有兴趣对其进行改进欢迎提交 PR。
 - 百度、搜狗网页翻译是通过将网页内嵌到它们自身网页上实现翻译的。请勿在翻译后的页面输入个人资料。出于安全原因有的网页可能不允许被嵌入。
@@ -64,6 +65,7 @@ sidebar: 'auto'
 
 1. 在[右键菜单设置]里添加了，则可以在右键中使用；
 2. 右击右上方地址栏旁的图标，可看到选项。
+3. 在设置「右上弹框」「点击地址栏旁图标」中选择相应项，可在点击地址栏旁的沙拉图标后触发。
 
 
 ## 右键菜单页面直达 {#context-menus}
