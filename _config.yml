@@ -4,12 +4,11 @@
 
 # Site
 title: Saladict
-subtitle: ''
-description: ''
-keywords:
 author: CRIMX
-language: en
-timezone: ''
+language:
+- zh-cn
+- en
+timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'

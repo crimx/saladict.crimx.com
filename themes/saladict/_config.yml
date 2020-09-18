@@ -1,4 +1,4 @@
-google_analytics:
+google_analytics: UA-49163616-5
 
 node_sass:
   includePaths: ["./node_modules"]
