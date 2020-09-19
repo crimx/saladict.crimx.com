@@ -1,0 +1,24 @@
+<section class="hero is-medium is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered has-text-centered-mobile">
+        <div class="column is-two-fifths has-text-right-tablet">
+          <figure>
+            <img src="<%- url_for('/saladict.svg') %>" alt="<%= __('title') %>" width="96" height="96">
+          </figure>
+        </div>
+        <div class="column">
+          <h1 class="title is-size-3">
+            <%= __('title') %>
+          </h1>
+          <h2 class="subtitle is-size-5">
+            <%= __('tagline') %>
+          </h2>
+        </div>
+      </div>
+      <div class="has-text-centered">
+        <a class="button is-warning is-light is-rounded" href="<%- i18n_url_for('/download.html') %>"><%= __('download') %></a>
+      </div>
+    </div>
+  </div>
+</section>
