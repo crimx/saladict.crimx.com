@@ -1,6 +1,6 @@
 title: Saladict
-tagline: All-in-one professional pop-up dictionary and translator.
-description: Saladict is an all-in-one professional pop-up dictionary and translator which supports multiple search modes, page translations, new word notebook and PDF selection searching.
+tagline: All-in-one professional pop-up dictionary and page translator.
+description: Saladict is an all-in-one professional pop-up dictionary and page translator which supports multiple search modes, page translations, new word notebook and PDF selection searching.
 
 notice: ⚠️Notice
 
@@ -23,3 +23,6 @@ issues: Issues
 privacy_policy: Privacy Policy
 
 languages: 🌐选择语言
+
+next: Next
+prev: Previous

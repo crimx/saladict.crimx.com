@@ -1,4 +1,5 @@
 @import "bulma/sass/utilities/_all.sass";
+@import "./variables";
 
 @import "bulma/sass/base/_all.sass";
 
@@ -6,21 +7,16 @@
 
 @import "bulma/sass/grid/columns.sass";
 
-@import "bulma/sass/components/navbar.sass";
-@import "bulma/sass/components/menu.sass";
-
-@import "bulma/sass/elements/container.sass";
-@import "bulma/sass/elements/image.sass";
+@import "bulma/sass/elements/box.sass";
 @import "bulma/sass/elements/button.sass";
+@import "bulma/sass/elements/container.sass";
 
-@import "bulma/sass/helpers/typography.sass";
+@import "bulma/sass/components/media.sass";
+@import "bulma/sass/components/menu.sass";
+@import "bulma/sass/components/navbar.sass";
+
+@import "./_components/testimonials";
+@import "./_components/site-hero";
+
 @import "bulma/sass/helpers/spacing.sass";
-
-.hero {
-  background-image:
-    url('https://tvax4.sinaimg.cn/large/6e3591e5gy1giwexrclu0j21900u0hdt.jpg'),
-    url('https://i.niupic.com/images/2020/09/20/8HmK.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+@import "bulma/sass/helpers/typography.sass";
