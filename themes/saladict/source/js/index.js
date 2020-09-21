@@ -82,12 +82,20 @@ async function testimonials() {
   testimonials.classList.add('is-active')
 
   let autoMoveTimeout
+  let isMouseInSlide = false
 
   prev.addEventListener('click', movePrev)
   next.addEventListener('click', moveNext)
 
   prev.addEventListener('mouseleave', blur)
   next.addEventListener('mouseleave', blur)
+
+  slide.addEventListener('mouseenter', () => {
+    isMouseInSlide = true
+  })
+  slide.addEventListener('mouseleave', () => {
+    isMouseInSlide = false
+  })
 
   autoMoveTimeout = setTimeout(moveNext, 2000)
 
@@ -102,7 +110,9 @@ async function testimonials() {
     }
     clearTimeout(autoMoveTimeout)
     autoMoveTimeout = setTimeout(moveNext, 5000)
-    move('prev')
+    if (!isMouseInSlide) {
+      move('prev')
+    }
   }
 
   function moveNext(event) {
@@ -111,7 +121,9 @@ async function testimonials() {
     }
     clearTimeout(autoMoveTimeout)
     autoMoveTimeout = setTimeout(moveNext, 5000)
-    move('next')
+    if (!isMouseInSlide) {
+      move('next')
+    }
   }
 
   function move(direction) {
