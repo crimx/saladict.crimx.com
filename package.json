@@ -5,16 +5,17 @@
   "author": "CRIMX",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "NODE_ENV=production hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "NODE_ENV=development hexo server"
   },
   "hexo": {
     "version": "5.1.1"
   },
   "dependencies": {
     "bulma": "^0.9.0",
+    "core-js": "3",
     "hexo": "^5.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
@@ -23,7 +24,12 @@
     "hexo-server": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
     "jsdom": "^16.4.0",
-    "prettier": "^2.1.2"
+    "memory-fs": "^0.5.0",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.2"
   }
 }
