@@ -42,7 +42,7 @@ $testimonial-height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: $desktop - $container-offset;
+    max-width: $desktop - (2 * $gap);
     height: $testimonial-height;
     padding: 1rem 1.5rem;
   }
@@ -101,6 +101,7 @@ $testimonial-height: 20rem;
   background: transparent;
   opacity: 0.5;
   transition: opacity 0.4s;
+  cursor: pointer;
 
   &:hover {
     opacity: 1;
