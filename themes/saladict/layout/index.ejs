@@ -29,10 +29,36 @@
   <button class="testimonial-prev" title="<%= __('prev') %>"></button>
   <button class="testimonial-next" title="<%= __('next') %>"></button>
   <div class="testimonial-slide">
-    <div class="testimonial"><span>x</span></div>
-    <div class="testimonial testimonial-real"><span>x</span></div>
-    <div class="testimonial"><span>x</span></div>
+    <div class="testimonial"></div>
+    <div class="testimonial"></div>
+    <div class="testimonial"></div>
   </div>
 </section>
+
+<% for (let i = 0; i < page.intro.length; i++) { %>
+<section class="section intro">
+  <div class="container">
+    <div class="columns is-vcentered is-variable is-8-tablet<%= i % 2 ? ' is-reversed' : '' %>">
+      <div class="column">
+        <div class="content">
+          <h1 class="ml-5 is-size-3"><%= page.intro[i].title %></h1>
+          <ul>
+            <% for (const content of page.intro[i].content) { %>
+              <li><%= content %></li>
+            <% } %>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <figure class="image is-16by9">
+            <img src="<%= page.intro[i].img %>" alt="<%= page.intro[i].title %>">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<% } %>
 
 <%- js({ src: 'js/index.js', async: true }) %>

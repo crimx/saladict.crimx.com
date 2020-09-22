@@ -1,13 +1,18 @@
-@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/utilities/_all";
 @import "./variables";
 
-@import "bulma/sass/layout/hero.sass";
-@import "bulma/sass/layout/section.sass";
+@import "bulma/sass/layout/hero";
+@import "bulma/sass/layout/section";
 
-@import "bulma/sass/grid/columns.sass";
+@import "bulma/sass/grid/columns";
 
-@import "bulma/sass/elements/button.sass";
-@import "bulma/sass/elements/box.sass";
+@import "bulma/sass/elements/button";
+@import "bulma/sass/elements/box";
+@import "bulma/sass/elements/content";
+@import "bulma/sass/elements/image";
 
 @import "./_components/testimonials";
 @import "./_components/site-hero";
+@import "./_components/intro";
+
+@import "./_helpers";
