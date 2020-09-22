@@ -1,5 +1,3 @@
-testimonials()
-
 const webstore = {
   chrome: {
     chs: {
@@ -52,6 +50,8 @@ const months = [
   'Dec',
 ]
 
+testimonials()
+
 async function testimonials() {
   const testimonials = document.querySelector('.testimonials')
   if (!testimonials) return
@@ -65,8 +65,6 @@ async function testimonials() {
     .catch(() => [])
 
   if (!data || data.length <= 0) return
-
-  shuffle(data)
 
   const getTestimonial = buildGetTestimonial()
 
@@ -139,14 +137,38 @@ async function testimonials() {
   }
 
   function buildGetTestimonial() {
-    let i = 0
+    let unsortedStart = 0
+    let unsortedEnd = data.length - 1
+    let i = NaN
 
     return (direction = 'next') => {
-      if (direction !== 'next') {
-        i = (i - 2 + data.length) % data.length
+      if (isNaN(i)) {
+        // initial
+        i = 0
+      } else if (direction === 'next') {
+        i = (i + 1) % data.length
+      } else {
+        i = (i - 1 + data.length) % data.length
       }
 
-      const item = data[i++ % data.length]
+      if (i >= unsortedStart && i <= unsortedEnd) {
+        // swap a random one with current slot
+        const pick = Math.floor(
+          Math.random() * (unsortedEnd - unsortedStart + 1) + unsortedStart
+        )
+        const t = data[i]
+        data[i] = data[pick]
+        data[pick] = t
+
+        // mark current slot as sorted
+        if (i === unsortedStart) {
+          unsortedStart += 1
+        } else {
+          unsortedEnd -= 1
+        }
+      }
+
+      const item = data[i]
       const date = new Date(item.date)
       let dateString = ''
       let sourceString = ''
@@ -184,14 +206,4 @@ async function testimonials() {
       `
     }
   }
-}
-
-function shuffle(arr) {
-  for (let end = arr.length - 1; end > 0; end--) {
-    const pick = Math.floor(Math.random() * (end + 1))
-    const t = arr[end]
-    arr[end] = arr[pick]
-    arr[pick] = t
-  }
-  return arr
 }
