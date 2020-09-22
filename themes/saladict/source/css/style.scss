@@ -3,10 +3,16 @@
 
 @import "bulma/sass/base/_all";
 
+@import "bulma/sass/layout/section";
+
 @import "bulma/sass/elements/container";
+@import "bulma/sass/elements/content";
 
 @import "bulma/sass/components/menu";
 @import "bulma/sass/components/navbar";
+
+@import "./_components/kbd";
+@import "./_components/site-article";
 
 @import "bulma/sass/helpers/spacing";
 @import "bulma/sass/helpers/typography";
