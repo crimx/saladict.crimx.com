@@ -5,6 +5,8 @@
 
 @import "bulma/sass/layout/section";
 
+@import "bulma/sass/grid/columns";
+
 @import "bulma/sass/elements/container";
 @import "bulma/sass/elements/content";
 
@@ -16,6 +18,8 @@
 @import "./_components/kbd";
 @import "./_components/site-article";
 @import "./_components/site-navbar";
+
+@import "./_components/codeblock";
 
 @import "bulma/sass/helpers/spacing";
 @import "bulma/sass/helpers/typography";

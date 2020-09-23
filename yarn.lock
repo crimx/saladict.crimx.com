@@ -2884,10 +2884,10 @@ hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo@^5.0.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.1.1.tgz#5cbd979acce5d3915919688d8d6a8c3de3e93fda"
-  integrity sha512-D+kf3NJ0WTBwyrEZdcgjsVVsSG4/cnKmixbsnCr1dPwI6d7BBJtFprv7usU7u3sV59+LrOYtPuJKsHaaINffvA==
+hexo@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.2.0.tgz#cf8b2e3df3ba29805a17d96145ad41b38432a8e5"
+  integrity sha512-lX4OqpZv+AGANHHyxmlXdlU5hDiJyPDqEBdRwtIo5BLp86RsCi/xlTtkdVV0fRi1uRjtLc9vwXf7LVjAd/l45g==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
@@ -3604,6 +3604,13 @@ markdown-it-mark@^3.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-mark/-/markdown-it-mark-3.0.0.tgz#27c3e39ef3cc310b2dde5375082c9fa912983cda"
   integrity sha512-HqMWeKfMMOu4zBO0emmxsoMWmbf2cPKZY1wP6FsTbKmicFfp5y4L3KXAsNeO1rM6NTJVOrNlLKMPjWzriBGspw==
 
+markdown-it-prism@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-prism/-/markdown-it-prism-2.1.1.tgz#cb181313017ec8f588f1bdad06d3befb2992b946"
+  integrity sha512-U1k2mOMC8FCApQBx2qMV7uYq0jfICfjmpBezFDxLeEIjzM3qsczofYuLY6k3XF3MVjdGTxkrb1Lq3YMDbGAJKw==
+  dependencies:
+    prismjs "1.21.0"
+
 markdown-it-sub@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-sub/-/markdown-it-sub-1.0.0.tgz#375fd6026eae7ddcb012497f6411195ea1e3afe8"
@@ -4316,7 +4323,7 @@ pretty-hrtime@^1.0.3:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
-prismjs@^1.17.1:
+prismjs@1.21.0, prismjs@^1.17.1:
   version "1.21.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
   integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==

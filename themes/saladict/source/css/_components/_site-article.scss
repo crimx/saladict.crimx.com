@@ -1,3 +1,9 @@
 .site-article {
   max-width: $desktop;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-article-content {
+  position: relative;
 }
