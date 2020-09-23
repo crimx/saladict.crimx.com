@@ -1,7 +1,15 @@
-<%- partial('_partial/head') %>
+<% const dom = get_dom() %>
+<%- partial('_partial/head', { dom }) %>
 <body>
-  <%- partial('_partial/header') %>
-  <%- body %>
+  <%- partial('_partial/navbar') %>
+  <% if (page.sidebar !== false) { %>
+    <div class="columns">
+      <div class="column"><%- partial('_partial/sidebar') %></div>
+      <div class="column"><%- body %></div>
+    </div>
+  <% } else { %>
+    <%- body %>
+  <% } %>
   <%- partial('_partial/footer') %>
 </body>
 </html>

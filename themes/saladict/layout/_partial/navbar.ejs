@@ -1,0 +1,146 @@
+<header class="site-navbar-wrap">
+  <div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-4 has-text-weight-bold" href="<%- i18n_url_for('/') %>">
+          <img src="<%- url_for('/saladict.svg') %>" alt="<%= __('title') %>" width="28" height="28" class="mr-2">
+          <%= __('title') %>
+        </a>
+
+        <a id="site-navbar-menu-btn" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="site-navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="site-navbar-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="<%- i18n_url_for('/notice.html') %>">
+            <%= __('notice') %>
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="<%- i18n_url_for('/manual.html') %>">
+              <%= __('tutorials') %>
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="<%- i18n_url_for('/manual.html') %>">
+                <%= __('manual') %>
+              </a>
+              <a class="navbar-item" href="<%- i18n_url_for('/anki.html') %>">
+                <%= __('anki') %>
+              </a>
+              <a class="navbar-item" href="<%- i18n_url_for('/ocr.html') %>">
+                <%= __('ocr') %>
+              </a>
+              <a class="navbar-item" href="<%- i18n_url_for('/native.html') %>">
+                <%= __('native') %>
+              </a>
+              <a class="navbar-item" href="<%- i18n_url_for('/youtube.html') %>">
+                <%= __('youtube') %>
+              </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="<%- i18n_url_for('/support.html') %>">
+            <%= __('support') %>
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="<%- i18n_url_for('/download.html') %>">
+              <%= __('download') %>
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="<%- i18n_url_for('/download.html') %>">
+                <%= __('address') %>
+              </a>
+              <a class="navbar-item" href="<%- i18n_url_for('/releases/') %>">
+                <%= __('releases') %>
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="<%- i18n_url_for('/q&a.html') %>">
+              <%= __('questions') %>
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="<%- i18n_url_for('/q&a.html') %>">
+                <%= __('common_questions') %>
+              </a>
+              <a class="navbar-item" href="https://github.com/crimx/ext-saladict/issues">
+                <%= __('issues') %>
+              </a>
+              <a class="navbar-item" href="<%- i18n_url_for('/privacy-policy.html') %>">
+                <%= __('privacy_policy') %>
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">
+              <%= __('languages') %>
+            </a>
+
+            <div class="navbar-dropdown is-right">
+              <%
+                function switchLocaledPath(locale) {
+                  const url = url_for(page.path)
+
+                  if (page.lang === locale) {
+                    return url
+                  }
+
+                  const defaultLang = config.language
+                    ? Array.isArray(config.language)
+                      ? config.language[0]
+                      : config.language
+                    : 'en'
+
+                  if (defaultLang === locale) {
+                    if (url.startsWith('/' + page.lang)) {
+                      return url.replace(/^\/[^\/]+/, '')
+                    } else {
+                      return url
+                    }
+                  } else {
+                    if (url.startsWith('/' + page.lang)) {
+                      return url.replace(/^\/[^\/]+/, '/' + locale)
+                    } else {
+                      return '/' + locale + url
+                    }
+                  }
+                }
+              %>
+              <a class="navbar-item" href="<%- switchLocaledPath('zh-cn') %>">
+                中文
+              </a>
+              <a class="navbar-item" href="<%- switchLocaledPath('en') %>">
+                English
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      ;(function () {
+        var menuBtn = document.getElementById('site-navbar-menu-btn')
+        if (menuBtn) {
+          menuBtn.addEventListener('click', function () {
+            var menu = document.getElementById('site-navbar-menu')
+            if (menu) {
+              menu.classList.toggle('is-active')
+            }
+          })
+        }
+      })();
+    </script>
+  </div>
+</header>
