@@ -1,1 +1,5 @@
-<%- partial('_partial/article', {post: page, index: false}) %>
+<article class="site-article container article-type-<%= page.layout %>" itemscope itemprop="blogPost">
+  <div class="section content" itemprop="articleBody">
+    <%- page.content %>
+  </div>
+</article>

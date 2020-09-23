@@ -17,23 +17,22 @@ sidebar: false
 
 声明：沙拉查词作为自由开源的浏览器辅助插件，仅供学习交流，任何人均可免费获取产品与源码。用户投币前请确认是出于心情愉悦自愿对作者个人的赠与支持，而非购买行为。作者不承诺、不提供任何针对该赠与的回报性质服务，感谢理解🙏。
 
-如果认为你的合法权益收到侵犯请马上联系[作者](https://github.com/crimx)。
+如果认为你的合法权益受到侵犯请马上联系[作者](https://github.com/crimx)。
 
 <h4 align="center">通过微信或支付宝扫码打赏<br>(请勿在留言反馈问题，无法回复，<a href="https://github.com/crimx/ext-saladict/issues" target="_blank">反馈地址</a>)</h4>
 
-<div align="center">
+<p align="center">
   <img height="200" style="height:200px" src="/images/wechat.png" alt="wechat qrcode">
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img height="200" style="height:200px"src="/images/alipay.png" alt="alipay qrcode">
-</div>
+</p>
 
 <h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期请我喝咖啡</h4>
 
-<br/>
-
-<div align="center">
+<p align="center">
   <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" style="height:50px" src="/images/patreon.png" alt="patreon saladict"></a>
   <a href="https://afdian.net/@crimx" target="_blank"><img height="50" style="height:50px" src="/images/afdian.png" alt="爱发电 saladict"></a>
-</div>
+</p>
 
 [chrome]: https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en
 [firefox]: https://addons.mozilla.org/firefox/addon/ext-saladict/

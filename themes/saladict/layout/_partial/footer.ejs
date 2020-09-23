@@ -1,0 +1,23 @@
+<footer class="footer">
+  <% if (!page.supportPage) {
+    const supportPath = page.path.startsWith('en/') ? 'en/support.html' : 'support.html'
+    const supportPage = site.pages.findOne({ path: supportPath }, { lean: true })
+    if (supportPage) {
+  %>
+      <div class="footer-support container content">
+        <%- supportPage.content %>
+      </div>
+  <%
+    }
+  }
+  %>
+  <div class="content has-text-centered">
+    <p class="is-marginless">
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>. All rights reserved.
+    </p>
+    <p class="is-size-7">
+      <span class="footer-sc">The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.</span>
+      <span class="footer-wc">The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</span>
+    </p>
+  </div>
+</footer>
