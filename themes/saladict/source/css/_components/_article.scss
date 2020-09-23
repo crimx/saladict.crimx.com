@@ -1,0 +1,21 @@
+h1, h2 {
+  &:hover {
+    .article-header-anchor {
+      opacity: 1;
+    }
+  }
+}
+
+.article-header-anchor {
+  position: absolute;
+  right: 100%;
+  margin-top: -1px;
+  padding-right: 8px;
+  color: inherit;
+  opacity: 0;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
