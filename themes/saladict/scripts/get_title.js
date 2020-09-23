@@ -8,7 +8,7 @@ hexo.extend.helper.register('extract_title', function () {
   }
 
   if (page.path.startsWith('releases/')) {
-    return (/^releases\/(.+)\.html$/.exec(page.page.path) || [])[1]
+    return (/^releases\/(.+)\.html$/.exec(page.path) || [])[1]
   }
 
   if (page.content) {
