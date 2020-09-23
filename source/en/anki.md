@@ -1,5 +1,6 @@
 ---
 sidebar: 'auto'
+disableNunjucks: true
 ---
 
 # How to use Saladict with Anki
@@ -66,30 +67,30 @@ Windows 可能会出现防火墙提示，需要选择允许 Anki。Mac OS X Mave
 在保存到 Anki 后会成为
 
 ```yml
-Date.: 1234567890
-Text.: beauty
-Context.: >
+Date: 1234567890
+Text: beauty
+Context: >
   She walks in beauty, like the night
-ContextCloze.: >
+ContextCloze: >
   She walks in {{c1::beauty}}, like the night
-Translation.: >
+Translation: >
   <div class="trans"><span class="trans_title">google</span><div class="trans_content">她走在美丽的地方，就像夜晚</div><span class="trans_title">youdaotrans</span><div class="trans_content">她走在美丽的夜色中</div><span class="trans_title">caiyun</span><div class="trans_content">她举步娉婷，就像夜晚</div></div>
-Note.: >
+Note: >
   In beauty 一词仿佛她自带光环，美丽洋溢在她四周。
-Title.: >
+Title: >
   She Walks in Beauty by Lord Byron (George Gordon) | Poetry Foundation
-Url.: >
+Url: >
   https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty
-Favicon.: >
+Favicon: >
   https://www.poetryfoundation.org/assets/media/images/favicon-32x32.png?v=1.2.9
-Audio.: ''
+Audio: ''
 ```
 
-其中这些 `Date.`, `Text.`, `Context.`, `ContextCloze.`, `Translation.`, `Note.`, `Title.`, `Url.`, `Favicon.`, `Audio.` 为 Anki 的笔记域“Note fields”（注意末尾带`.`，这是为了避免老版 Anki Connect 的 bug）。
+其中这些 `Date`, `Text`, `Context`, `ContextCloze`, `Translation`, `Note`, `Title`, `Url`, `Favicon`, `Audio` 为 Anki 的笔记域“Note fields”。
 
 如果想自定义卡片请不要更改这些名字，而是直接修改或添加新的卡片类型。Anki 的杀手锏之一便是笔记与卡片分离，见前文概念资料。
 
-同时我们可以注意到这些名字与前面沙拉单词基本一一对应，但是多了 `ContextCloze.` 和 `Audio.`。其中 `Audio.` 为待实现的发音功能；而 `ContextCloze.` 仔细看它的值，关键字 `beauty` 被沙拉查词替换成了 <code v-pre>{{ c1::beauty }}</code>，这是用于生成 Anki 填空卡片。原有的上下文依然保留到 `Context.` 方便用户自行制作其它卡片。
+同时我们可以注意到这些名字与前面沙拉单词基本一一对应，但是多了 `ContextCloze` 和 `Audio`。其中 `Audio` 为待实现的发音功能；而 `ContextCloze` 仔细看它的值，关键字 `beauty` 被沙拉查词替换成了 <code v-pre>{{ c1::beauty }}</code>，这是用于生成 Anki 填空卡片。原有的上下文依然保留到 `Contex.` 方便用户自行制作其它卡片。
 
 结合沙拉查词默认生成的填空题卡片样式，可以得到以下效果：
 
