@@ -3,7 +3,7 @@ supportPage: true
 sidebar: false
 ---
 
-<h2 id="reward">To Folks Out There Who ❤️ Saladict</h2>
+# To Folks Out There Who ❤️ Saladict {#reward}
 
 The Saladict project would not have come this far without its supporters. As a free, ad-free, open sourced non-profit project, it is beyond expectation receiving such an overwhelming response. Please allow my sincere respect, to you. Thank you for your contribution！
 
