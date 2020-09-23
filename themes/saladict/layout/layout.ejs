@@ -3,12 +3,20 @@
 <body>
   <%- partial('_partial/navbar') %>
   <% if (page.sidebar !== false) { %>
-    <div class="columns">
-      <div class="column"><%- partial('_partial/sidebar') %></div>
-      <div class="column"><%- body %></div>
-    </div>
-  <% } else { %>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column"><%- partial('_partial/sidebar') %></div>
+          <div class="column is-three-quarters"><%- body %></div>
+        </div>
+      </div>
+    </section>
+  <% } else if (page.home) { %>
     <%- body %>
+  <% } else { %>
+    <section class="section">
+      <%- body %>
+    </section>
   <% } %>
   <%- partial('_partial/footer') %>
 </body>
