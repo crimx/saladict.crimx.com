@@ -3,7 +3,33 @@
 <head>
   <meta charset="utf-8">
   <%- partial('google-analytics') %>
-  <% const title = extract_title() %>
+  <%
+    const title = extract_title()
+    function extract_title () {
+      if (page.title) {
+        return page.title
+      }
+
+      if (page.path.startsWith('releases/')) {
+        return (/^releases\/(.+)\.html$/.exec(page.path) || [])[1]
+      }
+
+      if (page.content) {
+        const doc = dom.window.document
+        for (hx of ['h1', 'h2']) {
+          const h = doc.querySelector(`.site-article ${hx}`)
+          if (h) {
+            const content = (h.textContent || '').trim()
+            if (content) {
+              return content
+            }
+          }
+        }
+      }
+
+      return ''
+    }
+  %>
   <title><% if (title){ %><%= title %> | <% } %><%= __('title') %></title>
   <meta name="description" content="<%= __('description') %>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
