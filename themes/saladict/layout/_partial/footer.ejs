@@ -1,6 +1,6 @@
 <footer class="footer">
   <% if (!page.supportPage) {
-    const supportPath = page.path.startsWith('en/') ? 'en/support.html' : 'support.html'
+    const supportPath = page.lang === 'en' ? 'en/support.html' : 'support.html'
     const supportPage = site.pages.findOne({ path: supportPath }, { lean: true })
     if (supportPage) {
   %>
