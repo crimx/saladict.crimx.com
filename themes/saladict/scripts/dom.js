@@ -1,5 +1,6 @@
 const JSDOM = require('jsdom').JSDOM
 
-hexo.extend.helper.register('get_dom', function () {
-  return new JSDOM(this.page.content)
+hexo.extend.filter.register('template_locals', function (locals) {
+  locals.page.dom = new JSDOM(locals.page.content)
+  return locals
 })

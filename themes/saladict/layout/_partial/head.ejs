@@ -14,7 +14,7 @@
         return (/^releases\/(.+)\.html$/.exec(page.path) || [])[1]
       }
 
-      const doc = dom.window.document
+      const doc = page.dom.window.document
       for (const hx of ['h1', 'h2']) {
         const h = doc.querySelector(hx)
         if (h) {
