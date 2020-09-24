@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <%- partial('google-analytics') %>
+  <%- partial('adsense') %>
   <%
     const title = extract_title()
     function extract_title () {
@@ -49,7 +50,4 @@
   <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#5caf9e">
   <%- css('css/style') %>
-  <% if (config.highlight.enable){ %>
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <% } %>
 </head>
