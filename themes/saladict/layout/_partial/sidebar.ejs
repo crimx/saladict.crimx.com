@@ -1,0 +1,109 @@
+<aside class="site-sidebar menu">
+  <%
+    const tocMaxLevel = typeof page.tocMaxLevel == 'number' ? page.tocMaxLevel : 3
+    const blocks = []
+    let hasLevel3 = false
+
+    for (const block of dom.window.document.body.children) {
+      const hMatch = /^H(\d)$/.exec(block.tagName)
+      if (!hMatch) continue
+
+      const level = Number(hMatch[1])
+
+      if (level < 1 || level > 3 || level > tocMaxLevel) {
+        continue
+      }
+
+      if (level === 1) {
+        blocks.push({ block, level, children: [] })
+      } else if (level == 2) {
+        const lastBlock = blocks[blocks.length - 1]
+        if (lastBlock && lastBlock.level === 1) {
+          lastBlock.children.push({ block, level, children: [] })
+        } else {
+          blocks.push({ block, level, children: [] })
+        }
+      } else if (level === 3) {
+        hasLevel3 = true
+
+        let lastBlock = blocks[blocks.length - 1]
+        if (lastBlock && lastBlock.level === 2) {
+          lastBlock.children.push({ block, level, children: [] })
+        } else if (lastBlock && lastBlock.level === 1) {
+          lastBlock = lastBlock.children[lastBlock.children.length - 1]
+          if (lastBlock && lastBlock.level === 2) {
+            lastBlock.children.push({ block, level, children: [] })
+          } else {
+            blocks.push({ block, level, children: [] })
+          }
+        } else {
+          blocks.push({ block, level, children: [] })
+        }
+      }
+    }
+
+    function renderSubMenus (blocks) {
+      if (blocks.length <= 0) return
+      %>
+        <ul>
+      <%
+        for (const { block } of blocks) {
+          %>
+            <li>
+              <a href="#<%= block.id %>"><%= getHeaderText(block) %></a>
+            </li>
+          <%
+        }
+      %>
+        </ul>
+      <%
+    }
+
+    function renderMenus (blocks) {
+      if (blocks.length <= 0) return
+      %>
+        <ul class="menu-list">
+      <%
+        for (const { block, children } of blocks) {
+          %>
+            <li>
+              <a href="#<%= block.id %>"><%= getHeaderText(block) %></a>
+              <%
+                renderSubMenus(children)
+              %>
+            </li>
+          <%
+        }
+      %>
+        </ul>
+      <%
+    }
+
+    function renderLabels (blocks) {
+      for (const { block, children } of blocks) {
+        %>
+          <a href="#<%= block.id %>" class="menu-label"><%= getHeaderText(block) %></a>
+          <%
+            if (children.length > 0) {
+              %>
+                <ul class="menu-list">
+              <%
+                renderMenus(children)
+              %>
+                </ul>
+              <%
+            }
+          %>
+        <%
+      }
+    }
+
+    if (blocks.length > 0) {
+      if (hasLevel3) {
+        renderLabels(blocks)
+      } else {
+        renderMenus(blocks)
+      }
+    }
+  %>
+</aside>

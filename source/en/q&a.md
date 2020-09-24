@@ -1,3 +1,7 @@
+---
+tocMaxLevel: 1
+---
+
 # Common Questions
 
 ::: warning
