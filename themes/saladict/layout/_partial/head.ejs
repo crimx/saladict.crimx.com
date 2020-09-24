@@ -18,7 +18,7 @@
       for (const hx of ['h1', 'h2']) {
         const h = doc.querySelector(hx)
         if (h) {
-          const content = (h.textContent || '').replace(/¶/, '').trim()
+          const content = getHeaderText(h)
           if (content) {
             return content
           }

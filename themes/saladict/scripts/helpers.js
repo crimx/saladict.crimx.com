@@ -13,7 +13,3 @@ hexo.extend.helper.register('i18n_url_for', function (path) {
 
   return url
 })
-
-hexo.extend.helper.register('getHeaderText', function (el) {
-  return (el.textContent || '').replace(/¶/, '').trim()
-})
