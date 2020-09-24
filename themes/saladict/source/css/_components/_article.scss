@@ -1,7 +1,9 @@
-h1, h2 {
-  &:hover {
-    .article-header-anchor {
-      opacity: 1;
+.site-article {
+  h1, h2 {
+    &:hover {
+      .article-header-anchor {
+        opacity: 0.9;
+      }
     }
   }
 }
@@ -14,6 +16,7 @@ h1, h2 {
   color: inherit;
   opacity: 0;
   transition: opacity 0.2s;
+  user-select: none;
 
   &:hover {
     opacity: 1;
