@@ -1,15 +1,13 @@
----
-sidebar: 'auto'
----
+# Saladict User Manual
 
-# 沙拉查词使用方式
+Download [latest version](https://github.com/crimx/ext-saladict/releases).
 
-下载[最新发布版本](https://github.com/crimx/ext-saladict/releases)。
-
-
+::: warning
+Help translate this page to English.
+:::
 
 ## 打开扩展选项 {#open-setting}
-内置
+
 入口：
 
 1. 右击右上方地址栏旁的图标，可看到选项。
@@ -93,7 +91,7 @@ sidebar: 'auto'
 
 
 
-## 单行与多行编辑器 {#multiline}
+## 单行与多行编辑器 {#mta}
 
 除了工具栏上的搜索框，沙拉查词还提供了多行编辑器。默认收起在工具栏下方，点击即可展开。
 
@@ -233,7 +231,6 @@ Firefox 目前不支持本地路径拦截，可以在 Saladict 的 PDF 页面中
 查看当前页面链接的二维码。
 
 点击右上方地址栏旁的图标打开查词面板，在最下方可看到二维码图标，鼠标移上去即可显示。
-
 
 [taskbar]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc29418yaij20do039a9t.jpg
 [screen-notebook]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294iulgqj211c0cdt8v.jpg

@@ -1,7 +1,3 @@
----
-sidebar: 'auto'
----
-
 # Privacy Policy
 
 This extension only collects anonymous device browser information when Google Analytics is enabled. Saladict author will offer prioritized support to popular devices and browsers.

@@ -1,10 +1,6 @@
----
-sidebar: 'auto'
----
+# 使用技巧
 
-# 技巧
-
-## YouTube 字幕划词
+## YouTube 字幕划词 {#youtube}
 
 感谢 [@iamwwc](https://github.com/iamwwc) 分享[技巧](https://github.com/crimx/ext-saladict/issues/802)让沙拉查词支持 Saladict 字幕划词。
 

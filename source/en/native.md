@@ -1,7 +1,3 @@
----
-sidebar: 'auto'
----
-
 # Works Outside of Browser
 
 Theoretically there are two ways for making Saladict work outside of browser:

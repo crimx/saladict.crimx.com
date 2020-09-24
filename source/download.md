@@ -1,7 +1,3 @@
----
-sidebar: 'auto'
----
-
 ## 下载
 
 - [Chrome 商店][chrome] （上不了可以尝试[加速](https://suying999.net/auth/register?code=QmPt)）

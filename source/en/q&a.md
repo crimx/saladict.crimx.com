@@ -1,8 +1,4 @@
----
-sidebar: 'auto'
----
-
-# Question and Answer
+# Common Questions
 
 ::: warning
 Help translate this page to English.
