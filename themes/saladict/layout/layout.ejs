@@ -6,8 +6,16 @@
     <section class="section">
       <div class="container">
         <div class="columns">
-          <div class="column"><%- partial('_partial/sidebar', { dom }) %></div>
-          <div class="column is-three-quarters"><%- body %></div>
+          <div class="column site-sidebar-wrap is-hidden-touch">
+            <section class="section pt-0">
+              <%- partial('_partial/sidebar', { dom }) %>
+            </section>
+          </div>
+          <div class="column is-three-quarters">
+            <section class="section pt-0">
+              <%- body %>
+            </section>
+          </div>
         </div>
       </div>
     </section>

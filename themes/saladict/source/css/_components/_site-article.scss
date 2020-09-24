@@ -2,8 +2,31 @@
   max-width: $desktop;
   padding-left: 1rem;
   padding-right: 1rem;
+
+  h1, h2, h3, h4, h5, h6 {
+    &:hover {
+      .article-header-anchor {
+        opacity: 0.9;
+      }
+    }
+  }
 }
 
 .site-article-content {
   position: relative;
+}
+
+.article-header-anchor {
+  position: absolute;
+  right: 100%;
+  padding-right: 8px;
+  font-size: 1.25rem;
+  color: inherit;
+  opacity: 0;
+  transition: opacity 0.2s;
+  user-select: none;
+
+  &:hover {
+    opacity: 1;
+  }
 }
