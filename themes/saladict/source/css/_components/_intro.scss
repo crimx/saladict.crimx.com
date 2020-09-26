@@ -1,0 +1,7 @@
+.intro {
+  @media screen and (min-width: $tablet) {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}

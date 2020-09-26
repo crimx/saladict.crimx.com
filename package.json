@@ -1,26 +1,40 @@
 {
   "name": "saladict",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Website for the Saladict extension",
   "author": "CRIMX",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs && node scripts/latest-release.js"
+    "build": "NODE_ENV=production hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "NODE_ENV=development hexo server --open"
   },
-  "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.4.0",
-    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "jsdom": "^16.2.2",
-    "markdown-it-attrs": "^3.0.1",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0",
-    "vuepress": "^1.2.0",
-    "vuepress-plugin-redirect": "^1.2.3"
+  "hexo": {
+    "version": "5.2.0"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^2.0.4",
-    "vue": "^2.6.10"
+    "bulma": "^0.9.0",
+    "core-js": "3",
+    "hexo": "^5.2.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-html-prettify": "^1.1.1",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-markdown-it": "hexojs/hexo-renderer-markdown-it",
+    "hexo-renderer-sass": "^0.4.0",
+    "hexo-server": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "jsdom": "^16.4.0",
+    "markdown-it-anchor": "^5.3.0",
+    "markdown-it-attrs": "^3.0.3",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-prism": "^2.1.1",
+    "memory-fs": "^0.5.0",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.2"
   }
 }

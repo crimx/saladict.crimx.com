@@ -1,0 +1,5 @@
+google_analytics: UA-49163616-5
+adsense: ca-pub-6993077405597797
+
+node_sass:
+  includePaths: ["./node_modules"]

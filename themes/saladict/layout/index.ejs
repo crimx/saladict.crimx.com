@@ -1,0 +1,63 @@
+<%- css('css/index.css') %>
+
+<section class="site-hero hero is-medium is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered has-text-centered-mobile">
+        <div class="column is-two-fifths has-text-right-tablet">
+          <figure>
+            <img src="<%- url_for('/saladict.svg') %>" alt="<%= __('title') %>" width="96" height="96">
+          </figure>
+        </div>
+        <div class="column is-two-fifths">
+          <h1 class="title is-size-3">
+            <%= __('title') %>
+          </h1>
+          <h2 class="subtitle is-size-5">
+            <%= __('tagline') %>
+          </h2>
+        </div>
+      </div>
+      <div class="has-text-centered">
+        <a class="button is-warning is-light is-rounded" href="<%- i18n_url_for('/download.html') %>"><%= __('download') %></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <button class="testimonial-prev" title="<%= __('prev') %>"></button>
+  <button class="testimonial-next" title="<%= __('next') %>"></button>
+  <div class="testimonial-slide">
+    <div class="testimonial"></div>
+    <div class="testimonial"></div>
+    <div class="testimonial"></div>
+  </div>
+</section>
+
+<%
+  const introImages = get_intro_images()
+  for (let i = 0; i < page.intro.length; i++) {
+%>
+<section class="container intro">
+  <div class="columns is-vcentered is-variable is-8-tablet<%= i % 2 ? ' is-reversed' : '' %>">
+    <div class="column">
+      <div class="content">
+        <h1 class="ml-5 is-size-3"><%= page.intro[i].title %></h1>
+        <ul>
+          <% for (const content of page.intro[i].content) { %>
+            <li><%= content %></li>
+          <% } %>
+        </ul>
+      </div>
+    </div>
+    <div class="column">
+      <figure>
+        <%- fallback_img(introImages[i].srcs, { alt: page.intro[i].title }) %>
+      </figure>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%- js({ src: 'js/index.js', async: true }) %>

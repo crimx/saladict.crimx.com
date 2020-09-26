@@ -1,0 +1,68 @@
+<aside class="site-sidebar menu">
+  <div class="site-sidebar-top">
+    <div class="site-sidebar-top-content">
+      <%- partial('_partial/adsense-ins', { adSlot: '5077350487' }) %>
+    </div>
+  </div>
+  <%
+    function getHref ({ el, href }) {
+      return href || `#${el.id}`
+    }
+
+    function renderSubMenus (blocks) {
+      if (blocks.length <= 0) return
+      %>
+        <ul>
+      <%
+        for (const block of blocks) {
+          %>
+            <li>
+              <a href="<%= getHref(block) %>"><%= getHeaderText(block.el) %></a>
+            </li>
+          <%
+        }
+      %>
+        </ul>
+      <%
+    }
+
+    function renderMenus (blocks) {
+      if (blocks.length <= 0) return
+      %>
+        <ul class="menu-list">
+      <%
+        for (const block of blocks) {
+          %>
+            <li>
+              <a href="<%= getHref(block) %>"><%= getHeaderText(block.el) %></a>
+              <%
+                renderSubMenus(block.children)
+              %>
+            </li>
+          <%
+        }
+      %>
+        </ul>
+      <%
+    }
+
+    function renderLabels (blocks) {
+      for (const block of blocks) {
+        %>
+          <a href="<%= getHref(block) %>" class="menu-label"><%= getHeaderText(block.el) %></a>
+          <%
+            renderMenus(block.children)
+          %>
+        <%
+      }
+    }
+
+    if (blocks.length > 0) {
+      if (maxLevel >= 3) {
+        renderLabels(blocks)
+      } else {
+        renderMenus(blocks)
+      }
+    }
+  %>
+</aside>

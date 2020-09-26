@@ -1,0 +1,22 @@
+.footer {
+  padding: 1rem 0.75rem 0.5rem;
+  background: $scheme-main-bis;
+}
+
+.footer-support {
+  max-width: $desktop;
+  margin-bottom: 0.5rem !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $grey-light;
+
+  h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.footer-sc, .footer-wc {
+  white-space: nowrap;
+  word-break: keep-all;
+}
