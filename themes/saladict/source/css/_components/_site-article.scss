@@ -1,3 +1,12 @@
+.site-article-wrap {
+  &, & > .section {
+    @media screen and (max-width: $tablet) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
 .site-article {
   max-width: $desktop;
   padding-left: 1rem;

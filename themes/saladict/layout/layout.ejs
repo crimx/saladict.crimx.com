@@ -2,7 +2,7 @@
 <body>
   <%- partial('_partial/navbar') %>
   <% if (page.sidebar !== false) { %>
-    <section class="section px-0">
+    <section class="section">
       <div class="container">
         <div class="columns">
           <div class="column site-sidebar-wrap is-hidden-touch">
@@ -14,7 +14,7 @@
               <% } %>
             </section>
           </div>
-          <div class="column is-three-quarters">
+          <div class="column site-article-wrap is-three-quarters">
             <section class="section pt-0">
               <%- body %>
             </section>
