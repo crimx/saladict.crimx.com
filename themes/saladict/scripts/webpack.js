@@ -5,11 +5,7 @@ const config = require('../webpack.config')
 
 const listeners = []
 
-hexo.extend.renderer.register('js', 'js', async function (
-  data,
-  options,
-  callback
-) {
+hexo.extend.renderer.register('js', 'js', function (data, options, callback) {
   if (mfs.existsSync(data.path)) {
     const text = mfs.readFileSync(data.path, 'utf8')
     mfs.unlinkSync(data.path)
