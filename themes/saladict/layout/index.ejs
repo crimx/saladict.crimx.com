@@ -35,31 +35,33 @@
   </div>
 </section>
 
-<%
-  const introImages = get_intro_images()
-  for (let i = 0; i < page.intro.length; i++) {
-%>
-<section class="section">
-  <div class="container intro">
-    <div class="columns is-vcentered is-variable is-8-tablet<%= i % 2 ? ' is-reversed' : '' %>">
-      <div class="column">
-        <div class="content">
-          <h1 class="ml-5 is-size-3"><%= page.intro[i].title %></h1>
-          <ul>
-            <% for (const content of page.intro[i].content) { %>
-              <li><%= content %></li>
-            <% } %>
-          </ul>
+<section class="section px-0">
+  <%
+    const introImages = get_intro_images()
+    for (let i = 0; i < page.intro.length; i++) {
+  %>
+  <section class="section">
+    <div class="container intro">
+      <div class="columns is-vcentered is-variable is-8-tablet<%= i % 2 ? ' is-reversed' : '' %>">
+        <div class="column">
+          <div class="content">
+            <h1 class="ml-5 is-size-3"><%= page.intro[i].title %></h1>
+            <ul>
+              <% for (const content of page.intro[i].content) { %>
+                <li><%= content %></li>
+              <% } %>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <figure>
+            <%- fallback_img(introImages[i].srcs, { alt: page.intro[i].title }) %>
+          </figure>
         </div>
       </div>
-      <div class="column">
-        <figure>
-          <%- fallback_img(introImages[i].srcs, { alt: page.intro[i].title }) %>
-        </figure>
-      </div>
     </div>
-  </div>
+  </section>
+  <% } %>
 </section>
-<% } %>
 
 <%- js({ src: 'js/index.js', async: true }) %>
