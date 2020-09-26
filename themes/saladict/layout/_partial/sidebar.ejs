@@ -49,7 +49,9 @@
     function renderLabels (blocks) {
       for (const block of blocks) {
         %>
-          <a href="<%= getHref(block) %>" class="menu-label"><%= getHeaderText(block.el) %></a>
+          <div>
+            <a href="<%= getHref(block) %>" class="menu-label"><%= getHeaderText(block.el) %></a>
+          </div>
           <%
             renderMenus(block.children)
           %>
