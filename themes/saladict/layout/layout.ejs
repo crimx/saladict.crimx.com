@@ -7,11 +7,7 @@
         <div class="columns">
           <div class="column site-sidebar-wrap is-hidden-touch">
             <section class="section pt-0">
-              <% if (page.path.startsWith('releases/')) { %>
-                <%- partial('_partial/releases-toc', null, { cache: !config.relative_link }) %>
-              <% } else { %>
-                <%- partial('_partial/sidebar', toc_blocks()) %>
-              <% } %>
+              <%- partial('_partial/sidebar', toc_blocks()) %>
             </section>
           </div>
           <div class="column site-article-wrap is-three-quarters">
