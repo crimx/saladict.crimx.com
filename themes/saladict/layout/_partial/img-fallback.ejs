@@ -1,0 +1,10 @@
+<script>
+  function imgFallback(img) {
+    const nextIndex = (Number(img.dataset.index) || 0) + 1
+    const nextSrc = img.dataset['src-' + nextIndex]
+    if (!nextSrc) return
+
+    img.dataset.index = nextIndex
+    img.src = nextSrc
+  }
+</script>

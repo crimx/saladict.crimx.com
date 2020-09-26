@@ -16,6 +16,20 @@ hexo.extend.helper.register('i18n_url_for', function (path) {
   return url
 })
 
+hexo.extend.helper.register('fallback_img', function (srcs, attrs = {}) {
+  const srcAttrs = srcs
+    .map((src, i) => (i === 0 ? `src="${src}"` : `data-src-${i}="${src}"`))
+    .join(' ')
+
+  const extraAttrs = Object.keys(attrs)
+    .map((key) =>
+      typeof attrs[key] === 'boolean' ? key : `${key}="${attrs[key]}"`
+    )
+    .join(' ')
+
+  return `<img ${srcAttrs} ${extraAttrs} onerror="imgFallback(this)">`
+})
+
 hexo.extend.helper.register('toc_blocks', function () {
   const tocMaxLevel =
     typeof this.page.tocMaxLevel == 'number' ? this.page.tocMaxLevel : 3

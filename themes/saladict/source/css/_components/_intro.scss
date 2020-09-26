@@ -1,6 +1,7 @@
 .intro {
   @media screen and (min-width: $tablet) {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
   }
 }

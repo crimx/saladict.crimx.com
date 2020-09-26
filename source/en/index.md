@@ -3,6 +3,12 @@ layout: index
 home: true
 sidebar: false
 intro:
+- title: Highly Flexible and Configurable
+  content:
+  - Saladict supports mixed use of multiple search modes.
+  - Whether it be single-click, double-click, pop-up icon, hovering or keyboard shortcuts, you name it.
+  - The combination of dictionaries is dynamically adjusted according to search text and Saladict profile.
+
 - title: Abundant Dictionaries and Languages
   content:
   - Although Saladict is built for looking up English words, it also supports many other languages.
@@ -10,12 +16,6 @@ intro:
   - Other languages are supported with several machine translation services.
   - Each dictionary is well polished to a unify style for comfortable reading experience.
   - Built-in Google, Lingocloud and Youdao Page Translation.
-
-- title: Highly Flexible and Configurable
-  content:
-  - Saladict supports mixed use of multiple search modes.
-  - Whether it be single-click, double-click, pop-up icon, hovering or keyboard shortcuts, you name it.
-  - The combination of dictionaries is dynamically adjusted according to search text and Saladict profile.
 
 - title: Good Words Are Kept, Safe and Sound
   content:
