@@ -20,7 +20,8 @@ Theoretically there are two ways for making Saladict work outside of browser:
 On browsers that offer global shortcuts for extensions(Currently only Firefox does no support global shortcuts):
 
 1. Open `chrome://extensions/shortcuts`, set a `Global` shortcut for ***Search clipboard content in Standalone Panel***.
-2. Copy any text, then press the shortkeys.
+2. In Saladict options, enable "Permissions" - "Read Clipboard". (Or skip this step for now. Saladict will open this options page automatically when shortcut is triggered).
+3. Copy any text, then press the shortkeys.
 
 With this pattern we can search any text outside of browser. Many skillful users of Saladict also have found out ways to automate this process with other tools. Thank them for taking the time to make and share all of these magnificent tutorials!
 
