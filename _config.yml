@@ -103,3 +103,6 @@ theme: saladict
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+githubEmojis:
+  inject: false

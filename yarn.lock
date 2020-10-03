@@ -2799,6 +2799,16 @@ hexo-cli@^4.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
+hexo-filter-github-emojis@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/hexo-filter-github-emojis/-/hexo-filter-github-emojis-3.0.4.tgz#c86d41818aa9ae747eb8a99af0f2ea1700ac6a1c"
+  integrity sha512-ywuzsNeuBt9fzyI2VarBufqm/iBi8O+d5x4iF2iW2SPBICj7wBMTnOV8Tqn7GwDvAMB7PLlvl5S4vJiSfP4iWw==
+  dependencies:
+    jsdom "^16.4.0"
+    lodash "^4.17.20"
+    node-fetch "^2.6.1"
+    random-ua "^0.0.6"
+
 hexo-front-matter@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-2.0.0.tgz#03f39a9eedb16c5448dbb3bec7dff2c4e224006c"
@@ -3527,7 +3537,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.0.0, lodash@^4.17.15, lodash@^4.17.19, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@~4.17.10:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -3929,6 +3939,11 @@ no-case@^3.0.3:
   dependencies:
     lower-case "^2.0.1"
     tslib "^1.10.0"
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-gyp@^3.8.0:
   version "3.8.0"
@@ -4485,6 +4500,11 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+
+random-ua@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/random-ua/-/random-ua-0.0.6.tgz#eb70901b72a4fe0b8d3ab752a6b25122e40c0ad7"
+  integrity sha1-63CQG3Kk/guNOrdSprJRIuQMCtc=
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"

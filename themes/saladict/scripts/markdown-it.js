@@ -9,5 +9,4 @@ hexo.extend.filter.register('markdown-it:renderer', function (md) {
       allowedAttributes: ['id'],
     })
     .use(require('markdown-it-prism'))
-    .use(require('markdown-it-emoji'))
 })

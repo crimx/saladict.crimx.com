@@ -16,12 +16,12 @@
     <div id="site-navbar-menu" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="<%- i18n_url_for('/notice.html') %>">
-          <%= __('notice') %>
+          <%- github_emoji('warning') %><%= __('notice') %>
         </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="<%- i18n_url_for('/manual.html') %>">
-            <%= __('tutorials') %>
+            <%- github_emoji('scroll') %><%= __('tutorials') %>
           </a>
 
           <div class="navbar-dropdown">
@@ -44,12 +44,12 @@
         </div>
 
         <a class="navbar-item" href="<%- i18n_url_for('/support.html') %>">
-          <%= __('support') %>
+          <%- github_emoji('heart') %><%= __('support') %>
         </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="<%- i18n_url_for('/download.html') %>">
-            <%= __('download') %>
+            <%- github_emoji('package') %><%= __('download') %>
           </a>
 
           <div class="navbar-dropdown">
@@ -64,7 +64,7 @@
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="<%- i18n_url_for('/q&a.html') %>">
-            <%= __('questions') %>
+            <%- github_emoji('mailbox_with_mail') %><%= __('questions') %>
           </a>
 
           <div class="navbar-dropdown">
@@ -82,7 +82,7 @@
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">
-            <%= __('languages') %>
+            <%- github_emoji('globe_with_meridians') %><%= __('languages') %>
           </a>
 
           <div class="navbar-dropdown is-right">
