@@ -4,17 +4,25 @@
 
 .site-sidebar-top {
   position: relative;
+  overflow: hidden;
+  min-height: 13rem;
   margin: -0.75rem -2.25rem 1rem;
-  padding-top: 100%;
   background: $white-ter;
+
+  &::after {
+    content: "Can't find my ads. Somebody must've blocked them.🥺";
+    position: absolute;
+    z-index: 0;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
 }
 
 .site-sidebar-top-content {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  position: relative;
+  z-index: 10;
 }
