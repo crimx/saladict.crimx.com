@@ -19,6 +19,8 @@ sidebar: false
 
 如果认为你的合法权益受到侵犯请马上联系[作者](https://github.com/crimx)。
 
+<br>
+
 <h4 align="center">通过微信或支付宝扫码打赏<br>(请勿在留言反馈问题，无法回复，<a href="https://github.com/crimx/ext-saladict/issues" target="_blank">反馈地址</a>)</h4>
 
 <p align="center">
@@ -33,6 +35,20 @@ sidebar: false
   <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" style="height:50px" src="/images/patreon.png" alt="patreon saladict"></a>
   <a href="https://afdian.net/@crimx" target="_blank"><img height="50" style="height:50px" src="/images/afdian.png" alt="爱发电 saladict"></a>
 </p>
+
+<br>
+
+<h4 align="center">附上几个红包，每天都可以扫，保存下来也可以。不时有大额，领到可以用上。</h4>
+
+<div align="center" class="support-rewards">
+  <p align="center">
+    <span><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" onerror="imgFallback(this)"></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" onerror="imgFallback(this)"></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" onerror="imgFallback(this)"></span>
+  </p>
+</div>
 
 [chrome]: https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en
 [firefox]: https://addons.mozilla.org/firefox/addon/ext-saladict/
