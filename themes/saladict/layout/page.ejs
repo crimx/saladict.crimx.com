@@ -2,7 +2,7 @@
   <div class="site-article-content content" itemprop="articleBody">
     <%- page.content %>
   </div>
-  <% if (theme.adsense){ %>
+  <% if (theme.adsense && !page.noad){ %>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
