@@ -10,7 +10,7 @@
   background: $white-ter;
 
   &::after {
-    content: "Can't find my ads. Somebody must've blocked them.🥺";
+    content: "";
     position: absolute;
     z-index: 0;
     top: 4rem;
