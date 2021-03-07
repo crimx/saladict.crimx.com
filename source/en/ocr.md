@@ -1,4 +1,4 @@
-# ORC 图片文字识别
+# OCR (Optical Character Recognition)
 
 ## Windows
 

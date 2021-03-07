@@ -1,4 +1,4 @@
-# ORC 图片文字识别
+# OCR 图片文字识别
 
 ## Windows
 
@@ -6,7 +6,7 @@
 
 <https://github.com/crimx/ext-saladict/issues/493>
 
-教程作者大神提供了三种结合 Quicker 使用的 ORC 服务。
+教程作者大神提供了三种结合 Quicker 使用的 OCR 服务。
 
 #### Quicker OCR 配置
 
