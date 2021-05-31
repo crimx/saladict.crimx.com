@@ -3,6 +3,7 @@
 - [Chrome 商店][chrome] （上不了可以尝试[加速](https://jike138.net/auth/register?code=U1tj)）
 - [Firefox 商店][firefox]
 - [Edge 商店][edge]（由 @rumosky 上传）
+- [Safari][safari]
 
 墙内及其它国产浏览器可用 [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://72k.us/dir788/24782725-37758132-dc15d5)  
 （:warning: 请勿解压使用开发者模式安装 :warning:  直接拖入 crx 文件到扩展管理页面即可）  
@@ -20,5 +21,6 @@
 [chrome]: https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en
 [firefox]: https://addons.mozilla.org/firefox/addon/ext-saladict/
 [edge]: https://microsoftedge.microsoft.com/addons/detail/idghocbbahafpfhjnfhpbfbmpegphmmp
+[safari]: https://saladict.crimx.com/safari
 [zhihu]: https://zhuanlan.zhihu.com/saladict
 [mp]: https://mp.weixin.qq.com/s/Nnhk_NRWMqsFGkc5ST6odg
