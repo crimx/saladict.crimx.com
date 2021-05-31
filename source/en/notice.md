@@ -33,6 +33,10 @@ If you download Saladict from sites that are not on the offical recommended list
 
 1. Does not support immersive reader. But you can bypass that with [native search tools](./native.md).
 
+## Safari
+
+Please head to <https://saladict.crimx.com/en/safari> .
+
 ## Firefox
 
 1. If the browser action panel overflows please drag the Saladict icon out of the drawers.

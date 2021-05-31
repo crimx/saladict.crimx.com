@@ -36,6 +36,10 @@ noad: true
 
 1. 浏览器内划词不支持沉浸阅读模式，请配合[浏览器外划词](./native.md)使用。
 
+## Safari
+
+请访问 <https://saladict.crimx.com/safari> 。
+
 ## Firefox
 
 1. 如果点击地址栏旁的图标打开，发现查词面板溢出了，请把 Saladict 图标从二级菜单中拖出来。
