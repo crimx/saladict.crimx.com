@@ -18,10 +18,6 @@ Help translate this page to English.
 - 刚安装扩展可能需要刷新一遍已打开的页面以加载词典。
 - 因安全问题，扩展商店页面、Chrome 自带的 PDF 页面以及其它扩展的页面是不能划词的。
 
-### 问：在 Java 类的文档中无法显示图标，如 [Java](https://docs.oracle.com/javase/7/docs/api/), [Spring](https://docs.spring.io/spring/docs/5.0.6.RELEASE/javadoc-api/)。
-
-答：这类文档使用了一种严重过时的技术 `<frameset>`，在现代网页中已不多见。因其技术限制，在页面内显示面板将非常麻烦，故不做支持。但可以启用[独立窗口](./manual.md#triple-ctrl)的沙拉查词面板。
-
 ### 问：为什么地址栏旁的沙拉查词图标有时会出现黄底白字的“off”提示。
 
 答：因为上一个问题不时有人反馈，沙拉查词 7 开始将自动识别不能加载内嵌面板的页面。这类页面包括不限于：浏览器内置页面、扩展商店页面、其它扩展页面、使用了 `frameset` 的页面（上面的 Java 类文档）。
