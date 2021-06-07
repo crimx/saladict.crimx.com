@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m)
+        {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function ()
+            {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-49163616-5', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+    <script data-ad-client="ca-pub-6993077405597797" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>如何配合 Anki 使用 | Saladict 沙拉查词</title>
+    <meta name="description" content="Saladict 沙拉查词 聚合词典划词翻译 是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本、以及 PDF 划词。">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#5caf9e">
+    <link rel="stylesheet" href="/css/style.css">
+    <script>
+        function imgFallback(img)
+        {
+            const nextIndex = (Number(img.dataset.index) || 0) + 1
+            const nextSrc = img.dataset['src-' + nextIndex]
+            if (!nextSrc) return
+            img.dataset.index = nextIndex
+            img.src = nextSrc
+        }
+
+    </script>
+    <meta name="generator" content="Hexo 5.2.0">
+</head>
+
+<body class="has-navbar-fixed-top">
+    <nav class="site-navbar-wrap navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-4 has-text-weight-bold" href="/">
+                    <img src="/saladict.svg" alt="Saladict 沙拉查词" width="28" height="28" class="mr-2"> Saladict 沙拉查词 </a>
+                <a id="site-navbar-menu-btn" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="site-navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="site-navbar-menu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/notice.html">
+                        <span class="github-emoji"><span>&#x26a0;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>注意事项 </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/manual.html">
+                            <span class="github-emoji"><span>&#x1f4dc;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dc.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>教程 </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/manual.html"> 完整使用说明 </a>
+                            <a class="navbar-item" href="/anki.html"> 配合 Anki 使用 </a>
+                            <a class="navbar-item" href="/ocr.html"> OCR（图片文字识别） </a>
+                            <a class="navbar-item" href="/native.html"> 浏览器外划词 </a>
+                            <a class="navbar-item" href="/tips.html#youtube"> YouTube 划词 </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="/support.html">
+                        <span class="github-emoji"><span>&#x2764;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>支持项目 </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/download.html">
+                            <span class="github-emoji"><span>&#x1f4e6;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>下载安装 </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/download.html"> 下载地址 </a>
+                            <a class="navbar-item" href="/releases/"> 更新信息 </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/q&a.html">
+                            <span class="github-emoji"><span>&#x1f4ec;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ec.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>问题反馈 </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/q&a.html"> 常见问题与答复 </a>
+                            <a class="navbar-item" target="_blank" rel="noopener" href="https://github.com/crimx/ext-saladict/issues"> 反馈与建议 </a>
+                            <a class="navbar-item" href="/privacy-policy.html"> 私隐政策 </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="#">
+                            <span class="github-emoji"><span>&#x1f310;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>Languages </a>
+                        <div class="navbar-dropdown is-right">
+                            <a class="navbar-item" href="/anki.html"> 中文 </a>
+                            <a class="navbar-item" href="/en/anki.html"> English </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        ;
+        (function ()
+        {
+            var menuBtn = document.getElementById('site-navbar-menu-btn')
+            if (menuBtn)
+            {
+                menuBtn.addEventListener('click', function ()
+                {
+                    var menu = document.getElementById('site-navbar-menu')
+                    if (menu)
+                    {
+                        menu.classList.toggle('is-active')
+                    }
+                })
+            }
+        })();
+
+    </script>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column site-sidebar-wrap is-hidden-touch">
+                    <section class="section pt-0">
+                        <aside class="site-sidebar menu">
+                            <div class="site-sidebar-top">
+                                <div class="site-sidebar-top-content">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- sidebar-head -->
+                                    <ins class="adsbygoogle" style="display:inline-block;width:293px;max-width:100%;" data-ad-client="ca-pub-6993077405597797" data-ad-format="auto" data-ad-slot="5077350487">
+                                    </ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push(
+                                        {});
+
+                                    </script>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88-anki-%E4%BD%BF%E7%94%A8" class="menu-label">如何配合 Anki 使用</a>
+                            </div>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-anki">为什么选择 Anki</a>
+                                </li>
+                                <li>
+                                    <a href="#anki-connect-%E8%87%AA%E5%8A%A8%E5%88%B6%E5%8D%A1">Anki Connect 自动制卡</a>
+                                </li>
+                                <li>
+                                    <a href="#%E6%96%87%E6%9C%AC%E6%96%B9%E5%BC%8F%E5%AF%BC%E5%85%A5">文本方式导入</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#note-type">Note Type</a>
+                                        </li>
+                                        <li>
+                                            <a href="#%E5%AF%BC%E5%87%BA%E5%8D%95%E8%AF%8D">导出单词</a>
+                                        </li>
+                                        <li>
+                                            <a href="#%E5%AF%BC%E5%85%A5%E5%8D%95%E8%AF%8D">导入单词</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+                </div>
+                <div class="column site-article-wrap is-three-quarters">
+                    <section class="section py-0">
+                        <article class="site-article container article-type-page" itemscope itemprop="blogPost">
+                            <div class="site-article-content content" itemprop="articleBody">
+                                <h1 id="%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88-anki-%E4%BD%BF%E7%94%A8"><a class="article-header-anchor" href="#%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88-anki-%E4%BD%BF%E7%94%A8">¶</a> 如何配合 Anki 使用</h1>
+                                <h2 id="%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-anki"><a class="article-header-anchor" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-anki">¶</a> 为什么选择 Anki</h2>
+                                <p>可以看看这个由 YJango 制作的视频<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Gt411S72A">「我们10多年的外语教学的方法几乎全错了」</a>，与沙拉查词的设计理念十分契合。</p>
+                                <iframe style="width: 100%; height: 540px;" src="//player.bilibili.com/player.html?aid=37529038&amp;bvid=BV1Gt411S72A&amp;cid=66062346&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                                <p>大部分的背单词 App 思路都是展示一个单词与它的多个常见意思，然后让用户记住这个关联。有的平台声称有大量情景对白、真实语料，但这些语料更多仅仅是作为参考资料存在。基本逻辑依然是以单词为中心，记忆它的多个意思。</p>
+                                <p>这样的方式适合应试记忆而缺乏实用性。基于准确语境的学习方式每个单词都只会有确切的意思，符合 SuperMemo 记忆理念，更容易形成条件反射。</p>
+                                <p>当我们在网页上阅读文章，对不懂的单词进行划词翻译，最后收藏到沙拉查词生词本，此时单词的上下本也会一并保存并提供自动翻译。这些珍贵的真实语境都可以被完好的同步到 Anki 记忆库中，生成沙拉查词特制的精美卡片。</p>
+                                <h2 id="anki-connect-%E8%87%AA%E5%8A%A8%E5%88%B6%E5%8D%A1"><a class="article-header-anchor" href="#anki-connect-%E8%87%AA%E5%8A%A8%E5%88%B6%E5%8D%A1">¶</a> Anki Connect 自动制卡</h2>
+                                <p>有了沙拉查词，Anki 制卡不需要再繁琐的手动配置，全部都可以一键生成。</p>
+                                <p>首先需要安装 <a target="_blank" rel="noopener" href="https://apps.ankiweb.net/">Anki</a> 以及 <a target="_blank" rel="noopener" href="https://github.com/FooSoft/anki-connect">Anki Connect</a> 插件。</p>
+                                <ol>
+                                    <li>Anki 菜单栏中找到 工具/Tools 👉 插件/Add-ons 👉 浏览与安装/Browse &amp; Install。</li>
+                                    <li>输入 <a target="_blank" rel="noopener" href="https://ankiweb.net/shared/info/2055492159"><code>2055492159</code></a> 确认安装。</li>
+                                    <li>重启 Anki。</li>
+                                </ol>
+                                <p>Windows 可能会出现防火墙提示，需要选择允许 Anki。Mac OS X Mavericks 可能需要调整 App Nap 以避免 Anki 被休眠，具体说明见其<a target="_blank" rel="noopener" href="https://github.com/FooSoft/anki-connect#notes-for-windows-users">文档</a>。</p>
+                                <p>安装之后如果没有特殊要求使用默认配置即可，在沙拉查词设置 👉 单词管理/Notebook 中开启 Anki Connect 同步。</p>
+                                <p>开启之后请保持 Anki 在后台运行。另外可以安装插件 <a target="_blank" rel="noopener" href="https://ankiweb.net/shared/info/85158043"><code>85158043</code></a> 让 Anki 最小化到系统托盘。每次保存单词到生词本的时候沙拉查词会自动制卡并同步到 Anki。相同的单词（以“Date”为准）会被跳过，如需强制更新可以在单词编辑器中更新。</p>
+                                <p>例如沙拉查词中的单词：</p>
+                                <pre class="language-yml"><code class="language-yml"><span class="token key atrule">时间截</span><span class="token punctuation">:</span> <span class="token number">1234567890</span>
+<span class="token key atrule">单词</span><span class="token punctuation">:</span> beauty
+<span class="token key atrule">上下文</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  She walks in beauty, like the night</span>
+<span class="token key atrule">翻译</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  [:: google ::]
+  她走在美丽的地方，就像夜晚
+   
+  [:: youdaotrans ::]
+  她走在美丽的夜色中
+   
+  [:: caiyun ::]
+  她举步娉婷，就像夜晚
+  ---------------</span>
+<span class="token key atrule">笔记</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  In beauty 一词仿佛她自带光环，美丽洋溢在她四周。</span>
+<span class="token key atrule">来源标题</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  She Walks in Beauty by Lord Byron (George Gordon) | Poetry Foundation</span>
+<span class="token key atrule">来源链接</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty</span>
+<span class="token key atrule">来源图标</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  https://www.poetryfoundation.org/assets/media/images/favicon-32x32.png?v=1.2.9</span>
+</code></pre>
+                                <p>在保存到 Anki 后会成为</p>
+                                <pre class="language-yml"><code class="language-yml"><span class="token key atrule">Date</span><span class="token punctuation">:</span> <span class="token number">1234567890</span>
+<span class="token key atrule">Text</span><span class="token punctuation">:</span> beauty
+<span class="token key atrule">Context</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  She walks in beauty, like the night</span>
+<span class="token key atrule">ContextCloze</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  She walks in {{c1::beauty}}, like the night</span>
+<span class="token key atrule">Translation</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  &lt;div class="trans"&gt;&lt;span class="trans_title"&gt;google&lt;/span&gt;&lt;div class="trans_content"&gt;她走在美丽的地方，就像夜晚&lt;/div&gt;&lt;span class="trans_title"&gt;youdaotrans&lt;/span&gt;&lt;div class="trans_content"&gt;她走在美丽的夜色中&lt;/div&gt;&lt;span class="trans_title"&gt;caiyun&lt;/span&gt;&lt;div class="trans_content"&gt;她举步娉婷，就像夜晚&lt;/div&gt;&lt;/div&gt;</span>
+<span class="token key atrule">Note</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  In beauty 一词仿佛她自带光环，美丽洋溢在她四周。</span>
+<span class="token key atrule">Title</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  She Walks in Beauty by Lord Byron (George Gordon) | Poetry Foundation</span>
+<span class="token key atrule">Url</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty</span>
+<span class="token key atrule">Favicon</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  https://www.poetryfoundation.org/assets/media/images/favicon-32x32.png?v=1.2.9</span>
+<span class="token key atrule">Audio</span><span class="token punctuation">:</span> <span class="token string">''</span>
+</code></pre>
+                                <p>其中这些 <code>Date</code>, <code>Text</code>, <code>Context</code>, <code>ContextCloze</code>, <code>Translation</code>, <code>Note</code>, <code>Title</code>, <code>Url</code>, <code>Favicon</code>, <code>Audio</code> 为 Anki 的笔记域“Note fields”。</p>
+                                <p>如果想自定义卡片请不要更改这些名字，而是直接修改或添加新的卡片类型。Anki 的杀手锏之一便是笔记与卡片分离，见前文概念资料。</p>
+                                <p>同时我们可以注意到这些名字与前面沙拉单词基本一一对应，但是多了 <code>ContextCloze</code> 和 <code>Audio</code>。其中 <code>Audio</code> 为待实现的发音功能；而 <code>ContextCloze</code> 仔细看它的值，关键字 <code>beauty</code> 被沙拉查词替换成了 <code v-pre="">{{ c1::beauty }}</code>，这是用于生成 Anki 填空卡片。原有的上下文依然保留到 <code>Contex.</code> 方便用户自行制作其它卡片。</p>
+                                <p>结合沙拉查词默认生成的填空题卡片样式，可以得到以下效果：</p>
+                                <p><img src="./assets/anki-card-front.png" alt="Anki Card Front"></p>
+                                <p>其中关键字被自动挖空；自动生成的翻译已同时自动排好版；个人笔记被作为提示隐藏起来，点击即可展开；来源保留在下方。</p>
+                                <p>卡片背面：</p>
+                                <p><img src="./assets/anki-card-back.png" alt="Anki Card Back"></p>
+                                <h2 id="%E6%96%87%E6%9C%AC%E6%96%B9%E5%BC%8F%E5%AF%BC%E5%85%A5"><a class="article-header-anchor" href="#%E6%96%87%E6%9C%AC%E6%96%B9%E5%BC%8F%E5%AF%BC%E5%85%A5">¶</a> 文本方式导入</h2>
+                                <p>Anki 同时支持以文本方式导入笔记，但如果能用 Anki Connect 还是建议使用 Anki Connect 更方便。</p>
+                                <h3 id="note-type"><a class="article-header-anchor" href="#note-type">¶</a> Note Type</h3>
+                                <p>第一次导入前我们需要在 Anki 中新建 note type，内置的只有正反面 Question 和 Answer ，如果觉得够用也可以。</p>
+                                <ol>
+                                    <li>点开 <code>Tools -&gt; Manage Note Types</code> 浏览所有 note types ，点 <code>Add</code> 添加。</li>
+                                    <li>高级的可自行选择，这里我们选最基础的 <code>Add: Basic</code>。</li>
+                                    <li>填写名字，如 Saladict Notebook。</li>
+                                    <li>然后看到列表中添加成功了，选中，点击 <code>Fields</code> 编辑字段。</li>
+                                    <li>可以看到默认只提供了 <code>Front</code> 和 <code>Back</code> ，全部删掉或直接改名，根据需要换成 Saladict 的几个字段 <code>Word</code>, <code>Context</code>, <code>Translation</code>, <code>Note</code>, <code>Source Title</code>, <code>Source URL</code>, <code>Source Favicon</code>。这里我们按顺序添加 <code>Word</code>, <code>Context</code>, <code>Translation</code>, <code>Note</code>。</li>
+                                    <li>Anki 会提示下次同步将完全覆盖，如果没有其它设备尚未同步，点确认。</li>
+                                    <li>添加完后 <code>Close</code> 回到列表。点开 <code>Cards</code> 编辑卡片模板。</li>
+                                    <li>可以看到卡片模板分为前后。根据需要填写，<code>{{}}</code> 中的就是我们刚才填写的字段，会被自动替换为具体内容。提供一个简单的模板： <ul>
+                                            <li>Front Template:
+                                                <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{Word}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{Context}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre>
+                                            </li>
+                                            <li>Back Template
+                                                <pre class="language-html"><code class="language-html">{{FrontSide}}
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>answer</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{Translation}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{Note}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>填写完 <code>Close</code> 掉。Note types 添加完毕。</li>
+                                </ol>
+                                <h3 id="%E5%AF%BC%E5%87%BA%E5%8D%95%E8%AF%8D"><a class="article-header-anchor" href="#%E5%AF%BC%E5%87%BA%E5%8D%95%E8%AF%8D">¶</a> 导出单词</h3>
+                                <p>在 Saladict 生词本或者查词记录中导出单词，可导出选中或全部导出。Anki 会自动识别重复的。</p>
+                                <p>导出时编写模板，根据上面 Note Type 字段的顺序导出，用 <kbd>1</kbd> 左边的 <code>`</code> 分割可以很好避免字符冲突。</p>
+                                <p>比如按照上面例子的顺序 <code>Word</code>, <code>Context</code>, <code>Translation</code>, <code>Note</code>，我们的模板应该为</p>
+                                <pre><code>%text% ` %context% ` %trans% ` %note%
+</code></pre>
+                                <p>同时因为 Anki 文本导入是以行为单位识别的，导出的内容中有多行（如自动翻译会产生多行内容）注意将改选编辑器上方的「保留换行」。</p>
+                                <ul>
+                                    <li>可以选为<code>换行替换为空格</code>，导出的文本将没有换行。</li>
+                                    <li>可以改选为<code>换行替换为&lt;br&gt;</code> 或 <code>换行替换为&lt;p&gt;</code>。这是 Anki 可以识别的 HTML 标签（见下方配置）。在默认的样式下每行间 <code>&lt;br&gt;</code> 会比 <code>&lt;p&gt;</code> 更紧凑些。</li>
+                                </ul>
+                                <p>导出保存文件。</p>
+                                <h3 id="%E5%AF%BC%E5%85%A5%E5%8D%95%E8%AF%8D"><a class="article-header-anchor" href="#%E5%AF%BC%E5%85%A5%E5%8D%95%E8%AF%8D">¶</a> 导入单词</h3>
+                                <p>打开 Anki -&gt; File -&gt; Import 选择文件，导入类型选 <code>Text separated by tabs or semicolons</code>。</p>
+                                <p>然后出现 Import 面板。几个选项：</p>
+                                <ul>
+                                    <li><code>Type</code> 就是上面的 Note Type ，选择 Saladict Notebook 。</li>
+                                    <li><code>Deck</code> 是让卡片如何归类，通过 <code>::</code> 分割层级结构。点开后可以选择已有的也可以 <code>Add</code> 新建。这里我们新建一个 <code>单词::Saladict</code> 。</li>
+                                    <li><code>Fields separated by: Space</code> 。我们换成 <code>`</code> 。</li>
+                                    <li>然后就是忽略规则，按需选择。这里我们保持默认。</li>
+                                    <li><code>Allow HTML in fields</code> 。如果上面选择了 <code>&lt;br&gt;</code> 或 <code>&lt;p&gt;</code> 等 HTML 排版需要勾选。</li>
+                                    <li>然后下面的 <code>Field Mapping</code> 字段映射就可以看到识别到了上面定义的四个字段。两者匹配成功。</li>
+                                    <li>点击 <code>Import</code> 可以看到导入结果。</li>
+                                </ul>
+                            </div>
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6993077405597797" data-ad-slot="6866727264"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push(
+                                {});
+
+                            </script>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-support container content">
+            <h1 id="reward"><a class="article-header-anchor" href="#reward">¶</a> 写给喜爱沙拉查词的小伙伴们</h1>
+            <p>沙拉查词的成长离不开大家的支持！作为一个免费、无广告、开源的非盈利项目，能得到这么多人的支持真是意外又惊喜。每个人的心意作者都会铭记，谢谢你们❤️！</p>
+            <p>沙拉查词目前还是主要由作者个人在开发，如果你喜欢沙拉查词并愿意帮助维持这个项目继续推进可以：</p>
+            <ul>
+                <li>帮助更多朋友发现沙拉查词。请按 <a target="_blank" rel="noopener" href="https://github.com/crimx/ext-saladict">Github</a> 上方的 <kbd>★Star</kbd> 按钮收藏本项目以及在<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en">谷歌商店</a>，<a target="_blank" rel="noopener" href="https://addons.mozilla.org/firefox/addon/ext-saladict/">火狐商店</a>或 <a target="_blank" rel="noopener" href="https://microsoftedge.microsoft.com/addons/detail/idghocbbahafpfhjnfhpbfbmpegphmmp">Edge 商店</a>上留好评。</li>
+                <li>为项目修改错别字用词或提交代码（谢谢<a target="_blank" rel="noopener" href="https://github.com/crimx/ext-saladict/graphs/contributors">贡献者们</a>）。</li>
+                <li>有什么高效使用沙拉查词的技巧欢迎向小伙伴们<a href="./native.html">分享</a>。</li>
+                <li>打赏作者请他喝咖啡☕️和吃沙拉🥗补充精力。可选择定期多次或一次性投币（都选作者也是没意见的🤪）。</li>
+            </ul>
+            <p>声明：沙拉查词作为自由开源的浏览器辅助插件，仅供学习交流，任何人均可免费获取产品与源码。用户投币前请确认是出于心情愉悦自愿对作者个人的赠与支持，而非购买行为。作者不承诺、不提供任何针对该赠与的回报性质服务，感谢理解🙏。</p>
+            <p>如果认为你的合法权益受到侵犯请马上联系<a target="_blank" rel="noopener" href="https://github.com/crimx">作者</a>。</p>
+            <br>
+            <h4 align="center">通过微信或支付宝扫码打赏<br>(请勿在留言反馈问题，无法回复，<a href="https://github.com/crimx/ext-saladict/issues" target="_blank">反馈地址</a>)</h4>
+            <p align="center">
+                <img height="200" style="height:200px" src="/images/wechat.png" alt="wechat qrcode"> &nbsp;&nbsp;&nbsp;&nbsp; <img height="200" style="height:200px" src="/images/alipay.png" alt="alipay qrcode">
+            </p>
+            <h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期请我喝咖啡</h4>
+            <p align="center">
+                <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" style="height:50px" src="/images/patreon.png" alt="patreon saladict"></a>
+                <a href="https://afdian.net/@crimx" target="_blank"><img height="50" style="height:50px" src="/images/afdian.png" alt="爱发电 saladict"></a>
+            </p>
+            <br>
+            <h4 align="center">附上几个红包，每天都可以扫，保存下来也可以。不时有大额，领到可以用上。</h4>
+            <div align="center" class="support-rewards">
+                <p align="center">
+                    <span><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&amp;url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" onerror="imgFallback(this)"></span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="support-rewards-qrcode"><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&amp;url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" onerror="imgFallback(this)"></span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="support-rewards-qrcode"><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&amp;url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" onerror="imgFallback(this)"></span>
+                </p>
+            </div>
+        </div>
+        <div class="content has-text-centered">
+            <p class="is-marginless"> &copy; 2021 CRIMX. All rights reserved. </p>
+            <p class="is-size-7">
+                <span class="footer-sc">The source code is licensed <a target="_blank" rel="noopener" href="http://opensource.org/licenses/mit-license.php">MIT</a>.</span>
+                <span class="footer-wc">The website content is licensed <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
