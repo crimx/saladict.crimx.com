@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m)
+        {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function ()
+            {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-49163616-5', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+    <script data-ad-client="ca-pub-6993077405597797" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>v6.29 | Saladict 沙拉查词</title>
+    <meta name="description" content="Saladict 沙拉查词 聚合词典划词翻译 是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本、以及 PDF 划词。">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#5caf9e">
+    <link rel="stylesheet" href="/css/style.css">
+    <script>
+        function imgFallback(img)
+        {
+            const nextIndex = (Number(img.dataset.index) || 0) + 1
+            const nextSrc = img.dataset['src-' + nextIndex]
+            if (!nextSrc) return
+            img.dataset.index = nextIndex
+            img.src = nextSrc
+        }
+
+    </script>
+    <meta name="generator" content="Hexo 5.2.0">
+</head>
+
+<body class="has-navbar-fixed-top">
+    <nav class="site-navbar-wrap navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item is-size-4 has-text-weight-bold" href="/">
+                    <img src="/saladict.svg" alt="Saladict 沙拉查词" width="28" height="28" class="mr-2"> Saladict 沙拉查词 </a>
+                <a id="site-navbar-menu-btn" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="site-navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="site-navbar-menu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/notice.html">
+                        <span class="github-emoji"><span>&#x26a0;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>注意事项 </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/manual.html">
+                            <span class="github-emoji"><span>&#x1f4dc;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dc.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>教程 </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/manual.html"> 完整使用说明 </a>
+                            <a class="navbar-item" href="/anki.html"> 配合 Anki 使用 </a>
+                            <a class="navbar-item" href="/ocr.html"> OCR（图片文字识别） </a>
+                            <a class="navbar-item" href="/native.html"> 浏览器外划词 </a>
+                            <a class="navbar-item" href="/tips.html#youtube"> YouTube 划词 </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="/support.html">
+                        <span class="github-emoji"><span>&#x2764;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>支持项目 </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/download.html">
+                            <span class="github-emoji"><span>&#x1f4e6;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>下载安装 </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/download.html"> 下载地址 </a>
+                            <a class="navbar-item" href="/releases/"> 更新信息 </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/q&a.html">
+                            <span class="github-emoji"><span>&#x1f4ec;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ec.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>问题反馈 </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/q&a.html"> 常见问题与答复 </a>
+                            <a class="navbar-item" target="_blank" rel="noopener" href="https://github.com/crimx/ext-saladict/issues"> 反馈与建议 </a>
+                            <a class="navbar-item" href="/privacy-policy.html"> 私隐政策 </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="#">
+                            <span class="github-emoji"><span>&#x1f310;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>Languages </a>
+                        <div class="navbar-dropdown is-right">
+                            <a class="navbar-item" href="/releases/v6.29.html"> 中文 </a>
+                            <a class="navbar-item" href="/en/releases/v6.29.html"> English </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        ;
+        (function ()
+        {
+            var menuBtn = document.getElementById('site-navbar-menu-btn')
+            if (menuBtn)
+            {
+                menuBtn.addEventListener('click', function ()
+                {
+                    var menu = document.getElementById('site-navbar-menu')
+                    if (menu)
+                    {
+                        menu.classList.toggle('is-active')
+                    }
+                })
+            }
+        })();
+
+    </script>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column site-sidebar-wrap is-hidden-touch">
+                    <section class="section pt-0">
+                        <aside class="site-sidebar menu">
+                            <div class="site-sidebar-top">
+                                <div class="site-sidebar-top-content">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- sidebar-head -->
+                                    <ins class="adsbygoogle" style="display:inline-block;width:293px;max-width:100%;" data-ad-client="ca-pub-6993077405597797" data-ad-format="auto" data-ad-slot="5077350487">
+                                    </ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push(
+                                        {});
+
+                                    </script>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#v6.29.0" class="menu-label">v6.29.0</a>
+                            </div>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="#%E6%96%B0%E5%A2%9E">新增</a>
+                                </li>
+                                <li>
+                                    <a href="#%E6%94%B9%E8%BF%9B">改进</a>
+                                </li>
+                                <li>
+                                    <a href="#%E4%BF%AE%E5%A4%8D">修复</a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+                </div>
+                <div class="column site-article-wrap is-three-quarters">
+                    <section class="section py-0">
+                        <article class="site-article container article-type-page" itemscope itemprop="blogPost">
+                            <div class="site-article-content content" itemprop="articleBody">
+                                <h2 id="v6.29.0"><a class="article-header-anchor" href="#v6.29.0">¶</a> v6.29.0</h2>
+                                <h3 id="%E6%96%B0%E5%A2%9E"><a class="article-header-anchor" href="#%E6%96%B0%E5%A2%9E">¶</a> 新增</h3>
+                                <ol>
+                                    <li>添加 CNKI 翻译助手，论文狗们慢用</li>
+                                    <li>单词本导出新增日期替换符</li>
+                                </ol>
+                                <h3 id="%E6%94%B9%E8%BF%9B"><a class="article-header-anchor" href="#%E6%94%B9%E8%BF%9B">¶</a> 改进</h3>
+                                <ol start="3">
+                                    <li>单词本浏览单词保留换行</li>
+                                    <li>翻译原文过长时收起</li>
+                                    <li>右上弹框宽度尊重设置</li>
+                                </ol>
+                                <h3 id="%E4%BF%AE%E5%A4%8D"><a class="article-header-anchor" href="#%E4%BF%AE%E5%A4%8D">¶</a> 修复</h3>
+                                <ol start="6">
+                                    <li>修复历史记录按钮</li>
+                                </ol>
+                            </div>
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6993077405597797" data-ad-slot="6866727264"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push(
+                                {});
+
+                            </script>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-support container content">
+            <h1 id="reward"><a class="article-header-anchor" href="#reward">¶</a> 写给喜爱沙拉查词的小伙伴们</h1>
+            <p>沙拉查词的成长离不开大家的支持！作为一个免费、无广告、开源的非盈利项目，能得到这么多人的支持真是意外又惊喜。每个人的心意作者都会铭记，谢谢你们❤️！</p>
+            <p>沙拉查词目前还是主要由作者个人在开发，如果你喜欢沙拉查词并愿意帮助维持这个项目继续推进可以：</p>
+            <ul>
+                <li>帮助更多朋友发现沙拉查词。请按 <a target="_blank" rel="noopener" href="https://github.com/crimx/ext-saladict">Github</a> 上方的 <kbd>★Star</kbd> 按钮收藏本项目以及在<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en">谷歌商店</a>，<a target="_blank" rel="noopener" href="https://addons.mozilla.org/firefox/addon/ext-saladict/">火狐商店</a>或 <a target="_blank" rel="noopener" href="https://microsoftedge.microsoft.com/addons/detail/idghocbbahafpfhjnfhpbfbmpegphmmp">Edge 商店</a>上留好评。</li>
+                <li>为项目修改错别字用词或提交代码（谢谢<a target="_blank" rel="noopener" href="https://github.com/crimx/ext-saladict/graphs/contributors">贡献者们</a>）。</li>
+                <li>有什么高效使用沙拉查词的技巧欢迎向小伙伴们<a href="./native.html">分享</a>。</li>
+                <li>打赏作者请他喝咖啡☕️和吃沙拉🥗补充精力。可选择定期多次或一次性投币（都选作者也是没意见的🤪）。</li>
+            </ul>
+            <p>声明：沙拉查词作为自由开源的浏览器辅助插件，仅供学习交流，任何人均可免费获取产品与源码。用户投币前请确认是出于心情愉悦自愿对作者个人的赠与支持，而非购买行为。作者不承诺、不提供任何针对该赠与的回报性质服务，感谢理解🙏。</p>
+            <p>如果认为你的合法权益受到侵犯请马上联系<a target="_blank" rel="noopener" href="https://github.com/crimx">作者</a>。</p>
+            <br>
+            <h4 align="center">通过微信或支付宝扫码打赏<br>(请勿在留言反馈问题，无法回复，<a href="https://github.com/crimx/ext-saladict/issues" target="_blank">反馈地址</a>)</h4>
+            <p align="center">
+                <img height="200" style="height:200px" src="/images/wechat.png" alt="wechat qrcode"> &nbsp;&nbsp;&nbsp;&nbsp; <img height="200" style="height:200px" src="/images/alipay.png" alt="alipay qrcode">
+            </p>
+            <h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期请我喝咖啡</h4>
+            <p align="center">
+                <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" style="height:50px" src="/images/patreon.png" alt="patreon saladict"></a>
+                <a href="https://afdian.net/@crimx" target="_blank"><img height="50" style="height:50px" src="/images/afdian.png" alt="爱发电 saladict"></a>
+            </p>
+            <br>
+            <h4 align="center">附上几个红包，每天都可以扫，保存下来也可以。不时有大额，领到可以用上。</h4>
+            <div align="center" class="support-rewards">
+                <p align="center">
+                    <span><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&amp;url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" onerror="imgFallback(this)"></span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="support-rewards-qrcode"><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&amp;url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" onerror="imgFallback(this)"></span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="support-rewards-qrcode"><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&amp;url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" onerror="imgFallback(this)"></span>
+                </p>
+            </div>
+        </div>
+        <div class="content has-text-centered">
+            <p class="is-marginless"> &copy; 2021 CRIMX. All rights reserved. </p>
+            <p class="is-size-7">
+                <span class="footer-sc">The source code is licensed <a target="_blank" rel="noopener" href="http://opensource.org/licenses/mit-license.php">MIT</a>.</span>
+                <span class="footer-wc">The website content is licensed <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
