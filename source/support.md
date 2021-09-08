@@ -41,11 +41,9 @@ sidebar: false
 
 <div align="center" class="support-rewards">
   <p align="center">
-    <span><img width="200" style="width:200px" src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1k9ruywj20nn16ak4t.jpg" onerror="imgFallback(this)"></span>
-    &nbsp;&nbsp;&nbsp;&nbsp;
     <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" onerror="imgFallback(this)"></span>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx1402zhxj20ku112ai4.jpg" onerror="imgFallback(this)"></span>
+    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/00218exvly1gu9cf1o7xgj60lb0xuwjq02.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/00218exvly1gu9cf1o7xgj60lb0xuwjq02.jpg" onerror="imgFallback(this)"></span>
   </p>
 </div>
 
