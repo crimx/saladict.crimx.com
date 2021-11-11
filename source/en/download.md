@@ -7,7 +7,7 @@
 - [Microsoft Edge Add-ons][edge](Uploaded by @rumosky )
 - [Safari][safari]
 
-To download CRX directly: [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://72k.us/dir788/24782725-37758132-dc15d5)  
+To download CRX directly: [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521）  
 (:warning: Do not unzip crx and load under development mode. :warning: Just drag the crx file into the Extensions page.)
 （Verify the Saladict extension id `cdonnmffkdaoajfknoeeecmchibpmkmg`）
 

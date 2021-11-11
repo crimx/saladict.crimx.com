@@ -5,7 +5,7 @@
 - [Edge 商店][edge]（由 @rumosky 上传）
 - [Safari][safari]
 
-墙内及其它国产浏览器可用 [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://72k.us/dir788/24782725-37758132-dc15d5)  
+墙内及其它国产浏览器可用 [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521）  
 （:warning: 请勿解压使用开发者模式安装 :warning:  直接拖入 crx 文件到扩展管理页面即可）  
 （注意谷歌扩展更新了打包格式，部分内核比较滞后的国产浏览器可能安装不了）  
 （非官方市场安装请在浏览器扩展管理处核对扩展 id 为 `cdonnmffkdaoajfknoeeecmchibpmkmg`）
