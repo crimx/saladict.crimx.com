@@ -1,6 +1,6 @@
 ## 下载
 
-- [Chrome 商店][chrome] （上不了可以尝试[加速](https://jike.ph/auth/register?code=U1tj)）
+- [Chrome 商店][chrome] （上不了可以尝试[加速](https://sy168.site/auth/register?code=QmPt)（[备用](https://jike0001.net/auth/register?code=U1tj)））
 - [Firefox 商店][firefox]
 - [Edge 商店][edge]（由 @rumosky 上传）
 - [Safari][safari]

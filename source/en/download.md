@@ -2,7 +2,7 @@
 
 ## Installation
 
-- [Chrome Web Store][chrome] ([workaround](https://jike.ph/auth/register?code=U1tj) for restricted network)
+- [Chrome Web Store][chrome] ([workaround](https://sy168.site/auth/register?code=QmPt) for restricted network ([alternative](https://jike0001.net/auth/register?code=U1tj)))
 - [Firefox Add-ons][firefox]
 - [Microsoft Edge Add-ons][edge](Uploaded by @rumosky )
 - [Safari][safari]
