@@ -7,7 +7,7 @@ Saladict is also looking for a volunteer who can help upload the app to App Stor
 ## Download
 
 - [Github Releases](https://github.com/crimx/ext-saladict/releases)
-- [Net Disk](https://72k.us/dir788/24782725-37758132-dc15d5)
+- [Net Disk](https://url25.ctfile.com/d/24782725-37758132-32949f)（Password: 5521）
 
 ## Installation
 

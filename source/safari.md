@@ -7,7 +7,7 @@
 ## 下载
 
 - [Github Releases](https://github.com/crimx/ext-saladict/releases)
-- [网盘](https://72k.us/dir788/24782725-37758132-dc15d5)
+- [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521）
 
 ## 安装
 
