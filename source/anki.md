@@ -6,9 +6,9 @@ disableNunjucks: true
 
 ## 为什么选择 Anki
 
-可以看看这个由 YJango 制作的视频[「我们10多年的外语教学的方法几乎全错了」](https://www.bilibili.com/video/BV1Gt411S72A)，与沙拉查词的设计理念十分契合。
+可以看看这个由 YJango 制作的视频[「我们十几年的外语教育方法几乎全错了」](https://zhuanlan.zhihu.com/p/51717106)，与沙拉查词的设计理念十分契合。
 
-<iframe style="width: 100%; height: 540px;" src="//player.bilibili.com/player.html?aid=37529038&bvid=BV1Gt411S72A&cid=66062346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="540" src="https://www.youtube.com/embed/TlP4iwFum2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 大部分的背单词 App 思路都是展示一个单词与它的多个常见意思，然后让用户记住这个关联。有的平台声称有大量情景对白、真实语料，但这些语料更多仅仅是作为参考资料存在。基本逻辑依然是以单词为中心，记忆它的多个意思。
 
