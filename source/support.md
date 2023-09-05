@@ -12,7 +12,7 @@ sidebar: false
 - 帮助更多朋友发现沙拉查词。请按 [Github](https://github.com/crimx/ext-saladict) 上方的 <kbd>★Star</kbd> 按钮收藏本项目以及在[谷歌商店][chrome]，[火狐商店][firefox]或 [Edge 商店][edge]上留好评。
 - 为项目修改错别字用词或提交代码（谢谢[贡献者们](https://github.com/crimx/ext-saladict/graphs/contributors)）。
 - 有什么高效使用沙拉查词的技巧欢迎向小伙伴们[分享](./native.html)。
-- 打赏作者请他喝咖啡☕️和吃沙拉🥗补充精力。可选择定期多次或一次性投币（都选作者也是没意见的🤪）。
+- 打赏作者请他喝冰美式☕️和吃沙拉🥗补充精力。可选择定期多次或一次性投币（都选作者也是没意见的🤪）。
 
 声明：沙拉查词作为自由开源的浏览器辅助插件，仅供学习交流，任何人均可免费获取产品与源码。用户投币前请确认是出于心情愉悦自愿对作者个人的赠与支持，而非购买行为。作者不承诺、不提供任何针对该赠与的回报性质服务，感谢理解🙏。
 
@@ -28,7 +28,7 @@ sidebar: false
   <img height="200" style="height:200px"src="/images/alipay.png" alt="alipay qrcode">
 </p>
 
-<h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期请我喝咖啡</h4>
+<h4 align="center">通过 <a href="https://www.patreon.com/saladict" target="_blank">Patreon</a> 或 <a href="https://afdian.net/@crimx" target="_blank">爱发电</a> 定期支持</h4>
 
 <p align="center">
   <a href="https://www.patreon.com/saladict" target="_blank"><img height="50" style="height:50px" src="/images/patreon.png" alt="patreon saladict"></a>
@@ -36,18 +36,6 @@ sidebar: false
 </p>
 
 <br>
-
-<h4 align="center">附上几个红包，每天都可以扫，保存下来也可以。不时有大额，领到可以用上。</h4>
-
-<div align="center" class="support-rewards">
-  <p align="center">
-    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/6e3591e5gy1gjx13s712ij20ku112qef.jpg" onerror="imgFallback(this)"></span>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/00218exvly1gu9cf1o7xgj60lb0xuwjq02.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/00218exvly1gu9cf1o7xgj60lb0xuwjq02.jpg" onerror="imgFallback(this)"></span>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <span class="support-rewards-qrcode"><img width="200" style="width:200px"src="https://tvax4.sinaimg.cn/large/00218exvly1gv8z4viamyj60m20w0adh02.jpg" data-src-1="https://image.baidu.com/search/down?tn=download&url=https://tvax4.sinaimg.cn/large/00218exvly1gv8z4viamyj60m20w0adh02.jpg" onerror="imgFallback(this)"></span>
-  </p>
-</div>
 
 [chrome]: https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en
 [firefox]: https://addons.mozilla.org/firefox/addon/ext-saladict/
