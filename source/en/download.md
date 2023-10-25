@@ -2,7 +2,7 @@
 
 ## Installation
 
-- [Chrome Web Store][chrome] ([workaround](https://suying0000.com/auth/register?code=QmPt) for restricted network ([alternative](https://jike391.com/auth/register?code=U1tj)) ([alternative2](https://suyunti.net/auth/register?code=2IQ1)))
+- [Chrome Web Store][chrome] ([workaround](https://suying711.com/auth/register?code=QmPt) for restricted network ([alternative](https://jike673.xyz/auth/register?code=U1tj)) ([alternative2](https://suyunti100.com/auth/register?code=2IQ1)))
 - ~[Firefox Add-ons][firefox]~ AppStore version is under repair. Please install the [`firefox.zip`](https://github.com/crimx/ext-saladict/releases/tag/v7.20.0#:~:text=yipanhuasheng%20and%20rumosky-,Assets,-6) locally (Firefox Stable may need extra [configuring](https://stackoverflow.com/questions/31952727/how-can-i-disable-signature-checking-for-firefox-add-ons/31952728#31952728))
 - [Microsoft Edge Add-ons][edge](Uploaded by @rumosky )
 - [Safari][safari]
