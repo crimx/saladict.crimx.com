@@ -1,6 +1,6 @@
 ## 下载
 
-- [Chrome 商店][chrome] （上不了可以尝试[加速](https://suying0000.com/auth/register?code=QmPt) ([备用](https://jike997.xyz/auth/register?code=U1tj)) ([备用2](https://suyunti55.com/auth/register?code=2IQ1))）
+- [Chrome 商店][chrome] （上不了可以尝试[加速](https://mxwljsq.xyz/auth/register?code=kx9S)）
 - ~[Firefox 商店][firefox]~ 商店版修复中，目前可以手动安装 Release 下方的 [`firefox.zip`](https://github.com/crimx/ext-saladict/releases/tag/v7.20.0#:~:text=yipanhuasheng%20and%20rumosky-,Assets,-6)（火狐正式版需要额外[配置](https://stackoverflow.com/questions/31952727/how-can-i-disable-signature-checking-for-firefox-add-ons/31952728#31952728)）
 - [Edge 商店][edge]（由 @rumosky 上传）
 - [Safari][safari]
