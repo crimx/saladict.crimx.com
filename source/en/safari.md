@@ -19,3 +19,4 @@ Saladict is also looking for a volunteer who can help upload the app to App Stor
 6. Go to any webpage. You should see the Saladict icon on the left of the address bar. Click and choose `Always allow on every website`.
 7. Enjoy Saladict for Safari!
 8. P.S. If you quit Safari (Command+Q), you have to enable `Allow unsigned extensions` again.
+9. If the word panel appears blank, it may be due to a system language encoding issue. Open Safari settings, go to "Advanced", "Default Encoding", select UTF-8, then press command + q to quit Safari and reopen it.
