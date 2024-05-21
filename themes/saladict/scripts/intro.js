@@ -20,7 +20,6 @@ hexo.extend.helper.register('get_intro_images', function () {
       srcs: [
         'https://wx3.sinaimg.cn/large/6e3591e5gy1gj3u9l683mj20sf0qrjud.jpg',
         'https://img.vim-cn.com/0a/1d77694a0073065ae196a81c2133581682acb8.png',
-        'https://i.niupic.com/images/2020/09/26/8Jae.png',
         this.url_for('images/anki.png'),
       ],
     },
@@ -36,7 +35,6 @@ hexo.extend.helper.register('get_intro_images', function () {
       srcs: [
         'https://tvax4.sinaimg.cn/large/6e3591e5gy1gj3u1ti54xj20xo0m5dmf.jpg',
         'https://img.vim-cn.com/42/bfef4a4554f025f65eec847d111ca7fe6559ea.jpg',
-        'https://i.niupic.com/images/2020/09/26/8Jab.jpg',
         'https://user-images.githubusercontent.com/6882794/94327912-0122be00-ffe1-11ea-982a-6e1f628146b7.jpg',
       ],
     },
