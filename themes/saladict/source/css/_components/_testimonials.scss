@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 $testimonial-height: 20rem;
 
 .testimonials {
@@ -20,7 +22,7 @@ $testimonial-height: 20rem;
   width: 300%;
   height: 100%;
   transition: transform 0.4s;
-  transform: translate3d(-1/3 * 100%, 0, 0);
+  transform: translate3d(math.div(-1, 3) * 100%, 0, 0);
   display: flex;
 
   &.is-move-next-start {
@@ -30,12 +32,12 @@ $testimonial-height: 20rem;
 
   &.is-move-prev-start {
     transition: transform 0s;
-    transform: translate3d(-2/3 * 100%, 0, 0);
+    transform: translate3d(math.div(-2, 3) * 100%, 0, 0);
   }
 }
 
 .testimonial {
-  width: 1/3 * 100%;
+  width: math.div(1, 3) * 100%;
   height: 100%;
 
   & > .container {

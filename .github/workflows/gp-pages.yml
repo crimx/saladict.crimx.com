@@ -8,17 +8,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
 
-      - name: Setup Node ⚙️
-        uses: actions/setup-node@v2
+      - name: Cache pnpm modules 📦
+        uses: actions/cache@v4
         with:
-          node-version: '14.x'
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
 
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+      - name: Install pnpm 📦
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+          run_install: true
+
+      - name: Build 🔧
         run: |
-          yarn install
-          yarn run build
+          pnpm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
