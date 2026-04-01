@@ -3372,6 +3372,10 @@ kbd[data-key=eject]:after {
 .site-navbar-wrap {
   border-bottom: 1px solid hsl(0, 0%, 93%);
 }
+.site-navbar-wrap .navbar-item > .github-emoji,
+.site-navbar-wrap .navbar-link > .github-emoji {
+  margin-right: 0.3em;
+}
 
 .site-sidebar-wrap {
   border-right: 1px solid hsl(0, 0%, 93%);
