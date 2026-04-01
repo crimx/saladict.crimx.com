@@ -1,0 +1,78 @@
+.hero-carousel {
+  position: relative;
+}
+
+.hero-carousel-track {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-carousel-slide {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease, visibility 0.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  &:first-child {
+    position: relative;
+  }
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.hero-inkora {
+  background: linear-gradient(135deg, #6c5ce7 0%, #a855f7 50%, #6366f1 100%);
+  color: #fff;
+
+  .title,
+  .subtitle {
+    color: #fff;
+  }
+}
+
+.hero-inkora-desc {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.hero-inkora-icon {
+  filter: drop-shadow(0 4px 12px rgba(108, 92, 231, 0.4));
+}
+
+.hero-carousel-dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.hero-carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s, border-color 0.3s;
+
+  &:hover {
+    border-color: #fff;
+  }
+
+  &.is-active {
+    background: #fff;
+    border-color: #fff;
+  }
+}

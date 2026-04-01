@@ -1,27 +1,62 @@
 <%- css('css/index.css') %>
 
-<section class="site-hero hero is-medium is-dark">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-vcentered has-text-centered-mobile">
-        <div class="column is-two-fifths has-text-right-tablet">
-          <figure>
-            <img class="jelly jelly-beat jellify" src="<%- url_for('/saladict.svg') %>" alt="<%= __('title') %>" width="96" height="96">
-          </figure>
+<section class="hero-carousel">
+  <div class="hero-carousel-track">
+    <div class="hero-carousel-slide site-hero hero is-medium is-dark is-active">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered has-text-centered-mobile">
+            <div class="column is-two-fifths has-text-right-tablet">
+              <figure>
+                <img class="jelly jelly-beat jellify" src="<%- url_for('/saladict.svg') %>" alt="<%= __('title') %>" width="96" height="96">
+              </figure>
+            </div>
+            <div class="column is-two-fifths">
+              <h1 class="title is-size-3">
+                <%= __('title') %>
+              </h1>
+              <h2 class="subtitle is-size-5">
+                <%= __('tagline') %>
+              </h2>
+            </div>
+          </div>
+          <div class="has-text-centered">
+            <a class="jelly button is-warning is-light is-rounded" href="<%- i18n_url_for('/download.html') %>"><%= __('download') %></a>
+          </div>
         </div>
-        <div class="column is-two-fifths">
-          <h1 class="title is-size-3">
-            <%= __('title') %>
-          </h1>
-          <h2 class="subtitle is-size-5">
-            <%= __('tagline') %>
-          </h2>
-        </div>
-      </div>
-      <div class="has-text-centered">
-        <a class="jelly button is-warning is-light is-rounded" href="<%- i18n_url_for('/download.html') %>"><%= __('download') %></a>
       </div>
     </div>
+    <div class="hero-carousel-slide hero-inkora hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered has-text-centered-mobile">
+            <div class="column is-two-fifths has-text-right-tablet">
+              <figure>
+                <img class="hero-inkora-icon" src="https://pdf.oomol.com/images/logo.png" alt="Inkora" width="96" height="96">
+              </figure>
+            </div>
+            <div class="column is-two-fifths">
+              <h1 class="title is-size-3">
+                <%= __('inkora_title') %>
+              </h1>
+              <h2 class="subtitle is-size-5">
+                <%= __('inkora_tagline') %>
+              </h2>
+              <p class="hero-inkora-desc">
+                <%= __('inkora_desc') %>
+              </p>
+            </div>
+          </div>
+          <div class="has-text-centered">
+            <a class="button is-light is-rounded" href="<%= __('inkora_url') %>" target="_blank" rel="noopener"><%= __('inkora_cta') %></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-carousel-dots">
+    <button class="hero-carousel-dot is-active" title="Saladict"></button>
+    <button class="hero-carousel-dot" title="Inkora"></button>
   </div>
 </section>
 
