@@ -2092,6 +2092,22 @@
   margin-top: 0.5rem;
 }
 
+.hero-inkora-invite {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+
+.hero-inkora-code {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+}
+
 .hero-inkora-icon {
   filter: drop-shadow(0 4px 12px rgba(108, 92, 231, 0.4));
 }
