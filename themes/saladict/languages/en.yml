@@ -31,5 +31,8 @@ nav_pdf_translate: PDF Translation
 inkora_title: Inkora
 inkora_tagline: Scanned PDF OCR, Conversion & Translation
 inkora_desc: "OCR for formulas, tables & complex layouts. Ebook translation with bilingual output."
+inkora_invite_before: "Redeem code"
+inkora_invite_after: "for 2000k tokens"
+inkora_invite_code: OOMOL-2026-SALADICT
 inkora_cta: Try Inkora
-inkora_url: https://inkora.oomol.com/en/epub-translator/from/saladict
+inkora_url: https://inkora.oomol.com/en/epub-translator/from/saladict?gift=OOMOL-2026-SALADICT

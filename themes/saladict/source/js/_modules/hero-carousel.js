@@ -7,11 +7,23 @@ export function heroCarousel() {
   if (slides.length < 2) return
 
   let current = 0
+  let paused = false
   let autoTimer = setTimeout(next, 3000)
+
+  carousel.addEventListener('mouseenter', () => {
+    paused = true
+    clearTimeout(autoTimer)
+  })
+  carousel.addEventListener('mouseleave', () => {
+    paused = false
+    autoTimer = setTimeout(next, 3000)
+  })
 
   dots.forEach((dot, i) => {
     dot.addEventListener('click', () => {
       if (i !== current) goTo(i)
+      paused = true
+      clearTimeout(autoTimer)
     })
   })
 
@@ -27,6 +39,6 @@ export function heroCarousel() {
     dots[current].classList.add('is-active')
 
     clearTimeout(autoTimer)
-    autoTimer = setTimeout(next, 3000)
+    if (!paused) autoTimer = setTimeout(next, 3000)
   }
 }

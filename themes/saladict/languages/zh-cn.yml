@@ -31,5 +31,8 @@ nav_pdf_translate: PDF 翻译
 inkora_title: Inkora
 inkora_tagline: 扫描版 PDF OCR 转换与翻译
 inkora_desc: 公式、表格、复杂版面都能识别。支持电子书翻译，双语对照或纯译文任选。
+inkora_invite_before: "使用兑换码"
+inkora_invite_after: "可兑换 200 万 tokens"
+inkora_invite_code: OOMOL-2026-SALADICT
 inkora_cta: 了解 Inkora
-inkora_url: https://inkora.oomol.com/zh-CN/epub-translator/from/saladict
+inkora_url: https://inkora.oomol.com/zh-CN/epub-translator/from/saladict?gift=OOMOL-2026-SALADICT
