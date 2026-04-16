@@ -37,9 +37,9 @@ hexo.extend.generator.register('releases', function (locals) {
       .join('\n')
 
   const [chs, eng] = _.unzip(
-    [
-      ...sortedReleases[0].dom.window.document.querySelectorAll('li'),
-    ].map((li) => li.textContent.split('\n').map((line) => line.trim()))
+    [...sortedReleases[0].dom.window.document.querySelectorAll('li')].map(
+      (li) => li.textContent.split('\n').map((line) => line.trim())
+    )
   )
   const version = getHeaderText(
     sortedReleases[0].dom.window.document.querySelector('h2')
@@ -62,5 +62,5 @@ hexo.extend.generator.register('releases', function (locals) {
 })
 
 function getHeaderText(el) {
-  return (el.textContent || '').replace(/¶/, '').trim()
+  return (el.textContent || '').replace(/[¶\s]+/g, ' ').trim()
 }

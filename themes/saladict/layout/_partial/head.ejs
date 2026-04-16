@@ -5,10 +5,14 @@
   <%- partial('google-analytics') %>
   <%- partial('adsense') %>
   <%
+    function cleanHeaderText (text) {
+      return (text || '').replace(/[¶\s]+/g, ' ').trim()
+    }
+
     const title = extract_title()
     function extract_title () {
       if (page.title) {
-        return page.title
+        return cleanHeaderText(page.title)
       }
 
       if (page.path.startsWith('releases/')) {

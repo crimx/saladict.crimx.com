@@ -17,6 +17,10 @@
     </div>
   </div>
   <%
+    function getHeaderText(el) {
+      return (el.textContent || '').replace(/[¶\s]+/g, ' ').trim()
+    }
+
     function getHref ({ el, href }) {
       return href || `#${el.id}`
     }
