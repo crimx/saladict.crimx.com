@@ -86,8 +86,22 @@
                             <a class="navbar-item" href="/en/tips.html#youtube"> Selecting Subtitles on YouTube </a>
                         </div>
                     </div>
-                    <a class="navbar-item" href="https://inkora.oomol.com/en/epub-translator/from/saladict?gift=OOMOL-2026-SALADICT" target="_blank" rel="noopener">
-                        <span class="github-emoji"><span>&#x1f4d6;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>PDF Translation </a>
+                    <div class="navbar-item site-navbar-inkora">
+                        <button class="site-navbar-inkora-trigger" type="button" aria-expanded="false" aria-controls="site-navbar-inkora-panel">
+                            <span class="github-emoji"><span>&#x1f4d6;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>PDF Translation </button>
+                        <div class="site-navbar-inkora-panel" id="site-navbar-inkora-panel" hidden>
+                            <div class="site-navbar-inkora-heading">
+                                <img class="site-navbar-inkora-icon" src="https://pdf.oomol.com/images/logo.png" alt="Inkora" width="40" height="40">
+                                <div>
+                                    <strong>Inkora</strong>
+                                    <span>Scanned PDF OCR, Conversion &amp; Translation</span>
+                                </div>
+                            </div>
+                            <p>OCR for formulas, tables &amp; complex layouts. Ebook translation with bilingual output.</p>
+                            <p class="site-navbar-inkora-invite"> Redeem official code <code>OOMOL-2026-SALADICT</code> for 2000k tokens </p>
+                            <a class="site-navbar-inkora-cta" href="https://inkora.oomol.com/en/epub-translator/from/saladict?gift=OOMOL-2026-SALADICT" target="_blank" rel="noopener"> Try Inkora </a>
+                        </div>
+                    </div>
                     <a class="navbar-item" href="/en/support.html">
                         <span class="github-emoji"><span>&#x2764;</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>Support </a>
                     <div class="navbar-item has-dropdown is-hoverable">
@@ -135,6 +149,37 @@
                     }
                 })
             }
+            var inkora = document.querySelector('.site-navbar-inkora')
+            if (inkora)
+            {
+                var inkoraTrigger = inkora.querySelector('.site-navbar-inkora-trigger')
+                var inkoraPanel = inkora.querySelector('.site-navbar-inkora-panel')
+
+                function setInkoraPanel(open)
+                {
+                    inkora.classList.toggle('is-active', open)
+                    inkoraTrigger.setAttribute('aria-expanded', open ? 'true' : 'false')
+                    inkoraPanel.hidden = !open
+                }
+                inkoraTrigger.addEventListener('click', function ()
+                {
+                    setInkoraPanel(!inkora.classList.contains('is-active'))
+                })
+                document.addEventListener('click', function (event)
+                {
+                    if (!inkora.contains(event.target))
+                    {
+                        setInkoraPanel(false)
+                    }
+                })
+                document.addEventListener('keydown', function (event)
+                {
+                    if (event.key === 'Escape')
+                    {
+                        setInkoraPanel(false)
+                    }
+                })
+            }
         })();
 
     </script>
@@ -174,7 +219,7 @@
                                 <h1 class="title is-size-3"> Inkora </h1>
                                 <h2 class="subtitle is-size-5"> Scanned PDF OCR, Conversion &amp; Translation </h2>
                                 <p class="hero-inkora-desc"> OCR for formulas, tables &amp; complex layouts. Ebook translation with bilingual output. </p>
-                                <p class="hero-inkora-invite"> Redeem code <code class="hero-inkora-code">OOMOL-2026-SALADICT</code> for 2000k tokens </p>
+                                <p class="hero-inkora-invite"> Redeem official code <code class="hero-inkora-code">OOMOL-2026-SALADICT</code> for 2000k tokens </p>
                             </div>
                         </div>
                         <div class="has-text-centered">

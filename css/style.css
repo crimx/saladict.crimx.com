@@ -3377,6 +3377,133 @@ kbd[data-key=eject]:after {
   margin-right: 0.3em;
 }
 
+.site-navbar-inkora {
+  position: relative;
+}
+
+.site-navbar-inkora-trigger {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: hsl(0, 0%, 29%);
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  height: 100%;
+  padding: 0;
+}
+.site-navbar-inkora-trigger:hover, .site-navbar-inkora-trigger:focus {
+  color: hsl(229, 53%, 53%);
+  outline: none;
+}
+.site-navbar-inkora-trigger > .github-emoji {
+  margin-right: 0.3em;
+}
+
+.site-navbar-inkora-panel {
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 93%);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(10, 10, 10, 0.14);
+  color: hsl(0, 0%, 29%);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.4rem);
+  width: 20rem;
+  z-index: 30;
+}
+.site-navbar-inkora-panel::before {
+  border: 0.5rem solid transparent;
+  border-bottom-color: hsl(0, 0%, 100%);
+  content: "";
+  position: absolute;
+  right: 2rem;
+  top: -1rem;
+}
+.site-navbar-inkora-panel p {
+  margin: 0.75rem 0 0;
+}
+
+.site-navbar-inkora-heading {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+.site-navbar-inkora-heading strong,
+.site-navbar-inkora-heading span {
+  display: block;
+}
+.site-navbar-inkora-heading strong {
+  color: hsl(0, 0%, 21%);
+  font-size: 1rem;
+}
+.site-navbar-inkora-heading span {
+  color: hsl(0, 0%, 29%);
+  font-size: 0.82rem;
+  margin-top: 0.1rem;
+}
+
+.site-navbar-inkora-icon {
+  border-radius: 8px;
+  flex: 0 0 auto;
+}
+
+.site-navbar-inkora-invite {
+  color: hsl(0, 0%, 21%);
+}
+.site-navbar-inkora-invite code {
+  background: hsl(0, 0%, 93%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 21%);
+  font-size: 0.78rem;
+  padding: 0.12rem 0.28rem;
+  white-space: nowrap;
+}
+
+.site-navbar-inkora-cta {
+  align-items: center;
+  background: hsl(171, 100%, 41%);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-weight: 600;
+  justify-content: center;
+  margin-top: 0.9rem;
+  min-height: 2.25rem;
+  padding: 0 1rem;
+}
+.site-navbar-inkora-cta:hover, .site-navbar-inkora-cta:focus {
+  color: #fff;
+  filter: brightness(0.96);
+  outline: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .site-navbar-inkora {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+  .site-navbar-inkora-trigger {
+    min-height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .site-navbar-inkora-panel {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 0.75rem 0.75rem;
+    position: static;
+    width: auto;
+  }
+  .site-navbar-inkora-panel::before {
+    display: none;
+  }
+}
 .site-sidebar-wrap {
   border-right: 1px solid hsl(0, 0%, 93%);
 }
