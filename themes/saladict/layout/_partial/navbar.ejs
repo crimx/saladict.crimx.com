@@ -43,9 +43,27 @@
           </div>
         </div>
 
-        <a class="navbar-item" href="<%= __('inkora_url') %>" target="_blank" rel="noopener">
-          <%- github_emoji('book') %><%= __('nav_pdf_translate') %>
-        </a>
+        <div class="navbar-item site-navbar-inkora">
+          <button class="site-navbar-inkora-trigger" type="button" aria-expanded="false" aria-controls="site-navbar-inkora-panel">
+            <%- github_emoji('book') %><%= __('nav_pdf_translate') %>
+          </button>
+          <div class="site-navbar-inkora-panel" id="site-navbar-inkora-panel" hidden>
+            <div class="site-navbar-inkora-heading">
+              <img class="site-navbar-inkora-icon" src="https://pdf.oomol.com/images/logo.png" alt="Inkora" width="40" height="40">
+              <div>
+                <strong><%= __('inkora_title') %></strong>
+                <span><%= __('inkora_tagline') %></span>
+              </div>
+            </div>
+            <p><%= __('inkora_desc') %></p>
+            <p class="site-navbar-inkora-invite">
+              <%= __('inkora_invite_before') %> <code><%= __('inkora_invite_code') %></code> <%= __('inkora_invite_after') %>
+            </p>
+            <a class="site-navbar-inkora-cta" href="<%= __('inkora_url') %>" target="_blank" rel="noopener">
+              <%= __('inkora_cta') %>
+            </a>
+          </div>
+        </div>
 
         <a class="navbar-item" href="<%- i18n_url_for('/support.html') %>">
           <%- github_emoji('heart') %><%= __('support') %>
@@ -141,6 +159,34 @@
         var menu = document.getElementById('site-navbar-menu')
         if (menu) {
           menu.classList.toggle('is-active')
+        }
+      })
+    }
+
+    var inkora = document.querySelector('.site-navbar-inkora')
+    if (inkora) {
+      var inkoraTrigger = inkora.querySelector('.site-navbar-inkora-trigger')
+      var inkoraPanel = inkora.querySelector('.site-navbar-inkora-panel')
+
+      function setInkoraPanel(open) {
+        inkora.classList.toggle('is-active', open)
+        inkoraTrigger.setAttribute('aria-expanded', open ? 'true' : 'false')
+        inkoraPanel.hidden = !open
+      }
+
+      inkoraTrigger.addEventListener('click', function () {
+        setInkoraPanel(!inkora.classList.contains('is-active'))
+      })
+
+      document.addEventListener('click', function (event) {
+        if (!inkora.contains(event.target)) {
+          setInkoraPanel(false)
+        }
+      })
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+          setInkoraPanel(false)
         }
       })
     }
