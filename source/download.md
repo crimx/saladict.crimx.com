@@ -1,14 +1,14 @@
 ## 下载
 
-- [Chrome 商店][chrome] （上不了可以尝试[加速](https://mxwljsq.xyz/auth/register?code=kx9S)）
-- ~[Firefox 商店][firefox]~ 商店版修复中，目前可以手动安装 Release 下方的 [`firefox.zip`](https://github.com/crimx/ext-saladict/releases/tag/v7.20.0#:~:text=yipanhuasheng%20and%20rumosky-,Assets,-6)（火狐正式版需要额外[配置](https://stackoverflow.com/questions/31952727/how-can-i-disable-signature-checking-for-firefox-add-ons/31952728#31952728)）
+- [Chrome 商店][chrome] （上不了可以尝试[加速](http://mxwljsq.com/auth/register?code=kx9S)）
+- ~[Firefox 商店][firefox]~ 审核中
 - [Edge 商店][edge]（由 @rumosky 上传）
-- [Safari][safari]
+- [Safari](https://saladict.crimx.com/safari)
 
-墙内及其它国产浏览器可用 [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521）  
-（:warning: 请勿解压使用开发者模式安装 :warning:  直接拖入 crx 文件到扩展管理页面即可）  
+墙内及其它国产浏览器可用 [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521） / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [pictureknow](https://pictureknow.com/extension?id=a2b1e68968824af48d70f90471f4bcca)  
+（⚠️请勿解压使用开发者模式安装⚠️ 直接拖入 crx 文件到扩展管理页面即可）  
 （注意谷歌扩展更新了打包格式，部分内核比较滞后的国产浏览器可能安装不了）  
-（非官方市场安装请在浏览器扩展管理处核对扩展 id 为 `cdonnmffkdaoajfknoeeecmchibpmkmg`）
+（非官方市场安装请在浏览器扩展管理处核对扩展 id 为 `cdonnmffkdaoajfknoeeecmchibpmkmg`）  
 
 ## 更新发布时间
 

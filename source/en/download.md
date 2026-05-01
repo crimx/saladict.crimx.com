@@ -3,12 +3,12 @@
 ## Installation
 
 - [Chrome Web Store][chrome] ([workaround](https://mxwljsq.xyz/auth/register?code=kx9S) for restricted network)
-- ~[Firefox Add-ons][firefox]~ AppStore version is under repair. Please install the [`firefox.zip`](https://github.com/crimx/ext-saladict/releases/tag/v7.20.0#:~:text=yipanhuasheng%20and%20rumosky-,Assets,-6) locally (Firefox Stable may need extra [configuring](https://stackoverflow.com/questions/31952727/how-can-i-disable-signature-checking-for-firefox-add-ons/31952728#31952728))
+- ~[Firefox Add-ons][firefox]~ under review
 - [Microsoft Edge Add-ons][edge](Uploaded by @rumosky )
 - [Safari][safari]
 
-To download CRX directly: [Chrome Extension Downloader](https://chrome-extension-downloader.com/) / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521）  
-(:warning: Do not unzip crx and load under development mode. :warning: Just drag the crx file into the Extensions page.)
+To download CRX directly: [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521） / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [pictureknow](https://pictureknow.com/extension?id=a2b1e68968824af48d70f90471f4bcca)  
+(⚠️ Do not unzip crx and load under development mode. ⚠️ Just drag the crx file into the Extensions page.)
 （Verify the Saladict extension id `cdonnmffkdaoajfknoeeecmchibpmkmg`）
 
 ## Release Dates
