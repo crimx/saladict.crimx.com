@@ -1,6 +1,6 @@
 ## 下载
 
-- [Chrome 商店][chrome] （上不了可以尝试[加速](http://mxwljsq.com/auth/register?code=kx9S)）
+- [Chrome 商店][chrome] （上不了可以尝试[加速](https://sy7770.com/auth/register?code=QmPt)）
 - ~[Firefox 商店][firefox]~ 审核中
 - [Edge 商店][edge]（由 @rumosky 上传）
 - [Safari](https://saladict.crimx.com/safari)

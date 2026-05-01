@@ -2,7 +2,7 @@
 
 ## Installation
 
-- [Chrome Web Store][chrome] ([workaround](https://mxwljsq.xyz/auth/register?code=kx9S) for restricted network)
+- [Chrome Web Store][chrome] ([workaround](https://sy7770.com/auth/register?code=QmPt) for restricted network)
 - ~[Firefox Add-ons][firefox]~ under review
 - [Microsoft Edge Add-ons][edge](Uploaded by @rumosky )
 - [Safari][safari]
