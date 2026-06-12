@@ -1,8 +1,11 @@
 ## 下载
 
 - [Chrome 商店][chrome] （上不了可以尝试[加速](https://sy7770.com/auth/register?code=QmPt)）
-- ~[Firefox 商店][firefox]~ 审核中
+  ![Chrome Web Store version][chrome-version]
+- [Firefox 商店][firefox]
+  ![Firefox Add-ons version][firefox-version]
 - [Edge 商店][edge]（由 @rumosky 上传）
+  ![Edge Addons version][edge-version]
 - [Safari](https://saladict.crimx.com/safari)
 
 墙内及其它国产浏览器可用 [网盘](https://url25.ctfile.com/d/24782725-37758132-32949f)（访问密码：5521） / [Crx4Chrome](https://www.crx4chrome.com/extensions/cdonnmffkdaoajfknoeeecmchibpmkmg/) / [pictureknow](https://pictureknow.com/extension?id=a2b1e68968824af48d70f90471f4bcca)  
@@ -18,9 +21,11 @@
 
 不能享浏览器自动更新的朋友可以关注[「柠檬反应堆」][mp]公众号或者[『沙拉查词』][zhihu]知乎专栏订阅更新动态，作者有时也会分享更新背后的想法以及功能设计的理念。
 
-[chrome]: https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg/reviews?hl=en
+[chrome]: https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg
+[chrome-version]: https://badgen.net/chrome-web-store/v/cdonnmffkdaoajfknoeeecmchibpmkmg?icon=chrome&color=0f9d58&label=version
 [firefox]: https://addons.mozilla.org/firefox/addon/ext-saladict/
+[firefox-version]: https://badgen.net/amo/v/ext-saladict?icon=firefox&color=ff9500&label=version
 [edge]: https://microsoftedge.microsoft.com/addons/detail/idghocbbahafpfhjnfhpbfbmpegphmmp
-[safari]: https://saladict.crimx.com/safari
+[edge-version]: https://badgen.net/edge-addons/v/idghocbbahafpfhjnfhpbfbmpegphmmp?icon=windows&color=0078d4&label=version
 [zhihu]: https://zhuanlan.zhihu.com/saladict
 [mp]: https://mp.weixin.qq.com/s/Nnhk_NRWMqsFGkc5ST6odg
