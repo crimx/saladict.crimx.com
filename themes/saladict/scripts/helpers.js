@@ -27,7 +27,7 @@ hexo.extend.helper.register('fallback_img', function (srcs, attrs = {}) {
     )
     .join(' ')
 
-  return `<img ${srcAttrs} ${extraAttrs} onerror="imgFallback(this)">`
+  return `<img ${srcAttrs} ${extraAttrs} referrerpolicy="no-referrer" onerror="imgFallback(this)">`
 })
 
 hexo.extend.helper.register('toc_blocks', function () {
