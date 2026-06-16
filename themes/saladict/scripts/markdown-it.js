@@ -12,4 +12,11 @@ hexo.extend.filter.register('markdown-it:renderer', function (md) {
     .use(require('markdown-it-replace-link'), {
       replaceLink: (link) => link.replace(/.md($|#)/, (m, s1) => '.html' + s1),
     })
+
+  const defaultImageRule = md.renderer.rules.image
+
+  md.renderer.rules.image = function (tokens, idx, options, env, self) {
+    tokens[idx].attrSet('referrerpolicy', 'no-referrer')
+    return defaultImageRule(tokens, idx, options, env, self)
+  }
 })
