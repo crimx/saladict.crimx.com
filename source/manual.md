@@ -231,10 +231,10 @@ Firefox 目前不支持本地路径拦截，可以在 Saladict 的 PDF 页面中
 点击右上方地址栏旁的图标打开查词面板，在最下方可看到二维码图标，鼠标移上去即可显示。
 
 
-[taskbar]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc29418yaij20do039a9t.jpg
-[screen-notebook]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294iulgqj211c0cdt8v.jpg
+[taskbar]: https://i0.wp.com/wx1.sinaimg.cn/large/6e3591e5gy1gc29418yaij20do039a9t.jpg
+[screen-notebook]: https://i0.wp.com/wx4.sinaimg.cn/large/6e3591e5gy1gc294iulgqj211c0cdt8v.jpg
 
-[pin]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc295dv2feg20lx0hynpd.gif
-[youdao-page]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294odd4zg20sq0hywl0.gif
-[waveform]: https://image.baidu.com/search/down?tn=download&url=https://wx4.sinaimg.cn/large/6e3591e5gy1gc294s0jc6g20hb0if7fx.gif
-[notebook]: https://image.baidu.com/search/down?tn=download&url=https://wx1.sinaimg.cn/large/6e3591e5gy1gc295is219g21090i64qp.gif
+[pin]: https://i0.wp.com/wx1.sinaimg.cn/large/6e3591e5gy1gc295dv2feg20lx0hynpd.gif
+[youdao-page]: https://i0.wp.com/wx4.sinaimg.cn/large/6e3591e5gy1gc294odd4zg20sq0hywl0.gif
+[waveform]: https://i0.wp.com/wx4.sinaimg.cn/large/6e3591e5gy1gc294s0jc6g20hb0if7fx.gif
+[notebook]: https://i0.wp.com/wx1.sinaimg.cn/large/6e3591e5gy1gc295is219g21090i64qp.gif
