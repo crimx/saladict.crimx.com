@@ -1,6 +1,6 @@
 # Saladict User Manual
 
-Download [latest version](https://github.com/crimx/ext-saladict/releases).
+Download [latest version](./download.md).
 
 ::: warning
 Help translate this page to English.
