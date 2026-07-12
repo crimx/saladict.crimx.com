@@ -15,7 +15,6 @@ intro:
   - Chinese (simplified and traditional), Japanese, Korean are supported with dictionaries.
   - Other languages are supported with several machine translation services.
   - Each dictionary is well polished to a unify style for comfortable reading experience.
-  - Built-in Google, Lingocloud and Youdao Page Translation.
 
 - title: Good Words Are Kept, Safe and Sound
   content:

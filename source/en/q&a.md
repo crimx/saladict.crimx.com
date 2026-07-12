@@ -4,102 +4,98 @@ tocMaxLevel: 1
 
 # Common Questions
 
-::: warning
-Help translate this page to English.
-:::
+### Saladict will not open. Clicking its toolbar icon only displays a blank box.
 
-### 问：沙拉查词无法打开，点击地址栏旁的沙拉图标只显示一个白框。
+This often happens after a browser update. Chromium-based browsers occasionally trigger a storage-related bug during an update, and restarting your device usually resolves it. See [#183](https://github.com/crimx/ext-saladict/issues/183), [#295](https://github.com/crimx/ext-saladict/issues/295), and [#329](https://github.com/crimx/ext-saladict/issues/329). If the problem continues, please open a new issue.
 
-答：这样情况很可能是最近升级了浏览器。Chrome 系的浏览器会有一定机率在升级后触发一个存储相关的 bug ，一般重启设备后可以解决。见 [#183](https://github.com/crimx/ext-saladict/issues/183)、[#295](https://github.com/crimx/ext-saladict/issues/295) 和 [#329](https://github.com/crimx/ext-saladict/issues/329)。如果还是不行请新开 issue 反馈。
+### Text-selection lookup fails on one website but works everywhere else.
 
-### 问: 只有某个网站不能划词，其它可以。
+Open a new [issue](https://github.com/crimx/ext-saladict/issues) and follow the issue template closely. Include the exact URL and steps that reproduce the problem. Also check the following:
 
-答: 新开 [issue](https://github.com/crimx/ext-saladict/issues) 并严格按模板反馈，提供具体链接和可复现的操作。同时注意：
-- 刚安装扩展可能需要刷新一遍已打开的页面以加载词典。
-- 因安全问题，扩展商店页面、Chrome 自带的 PDF 页面以及其它扩展的页面是不能划词的。
+- If you have just installed Saladict, refresh any pages that were already open so the extension can load on them.
+- For security reasons, extensions cannot run on extension store pages, Chrome's built-in PDF viewer, or pages belonging to other extensions.
 
-### 问：为什么地址栏旁的沙拉查词图标有时会出现黄底白字的“off”提示。
+### Why does the Saladict toolbar icon sometimes show a white "off" label on a yellow background?
 
-答：因为上一个问题不时有人反馈，沙拉查词 7 开始将自动识别不能加载内嵌面板的页面。这类页面包括不限于：浏览器内置页面、扩展商店页面、其它扩展页面、使用了 `frameset` 的页面（上面的 Java 类文档）。
+Since Saladict 7, the extension automatically detects pages where it cannot load the embedded lookup panel. These include browser system pages, extension store pages, pages belonging to other extensions, and pages that use `frameset`, such as some Java documentation sites.
 
-### 问：沙拉查词在 Chrome dev/canary, Firefox dev/nightly 等测试版/开发者版浏览器中出现问题。
+### Saladict has problems in Chrome Dev or Canary, Firefox Developer Edition or Nightly, or another prerelease browser.
 
-答：沙拉查词主要面向日用场景，以上的浏览器均不是面向日用用户的。在这些浏览器中出现各种问题是很正常的，这也是为什么要分出这么些版本，其中绝大部分问题都会在稳定版的时候被修复，所以请不必反馈。
+Saladict is designed for stable, everyday browser releases. Problems are expected in development and prerelease builds, and most browser regressions are resolved before the stable release. Please verify the problem in a stable browser before reporting it.
 
-### 问: 谷歌办公 Google Doc 或 Google Play 上读书不能划词。
+### Why does text-selection lookup not work in Google Docs or Google Play Books?
 
-答: 谷歌在这些地方自行实现了一套选词机制，所以 Saladict 无法通过浏览器的接口获得选词。这个兼容起来有点工作量，作者本身也很少在这些地方划词，所以几乎是不会去实现了。有其他人提 PR 也是欢迎的。目前可以打开 Saladict 的独立查词窗口为侧边栏模式输入查询。
+Google uses a custom text-selection system in these applications, so Saladict cannot access the selected text through the browser APIs. Supporting this would require substantial compatibility work and is unlikely to be implemented by the maintainer, though pull requests are welcome. As an alternative, open Saladict's standalone lookup window in sidebar mode and enter your query there.
 
-### 问: 词典第一次没结果，再点一下展开箭头又可以。
+### A dictionary returns no results at first, but works after I collapse and reopen it.
 
-答: 这是由于网络不稳定导致的。可考虑在设置更换其它词典，或者更换 DNS 服务器。如果某个词典反复出现这种情况也可以作反馈，我会检查一下。
+This is usually caused by an unstable network connection. Try another dictionary in the settings or change your DNS server. If the same dictionary repeatedly has this problem, report it so the integration can be checked.
 
-### 问: 某个词典一直无结果，那怕是查简单的单词。
+### A dictionary never returns results, even for simple words.
 
-答: 先排除自身网络问题。可先点击词典标题跳转到网页。如果打不开可用代理试试，再不行可作反馈。如果网站可以打开而再次查词依然无结果的话，有可能是服务器更新了，请作反馈。
+Rule out a local network problem first. Click the dictionary title to open its website. If the site does not load, try using a proxy. If the website loads but the dictionary still returns no results in Saladict, the service may have changed its API; please report the problem.
 
-### 问：Firefox 浏览器上，点击地址栏旁的沙拉图标，弹出的框过窄，显示不全。
+### The popup is too narrow in Firefox and some content is cut off.
 
-答：把沙拉查词的图标从二级菜单中拖出来。
+Move the Saladict icon out of Firefox's overflow menu and place it directly on the toolbar.
 
-### 问：浏览器自动用 Saladict 打开 PDF ，不能使用原生下载或打印。
+### Saladict opens PDFs automatically, so I cannot use the browser's download or print controls.
 
-答：可以在 Saladict 设置关闭 PDF 拦截或者将该网站加入 PDF 黑名单。见初次安装时弹出的[注意事项](./notice.md)及[使用说明](./manual.md#pdf)。
+Disable PDF interception in Saladict's settings, or add the website to the PDF blocklist. See the [Important Notes](./notice.md) shown after installation and the [PDF section of the user manual](./manual.md#pdf).
 
-### 问：可不可以增加 PDF 阅读器功能，如做笔记、划线标记、夜间模式等。
+### Can Saladict's PDF reader support notes, annotations, or a dark mode?
 
-答：PDF 阅读器用的是 [PDF.js](https://mozilla.github.io/pdf.js/) 自带的阅读器，如果需要其它功能可前往该项目反馈。也可以使用本地的其它 PDF 浏览器再通过独立窗口查词（[浏览器以外划词设置](./manual.md#shortcuts)）。@hqyyqh 分享了一个非常棒的[教程](https://github.com/crimx/ext-saladict/issues/493)如何一边标注 pdf 一边使用沙拉查词翻译。
+Saladict uses the reader provided by [PDF.js](https://mozilla.github.io/pdf.js/). Please request additional reader features from that project. You can also use another desktop PDF reader and look up selected text in Saladict's standalone window; see [Configure keyboard shortcuts](./manual.md#shortcuts). @hqyyqh has shared an excellent [tutorial](https://github.com/crimx/ext-saladict/issues/493) on annotating a PDF while using Saladict for translation.
 
-![pdf with saladict](https://user-images.githubusercontent.com/38676455/68393366-db14e500-01a6-11ea-96fb-edeb2bc4a39c.gif)
+![PDF with Saladict](https://user-images.githubusercontent.com/38676455/68393366-db14e500-01a6-11ea-96fb-edeb2bc4a39c.gif)
 
-### 问: PDF 划词字符显示不对（如 f 与 ƒ）/ PDF 划词换行的单词粘连在一起。
+### Why does selected text from a PDF contain incorrect characters or join words across line breaks?
 
-答: PDF 文件是不保存语义的，它只负责让文档的**样式**保持照片般一致，至于如何保持一致排版方式五花八门。所以你看到的文字有可能只是相似的字符；看起来是一句话的文字可能实际上只是零散的词语通过把位置写死凑在一起，甚至实际顺序跟显示的也可以不一致。请先自行复制一遍原文粘贴到纯文本编辑器上看看是不是 PDF 的问题。
+PDF files preserve the document's visual appearance rather than its semantic text structure. A character may only look like the one you expect, and a sentence may be stored as separately positioned fragments. The stored reading order can even differ from the visible order. Copy the same passage into a plain-text editor to check whether the problem comes from the PDF itself.
 
-### 问：添加生词可不可以加入单词翻译（而不是翻译整句上下文）。
+### Can Saladict save a word's definition instead of translating its entire context?
 
-答：沙拉查词的设计理念是“以情景为中心理解单词意思”，遵循[单一输入输出原则](./anki.md)。脱离上下文去理解单词释义在沙拉查词看来是无意义的行为，因此不会支持自动获取单词全部释义。
+Saladict is designed around learning one precise meaning from each context, an approach explained in [Using Saladict with Anki](./anki.md). A definition detached from its context is not useful for this learning model, so Saladict does not automatically retrieve every definition of a saved word.
 
-得到准确的单词释义需要通过自然语言处理（NLP）引擎分析上下文，此技术目前还不成熟，且未能在扩展中实现，沙拉查词取而代之通过多个机器翻译引擎自动翻译上下文，从而帮助用户对比筛选合适的意思。翻译引擎可在设置中调整。
+Choosing the exact definition for a word requires a natural language processing engine that can analyze its context. This technology is not currently mature enough to run within the extension. Saladict instead translates the context with several machine translation services, allowing you to compare the results and choose the most suitable meaning. You can select the translation services in the settings.
 
-沙拉查词推荐两套收藏流程：
+Saladict supports two recommended workflows for saving words:
 
-1. 开启红心时弹出单词编辑窗口。在收藏单词时修改自动翻译结果并补充个人笔记。
-2. 关闭红心时弹出单词编辑窗口。收藏时直接保存，阅读完毕后或定期在生词本页面编辑修改笔记。
+1. Enable the word editor when clicking the heart icon. Review the automatic translation and add your own notes before saving each word.
+2. Disable the word editor when clicking the heart icon. Save words immediately while reading, then review the translations and notes in the notebook when you finish or at regular intervals.
 
-如果你收藏单词是为了学习而不是其它原因，这个编辑笔记的过程建议不要省去，这是记忆过程中的一个重要环节。
+If you are saving words for study, reviewing and editing the notes is an important part of the learning process and is worth keeping in your workflow.
 
-### 问：独立窗口查词面板能否钉住置顶？
+### Can the standalone lookup window stay on top of other windows?
 
-答：浏览器没有提供相关接口，故无法通过沙拉查词实现。独立窗口由操作系统的窗口管理器管理，可检查你系统的窗口管理器是否支持窗口置顶功能，如果没有自带一般也可以通过插件的方式支持（请自行搜索，如有推荐欢迎反馈，我会补充到这里来）。
+Browsers do not provide an API for keeping an extension window permanently on top. The operating system's window manager controls standalone windows, so check whether it provides this feature directly or through an add-on.
 
-- Windows
-  - Deskpins [#1977](https://github.com/crimx/ext-saladict/issues/1977)
+- Windows: [DeskPins, issue #1977](https://github.com/crimx/ext-saladict/issues/1977)
 
-### 问：能否让用户自定义添加词典。
+### Can users add their own dictionaries?
 
-答：Saladict 的设计是将不同的词典来源用精炼的、统一的、并列的风格显示，代码的架构对这方面做了很大的优化。对于从词典源上摘录信息，没有编程能力的用户很难编写逻辑的，且这样的功能使用频率也不会很高，不值得花费大量精力实现；而有编程能力的用户完全可以向这个开源项目提交代码，PR 是非常欢迎的。添加词典的过程已解耦，文档见[这里](https://github.com/crimx/ext-saladict/blob/dev/CONTRIBUTING-zh.md)。
+Saladict presents information from different dictionary sources in a concise, consistent layout, and its codebase is optimized around that approach. Extracting useful information from a dictionary source requires custom program logic, which makes a no-code configuration difficult to build and maintain for a relatively uncommon use case. Developers can add a dictionary directly and submit a pull request. The integration process is modular; see the [contribution guide](https://github.com/crimx/ext-saladict/blob/dev/CONTRIBUTING-zh.md).
 
-### 问：能否添加背单词功能。
+### Can Saladict include a flashcard review feature?
 
-答：市面上已有不少优秀的记忆软件（如 [Anki](./anki.md)），本着“简洁而美”的宗旨，Saladict 中不做重复劳动实现，请自行导出到专门的软件中背。
+Several dedicated spaced-repetition applications already provide this functionality, including [Anki](./anki.md). Saladict keeps its scope focused on lookup and export, so use one of those applications to review your saved words.
 
-### 问：查词面板能否自动消失。
+### Can the lookup panel close automatically?
 
-答：自动消失一般用在轻度查词上，而 Saladict 是为深度查词而生。如果是少量查词，那么是否自动消失关系不大，如果是大量查词，那么建议开启固定面板或唤出侧边栏布局的快捷查词。添加自动消失的设置作者目前没有兴趣实现，但欢迎 PR。
+Automatic dismissal is most useful for brief lookups, while Saladict is designed for more detailed dictionary searches. For frequent lookups, pin the panel or open Quick Search in sidebar mode. The maintainer does not currently plan to add an auto-close setting, though pull requests are welcome.
 
-### 问：能否支持 Safari 浏览器。
+### Is Safari supported?
 
-答：因接口不同目前没有计划兼容。
+Safari uses different extension APIs, and support is not currently planned.
 
-### 问：能否在 Windows/Mac/Linux/iOS/Android 平台上实现原生版本的 Saladict。
+### Will there be native Saladict apps for Windows, macOS, Linux, iOS, or Android?
 
-答：因词典版权以及时间精力等原因，沙拉查词将继续以浏览器辅助插件的形式提供查询结果。桌面上响应浏览器外划词可参考[「设置」](./manual.md#shortcuts)。开发与维护这个扩展本身就需要不少时间，欢迎[支持](./support.md)项目持续发展。
+Because of dictionary licensing constraints and the development effort involved, Saladict will continue to provide results through its browser extension. To look up text selected outside the browser on a desktop system, see [Configure keyboard shortcuts](./manual.md#shortcuts). Developing and maintaining the extension already requires substantial time; you can [support the project](./support.md) to help sustain its development.
 
-### 问：能否实现 Chrome App 。
+### Will there be a Chrome App version?
 
-答：见[官方声明](https://blog.chromium.org/2016/08/from-chrome-apps-to-web.html)，Chrome App 已在逐步淘汰的过程中，故不再做实现。Chrome App 的功能沙拉查词的独立窗口完全可以胜任。同时见[「不打开浏览器直接召唤沙拉查词」](./native.md#%E4%B8%8D%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B4%E6%8E%A5%E5%8F%AC%E5%94%A4%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D)。
+Chrome Apps have been phased out, as described in the [official announcement](https://blog.chromium.org/2016/08/from-chrome-apps-to-web.html), so Saladict will not implement one. Saladict's standalone window already provides the relevant functionality. See also [Open Saladict without opening the browser](./native.md#%E4%B8%8D%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B4%E6%8E%A5%E5%8F%AC%E5%94%A4%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D).
 
-### 问：能否添加 OCR 图像识别查词功能。
+### Can Saladict look up text in images with OCR?
 
-答：参考 [#493](https://github.com/crimx/ext-saladict/issues/493) 。
+See [issue #493](https://github.com/crimx/ext-saladict/issues/493).
